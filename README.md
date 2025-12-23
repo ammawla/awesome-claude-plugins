@@ -364,7 +364,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [accessibility-compliance](https://github.com/wshobson/agents) | WCAG accessibility auditing, compliance validation, UI testing for screen readers, keyboard navigation, and inclusive design | Seth Hobson | 1.2.0 |
+| [accessibility-compliance](https://github.com/wshobson/agents) | WCAG accessibility auditing, compliance validation, UI testing for screen readers, keyboard navigation, and inclusive design | Seth Hobson | 1.2.1 |
 
 
 ## agents
@@ -481,7 +481,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 |--------|-------------|--------|---------|
 | [agent-orchestration](https://github.com/wshobson/agents) | Multi-agent system optimization, agent improvement workflows, and context management | Seth Hobson | 1.2.0 |
 | [context-management](https://github.com/wshobson/agents) | Context persistence, restoration, and long-running conversation management | Seth Hobson | 1.2.0 |
-| [llm-application-dev](https://github.com/wshobson/agents) | LLM application development, prompt engineering, and AI assistant optimization | Seth Hobson | 1.2.1 |
+| [llm-application-dev](https://github.com/wshobson/agents) | LLM application development, prompt engineering, and AI assistant optimization | Seth Hobson | 1.2.2 |
 | [machine-learning-ops](https://github.com/wshobson/agents) | ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows | Seth Hobson | 1.2.1 |
 
 ### claude-code-plugins-plus
@@ -592,9 +592,9 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [business-analytics](https://github.com/wshobson/agents) | Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making | Seth Hobson | 1.2.0 |
+| [business-analytics](https://github.com/wshobson/agents) | Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making | Seth Hobson | 1.2.1 |
 | [customer-sales-automation](https://github.com/wshobson/agents) | Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration | Seth Hobson | 1.2.0 |
-| [hr-legal-compliance](https://github.com/wshobson/agents) | HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation | Seth Hobson | 1.2.0 |
+| [hr-legal-compliance](https://github.com/wshobson/agents) | HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation | Seth Hobson | 1.2.1 |
 
 
 ## business-marketing
@@ -704,7 +704,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [data-engineering](https://github.com/wshobson/agents) | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.1 |
+| [data-engineering](https://github.com/wshobson/agents) | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.2 |
 | [data-validation-suite](https://github.com/wshobson/agents) | Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs | Seth Hobson | 1.2.0 |
 
 
@@ -788,10 +788,10 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [backend-development](https://github.com/wshobson/agents) | Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development | Seth Hobson | 1.2.3 |
+| [backend-development](https://github.com/wshobson/agents) | Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development | Seth Hobson | 1.2.4 |
 | [debugging-toolkit](https://github.com/wshobson/agents) | Interactive debugging, developer experience optimization, and smart debugging workflows | Seth Hobson | 1.2.0 |
-| [developer-essentials](https://github.com/wshobson/agents) | Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and mono... | Seth Hobson | 1.0.0 |
-| [frontend-mobile-development](https://github.com/wshobson/agents) | Frontend UI development and mobile application implementation across platforms | Seth Hobson | 1.2.0 |
+| [developer-essentials](https://github.com/wshobson/agents) | Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and mono... | Seth Hobson | 1.0.1 |
+| [frontend-mobile-development](https://github.com/wshobson/agents) | Frontend UI development and mobile application implementation across platforms | Seth Hobson | 1.2.1 |
 | [multi-platform-apps](https://github.com/wshobson/agents) | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
 
 ### mag-claude-plugins
@@ -874,7 +874,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 |--------|-------------|--------|---------|
 | [c4-architecture](https://github.com/wshobson/agents) | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram gene... | Seth Hobson | 1.0.0 |
 | [code-documentation](https://github.com/wshobson/agents) | Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation | Seth Hobson | 1.2.0 |
-| [documentation-generation](https://github.com/wshobson/agents) | OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation | Seth Hobson | 1.2.0 |
+| [documentation-generation](https://github.com/wshobson/agents) | OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation | Seth Hobson | 1.2.1 |
 
 
 ## example
@@ -904,7 +904,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [quantitative-trading](https://github.com/wshobson/agents) | Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting | Seth Hobson | 1.2.0 |
+| [quantitative-trading](https://github.com/wshobson/agents) | Quantitative analysis, algorithmic trading strategies, financial modeling, portfolio risk management, and backtesting | Seth Hobson | 1.2.1 |
 
 ### claude-code-plugins-plus
 
@@ -928,7 +928,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [game-development](https://github.com/wshobson/agents) | Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs | Seth Hobson | 1.2.0 |
+| [game-development](https://github.com/wshobson/agents) | Unity game development with C# scripting, Minecraft server plugin development with Bukkit/Spigot APIs | Seth Hobson | 1.2.1 |
 
 
 ## general
@@ -965,7 +965,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
 | [cicd-automation](https://github.com/wshobson/agents) | CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration | Seth Hobson | 1.2.1 |
-| [cloud-infrastructure](https://github.com/wshobson/agents) | Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi... | Seth Hobson | 1.2.1 |
+| [cloud-infrastructure](https://github.com/wshobson/agents) | Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi... | Seth Hobson | 1.2.2 |
 | [deployment-strategies](https://github.com/wshobson/agents) | Deployment patterns, rollback automation, and infrastructure templates | Seth Hobson | 1.2.0 |
 | [deployment-validation](https://github.com/wshobson/agents) | Pre-deployment checks, configuration validation, and deployment readiness assessment | Seth Hobson | 1.2.0 |
 | [kubernetes-operations](https://github.com/wshobson/agents) | Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling | Seth Hobson | 1.2.1 |
@@ -984,7 +984,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | [jvm-languages](https://github.com/wshobson/agents) | JVM language development including Java, Scala, and C# with enterprise patterns and frameworks | Seth Hobson | 1.2.0 |
 | [python-development](https://github.com/wshobson/agents) | Modern Python development with Python 3.12+, Django, FastAPI, async patterns, and production best practices | Seth Hobson | 1.2.1 |
 | [shell-scripting](https://github.com/wshobson/agents) | Production-grade Bash scripting with defensive programming, POSIX compliance, and comprehensive testing | Ryan Snodgrass | 1.2.1 |
-| [systems-programming](https://github.com/wshobson/agents) | Systems programming with Rust, Go, C, and C++ for performance-critical and low-level development | Seth Hobson | 1.2.0 |
+| [systems-programming](https://github.com/wshobson/agents) | Systems programming with Rust, Go, C, and C++ for performance-critical and low-level development | Seth Hobson | 1.2.1 |
 | [web-scripting](https://github.com/wshobson/agents) | Web scripting with PHP and Ruby for web applications, CMS development, and backend services | Seth Hobson | 1.2.0 |
 
 
@@ -1018,7 +1018,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 |--------|-------------|--------|---------|
 | [distributed-debugging](https://github.com/wshobson/agents) | Distributed system tracing and debugging across microservices | Seth Hobson | 1.2.0 |
 | [error-diagnostics](https://github.com/wshobson/agents) | Error tracing, root cause analysis, and smart debugging for production systems | Seth Hobson | 1.2.0 |
-| [incident-response](https://github.com/wshobson/agents) | Production incident management, triage workflows, and automated incident resolution | Seth Hobson | 1.2.1 |
+| [incident-response](https://github.com/wshobson/agents) | Production incident management, triage workflows, and automated incident resolution | Seth Hobson | 1.2.2 |
 | [observability-monitoring](https://github.com/wshobson/agents) | Metrics collection, logging infrastructure, distributed tracing, SLO implementation, and monitoring dashboards | Seth Hobson | 1.2.1 |
 
 
@@ -1170,7 +1170,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | [backend-api-security](https://github.com/wshobson/agents) | API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation | Seth Hobson | 1.2.0 |
 | [frontend-mobile-security](https://github.com/wshobson/agents) | XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns | Seth Hobson | 1.2.0 |
 | [security-compliance](https://github.com/wshobson/agents) | SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation | Seth Hobson | 1.2.0 |
-| [security-scanning](https://github.com/wshobson/agents) | SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening | Seth Hobson | 1.2.2 |
+| [security-scanning](https://github.com/wshobson/agents) | SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening | Seth Hobson | 1.2.3 |
 
 ### claude-code-plugins-plus
 
