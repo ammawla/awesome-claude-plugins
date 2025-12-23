@@ -122,11 +122,11 @@ class ReadmeGenerator:
                     else:
                         author = str(author_data)
                     version = plugin.get("version", "latest")
-                    repo_url = plugin.get("repo_url", "")
+                    homepage_url = plugin.get("homepage", "")
 
-                    # Create name cell with hyperlink if URL exists
-                    if repo_url:
-                        name_cell = f"[{name}]({repo_url})"
+                    # Create name cell with hyperlink if homepage URL exists
+                    if homepage_url:
+                        name_cell = f"[{name}]({homepage_url})"
                     else:
                         name_cell = name
 
