@@ -124,11 +124,33 @@ class ReadmeGenerator:
                     version = plugin.get("version", "latest")
                     homepage_url = plugin.get("homepage", "")
 
-                    # Create name cell with hyperlink if homepage URL exists
+                    # Create name cell with hyperlink
                     if homepage_url:
                         name_cell = f"[{name}]({homepage_url})"
                     else:
-                        name_cell = name
+                        # Fallback: construct URL from source field and repo_url
+                        source_data = plugin.get("source_data", {})
+                        if isinstance(source_data, dict):
+                            source_info = source_data.get("source", {})
+                            if isinstance(source_info, dict) and source_info.get("url"):
+                                # Handle object-style source with URL
+                                plugin_url = source_info["url"]
+                                name_cell = f"[{name}]({plugin_url})"
+                            elif isinstance(
+                                source_info, str
+                            ) and source_info.startswith("./"):
+                                # Handle string-style source path
+                                repo_url = plugin.get("repo_url", "")
+                                if repo_url:
+                                    relative_path = source_info[2:]  # Remove "./"
+                                    plugin_url = f"{repo_url}/tree/main/{relative_path}"
+                                    name_cell = f"[{name}]({plugin_url})"
+                                else:
+                                    name_cell = name
+                            else:
+                                name_cell = name
+                        else:
+                            name_cell = name
 
                     # Escape pipe characters in description
                     description = description.replace("|", "\\|")

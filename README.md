@@ -302,44 +302,44 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| double-shot-latte | Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision ma... | None | 1.1.5 |
-| elements-of-style | Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing | None | 1.0.0 |
-| episodic-memory | Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists b... | None | 1.0.15 |
-| superpowers | Core skills library: TDD, debugging, collaboration patterns, and proven techniques | None | 4.0.1 |
-| superpowers-chrome | BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browse... | None | 1.6.2 |
-| superpowers-developing-for-claude-code | Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and sel... | None | 0.3.1 |
-| superpowers-lab | Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation | None | 0.1.0 |
+| [double-shot-latte](https://github.com/obra/double-shot-latte.git) | Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision ma... | None | 1.1.5 |
+| [elements-of-style](https://github.com/obra/the-elements-of-style.git) | Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing | None | 1.0.0 |
+| [episodic-memory](https://github.com/obra/episodic-memory.git) | Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists b... | None | 1.0.15 |
+| [superpowers](https://github.com/obra/superpowers.git) | Core skills library: TDD, debugging, collaboration patterns, and proven techniques | None | 4.0.1 |
+| [superpowers-chrome](https://github.com/obra/superpowers-chrome.git) | BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browse... | None | 1.6.2 |
+| [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code.git) | Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and sel... | None | 0.3.1 |
+| [superpowers-lab](https://github.com/obra/superpowers-lab.git) | Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation | None | 0.1.0 |
 
 ### cc-marketplace
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| math | Deterministic math operations using SymPy - arithmetic, algebra, calculus, linear algebra, number theory, and statistics | Anand Tyagi | 1.0.0 |
+| [math](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/math) | Deterministic math operations using SymPy - arithmetic, algebra, calculus, linear algebra, number theory, and statistics | Anand Tyagi | 1.0.0 |
 
 ### anthropic-agent-skills
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| document-skills | Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities | None | 1.0.0 |
-| example-skills | Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal co... | None | 1.0.0 |
+| [document-skills](https://github.com/anthropics/skills/tree/main/) | Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities | None | 1.0.0 |
+| [example-skills](https://github.com/anthropics/skills/tree/main/) | Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal co... | None | 1.0.0 |
 
 ### superpowers-dev
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| superpowers | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques | Jesse Vincent | 4.0.1 |
+| [superpowers](https://github.com/obra/superpowers/tree/main/) | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques | Jesse Vincent | 4.0.1 |
 
 ### hcp-terraform-skills
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| hcp-terraform-skills | Collection of HashiCorp Terraform skills including style guides, testing frameworks, Terraform Stacks, and HCP Terraform automation | None | 1.0.0 |
+| [hcp-terraform-skills](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/) | Collection of HashiCorp Terraform skills including style guides, testing frameworks, Terraform Stacks, and HCP Terraform automation | None | 1.0.0 |
 
 ### thedotmack
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| claude-mem | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.2 |
+| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.2 |
 
 
 ## Workflow Orchestration
@@ -465,12 +465,12 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| discovery-questionnaire | Generate custom discovery questionnaires for AI agency prospects | Claude Code Plugin Hub | 1.0.0 |
-| make-scenario-builder | Create Make.com (Integromat) scenarios with AI assistance | Claude Code Plugin Hub | 1.0.0 |
-| n8n-workflow-designer | Design complex n8n workflows with AI assistance - loops, branching, error handling | Claude Code Plugin Hub | 1.0.0 |
-| roi-calculator | Calculate and present ROI for AI automation projects | Claude Code Plugin Hub | 1.0.0 |
-| sow-generator | Generate professional Statements of Work for AI projects | Claude Code Plugin Hub | 1.0.0 |
-| zapier-zap-builder | Create multi-step Zapier Zaps with filters, paths, and formatters | Claude Code Plugin Hub | 1.0.0 |
+| [discovery-questionnaire](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/discovery-questionnaire) | Generate custom discovery questionnaires for AI agency prospects | Claude Code Plugin Hub | 1.0.0 |
+| [make-scenario-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/make-scenario-builder) | Create Make.com (Integromat) scenarios with AI assistance | Claude Code Plugin Hub | 1.0.0 |
+| [n8n-workflow-designer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/n8n-workflow-designer) | Design complex n8n workflows with AI assistance - loops, branching, error handling | Claude Code Plugin Hub | 1.0.0 |
+| [roi-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/roi-calculator) | Calculate and present ROI for AI automation projects | Claude Code Plugin Hub | 1.0.0 |
+| [sow-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/sow-generator) | Generate professional Statements of Work for AI projects | Claude Code Plugin Hub | 1.0.0 |
+| [zapier-zap-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/zapier-zap-builder) | Create multi-step Zapier Zaps with filters, paths, and formatters | Claude Code Plugin Hub | 1.0.0 |
 
 
 ## ai-ml
@@ -488,41 +488,41 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| ai-ethics-validator | AI ethics and fairness validation | Jeremy Longshore | 1.0.0 |
-| ai-experiment-logger | Track and analyze AI experiments with a web dashboard and MCP tools | Claude Code Plugins | 1.0.0 |
-| ai-ml-engineering-pack | Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins | Jeremy Longshore | 1.0.0 |
-| ai-sdk-agents | Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google) | Jeremy Longshore | 1.0.0 |
-| anomaly-detection-system | Detect anomalies and outliers in data | Jeremy Longshore | 1.0.0 |
-| automl-pipeline-builder | Build AutoML pipelines | Jeremy Longshore | 1.0.0 |
-| classification-model-builder | Build classification models | Jeremy Longshore | 1.0.0 |
-| clustering-algorithm-runner | Run clustering algorithms on datasets | Jeremy Longshore | 1.0.0 |
-| computer-vision-processor | Computer vision image processing and analysis | Jeremy Longshore | 1.0.0 |
-| data-preprocessing-pipeline | Automated data preprocessing and cleaning pipelines | Jeremy Longshore | 1.0.0 |
-| data-visualization-creator | Create data visualizations and plots | Jeremy Longshore | 1.0.0 |
-| dataset-splitter | Split datasets for training, validation, and testing | Jeremy Longshore | 1.0.0 |
-| deep-learning-optimizer | Deep learning optimization techniques | Jeremy Longshore | 1.0.0 |
-| experiment-tracking-setup | Set up ML experiment tracking | Jeremy Longshore | 1.0.0 |
-| feature-engineering-toolkit | Feature creation, selection, and transformation tools | Jeremy Longshore | 1.0.0 |
-| geepers-agents | Multi-agent orchestration system with 51 specialized agents for development workflows, code quality, deployment, research, games, and more. Include... | Luke Steuber | 1.0.0 |
-| hyperparameter-tuner | Optimize hyperparameters using grid/random/bayesian search | Jeremy Longshore | 1.0.0 |
-| jeremy-adk-orchestrator | Production ADK orchestrator for A2A protocol and multi-agent coordination on Vertex AI | Jeremy Longshore | 1.0.0 |
-| jeremy-gcp-starter-examples | Google Cloud starter kits and example code aggregator with ADK samples | Jeremy Longshore | 1.0.0 |
-| jeremy-genkit-pro | Firebase Genkit expert for production-ready AI workflows with RAG and tool calling | Jeremy Longshore | 1.0.0 |
-| jeremy-vertex-engine | Vertex AI Agent Engine deployment inspector and runtime validator | Jeremy Longshore | 1.0.0 |
-| jeremy-vertex-validator | Production readiness validator for Vertex AI deployments and configurations | Jeremy Longshore | 1.0.0 |
-| ml-model-trainer | Train and optimize machine learning models with automated workflows | Jeremy Longshore | 1.0.0 |
-| model-deployment-helper | Deploy ML models to production | Jeremy Longshore | 1.0.0 |
-| model-evaluation-suite | Comprehensive model evaluation with multiple metrics | Jeremy Longshore | 1.0.0 |
-| model-explainability-tool | Model interpretability and explainability | Jeremy Longshore | 1.0.0 |
-| model-versioning-tracker | Track and manage model versions | Jeremy Longshore | 1.0.0 |
-| neural-network-builder | Build and configure neural network architectures | Jeremy Longshore | 1.0.0 |
-| nlp-text-analyzer | Natural language processing and text analysis | Jeremy Longshore | 1.0.0 |
-| ollama-local-ai | Run AI models locally with Ollama - free alternative to OpenAI, Anthropic, and other paid LLM APIs. Zero-cost, privacy-first AI infrastructure. | Jeremy Longshore | 1.0.0 |
-| recommendation-engine | Build recommendation systems and engines | Jeremy Longshore | 1.0.0 |
-| regression-analysis-tool | Regression analysis and modeling | Jeremy Longshore | 1.0.0 |
-| sentiment-analysis-tool | Sentiment analysis on text data | Jeremy Longshore | 1.0.0 |
-| time-series-forecaster | Time series forecasting and analysis | Jeremy Longshore | 1.0.0 |
-| transfer-learning-adapter | Transfer learning adaptation | Jeremy Longshore | 1.0.0 |
+| [ai-ethics-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ai-ethics-validator) | AI ethics and fairness validation | Jeremy Longshore | 1.0.0 |
+| [ai-experiment-logger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/ai-experiment-logger) | Track and analyze AI experiments with a web dashboard and MCP tools | Claude Code Plugins | 1.0.0 |
+| [ai-ml-engineering-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/ai-ml-engineering-pack) | Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins | Jeremy Longshore | 1.0.0 |
+| [ai-sdk-agents](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ai-sdk-agents) | Multi-agent orchestration with AI SDK v5 - handoffs, routing, and coordination for any AI provider (OpenAI, Anthropic, Google) | Jeremy Longshore | 1.0.0 |
+| [anomaly-detection-system](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/anomaly-detection-system) | Detect anomalies and outliers in data | Jeremy Longshore | 1.0.0 |
+| [automl-pipeline-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/automl-pipeline-builder) | Build AutoML pipelines | Jeremy Longshore | 1.0.0 |
+| [classification-model-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/classification-model-builder) | Build classification models | Jeremy Longshore | 1.0.0 |
+| [clustering-algorithm-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/clustering-algorithm-runner) | Run clustering algorithms on datasets | Jeremy Longshore | 1.0.0 |
+| [computer-vision-processor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/computer-vision-processor) | Computer vision image processing and analysis | Jeremy Longshore | 1.0.0 |
+| [data-preprocessing-pipeline](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/data-preprocessing-pipeline) | Automated data preprocessing and cleaning pipelines | Jeremy Longshore | 1.0.0 |
+| [data-visualization-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/data-visualization-creator) | Create data visualizations and plots | Jeremy Longshore | 1.0.0 |
+| [dataset-splitter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/dataset-splitter) | Split datasets for training, validation, and testing | Jeremy Longshore | 1.0.0 |
+| [deep-learning-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/deep-learning-optimizer) | Deep learning optimization techniques | Jeremy Longshore | 1.0.0 |
+| [experiment-tracking-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/experiment-tracking-setup) | Set up ML experiment tracking | Jeremy Longshore | 1.0.0 |
+| [feature-engineering-toolkit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/feature-engineering-toolkit) | Feature creation, selection, and transformation tools | Jeremy Longshore | 1.0.0 |
+| [geepers-agents](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/geepers-agents) | Multi-agent orchestration system with 51 specialized agents for development workflows, code quality, deployment, research, games, and more. Include... | Luke Steuber | 1.0.0 |
+| [hyperparameter-tuner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/hyperparameter-tuner) | Optimize hyperparameters using grid/random/bayesian search | Jeremy Longshore | 1.0.0 |
+| [jeremy-adk-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-adk-orchestrator) | Production ADK orchestrator for A2A protocol and multi-agent coordination on Vertex AI | Jeremy Longshore | 1.0.0 |
+| [jeremy-gcp-starter-examples](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-gcp-starter-examples) | Google Cloud starter kits and example code aggregator with ADK samples | Jeremy Longshore | 1.0.0 |
+| [jeremy-genkit-pro](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-genkit-pro) | Firebase Genkit expert for production-ready AI workflows with RAG and tool calling | Jeremy Longshore | 1.0.0 |
+| [jeremy-vertex-engine](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-vertex-engine) | Vertex AI Agent Engine deployment inspector and runtime validator | Jeremy Longshore | 1.0.0 |
+| [jeremy-vertex-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-vertex-validator) | Production readiness validator for Vertex AI deployments and configurations | Jeremy Longshore | 1.0.0 |
+| [ml-model-trainer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ml-model-trainer) | Train and optimize machine learning models with automated workflows | Jeremy Longshore | 1.0.0 |
+| [model-deployment-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-deployment-helper) | Deploy ML models to production | Jeremy Longshore | 1.0.0 |
+| [model-evaluation-suite](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-evaluation-suite) | Comprehensive model evaluation with multiple metrics | Jeremy Longshore | 1.0.0 |
+| [model-explainability-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-explainability-tool) | Model interpretability and explainability | Jeremy Longshore | 1.0.0 |
+| [model-versioning-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-versioning-tracker) | Track and manage model versions | Jeremy Longshore | 1.0.0 |
+| [neural-network-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/neural-network-builder) | Build and configure neural network architectures | Jeremy Longshore | 1.0.0 |
+| [nlp-text-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/nlp-text-analyzer) | Natural language processing and text analysis | Jeremy Longshore | 1.0.0 |
+| [ollama-local-ai](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ollama-local-ai) | Run AI models locally with Ollama - free alternative to OpenAI, Anthropic, and other paid LLM APIs. Zero-cost, privacy-first AI infrastructure. | Jeremy Longshore | 1.0.0 |
+| [recommendation-engine](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/recommendation-engine) | Build recommendation systems and engines | Jeremy Longshore | 1.0.0 |
+| [regression-analysis-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/regression-analysis-tool) | Regression analysis and modeling | Jeremy Longshore | 1.0.0 |
+| [sentiment-analysis-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/sentiment-analysis-tool) | Sentiment analysis on text data | Jeremy Longshore | 1.0.0 |
+| [time-series-forecaster](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/time-series-forecaster) | Time series forecasting and analysis | Jeremy Longshore | 1.0.0 |
+| [transfer-learning-adapter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/transfer-learning-adapter) | Transfer learning adaptation | Jeremy Longshore | 1.0.0 |
 
 
 ## api
@@ -541,31 +541,31 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| api-authentication-builder | Build authentication systems with JWT, OAuth2, and API keys | Jeremy Longshore | 1.0.0 |
-| api-batch-processor | Implement batch API operations with bulk processing and job queues | Jeremy Longshore | 1.0.0 |
-| api-cache-manager | Implement caching strategies with Redis, CDN, and HTTP headers | Jeremy Longshore | 1.0.0 |
-| api-contract-generator | Generate API contracts for consumer-driven contract testing | Jeremy Longshore | 1.0.0 |
-| api-documentation-generator | Generate comprehensive API documentation from OpenAPI/Swagger specs | Jeremy Longshore | 1.0.0 |
-| api-error-handler | Implement standardized error handling with proper HTTP status codes | Jeremy Longshore | 1.0.0 |
-| api-event-emitter | Implement event-driven APIs with message queues and event streaming | Jeremy Longshore | 1.0.0 |
-| api-gateway-builder | Build API gateway with routing, authentication, and rate limiting | Jeremy Longshore | 1.0.0 |
-| api-load-tester | Load test APIs with k6, Gatling, or Artillery | Jeremy Longshore | 1.0.0 |
-| api-migration-tool | Migrate APIs between versions with backward compatibility | Jeremy Longshore | 1.0.0 |
-| api-mock-server | Create mock API servers from OpenAPI specs for testing | Jeremy Longshore | 1.0.0 |
-| api-monitoring-dashboard | Create monitoring dashboards for API health, metrics, and alerts | Jeremy Longshore | 1.0.0 |
-| api-rate-limiter | Implement rate limiting with token bucket, sliding window, and Redis | Jeremy Longshore | 1.0.0 |
-| api-request-logger | Log API requests with structured logging and correlation IDs | Jeremy Longshore | 1.0.0 |
-| api-response-validator | Validate API responses against schemas and contracts | Jeremy Longshore | 1.0.0 |
-| api-schema-validator | Validate API schemas with JSON Schema, Joi, Yup, or Zod | Jeremy Longshore | 1.0.0 |
-| api-sdk-generator | Generate client SDKs from OpenAPI specs for multiple languages | Jeremy Longshore | 1.0.0 |
-| api-security-scanner | Scan APIs for security vulnerabilities and OWASP API Top 10 | Jeremy Longshore | 1.0.0 |
-| api-throttling-manager | Manage API throttling with dynamic rate limits and quota management | Jeremy Longshore | 1.0.0 |
-| api-versioning-manager | Manage API versions with migration strategies and backward compatibility | Jeremy Longshore | 1.0.0 |
-| graphql-server-builder | Build GraphQL servers with schema-first design, resolvers, and subscriptions | Jeremy Longshore | 1.0.0 |
-| grpc-service-generator | Generate gRPC services with Protocol Buffers and streaming support | Jeremy Longshore | 1.0.0 |
-| rest-api-generator | Generate RESTful APIs from schemas with proper routing, validation, and documentation | Jeremy Longshore | 1.0.0 |
-| webhook-handler-creator | Create secure webhook endpoints with signature verification and retry logic | Jeremy Longshore | 1.0.0 |
-| websocket-server-builder | Build WebSocket servers for real-time bidirectional communication | Jeremy Longshore | 1.0.0 |
+| [api-authentication-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-authentication-builder) | Build authentication systems with JWT, OAuth2, and API keys | Jeremy Longshore | 1.0.0 |
+| [api-batch-processor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-batch-processor) | Implement batch API operations with bulk processing and job queues | Jeremy Longshore | 1.0.0 |
+| [api-cache-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-cache-manager) | Implement caching strategies with Redis, CDN, and HTTP headers | Jeremy Longshore | 1.0.0 |
+| [api-contract-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-contract-generator) | Generate API contracts for consumer-driven contract testing | Jeremy Longshore | 1.0.0 |
+| [api-documentation-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-documentation-generator) | Generate comprehensive API documentation from OpenAPI/Swagger specs | Jeremy Longshore | 1.0.0 |
+| [api-error-handler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-error-handler) | Implement standardized error handling with proper HTTP status codes | Jeremy Longshore | 1.0.0 |
+| [api-event-emitter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-event-emitter) | Implement event-driven APIs with message queues and event streaming | Jeremy Longshore | 1.0.0 |
+| [api-gateway-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-gateway-builder) | Build API gateway with routing, authentication, and rate limiting | Jeremy Longshore | 1.0.0 |
+| [api-load-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-load-tester) | Load test APIs with k6, Gatling, or Artillery | Jeremy Longshore | 1.0.0 |
+| [api-migration-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-migration-tool) | Migrate APIs between versions with backward compatibility | Jeremy Longshore | 1.0.0 |
+| [api-mock-server](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-mock-server) | Create mock API servers from OpenAPI specs for testing | Jeremy Longshore | 1.0.0 |
+| [api-monitoring-dashboard](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-monitoring-dashboard) | Create monitoring dashboards for API health, metrics, and alerts | Jeremy Longshore | 1.0.0 |
+| [api-rate-limiter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-rate-limiter) | Implement rate limiting with token bucket, sliding window, and Redis | Jeremy Longshore | 1.0.0 |
+| [api-request-logger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-request-logger) | Log API requests with structured logging and correlation IDs | Jeremy Longshore | 1.0.0 |
+| [api-response-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-response-validator) | Validate API responses against schemas and contracts | Jeremy Longshore | 1.0.0 |
+| [api-schema-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-schema-validator) | Validate API schemas with JSON Schema, Joi, Yup, or Zod | Jeremy Longshore | 1.0.0 |
+| [api-sdk-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-sdk-generator) | Generate client SDKs from OpenAPI specs for multiple languages | Jeremy Longshore | 1.0.0 |
+| [api-security-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-security-scanner) | Scan APIs for security vulnerabilities and OWASP API Top 10 | Jeremy Longshore | 1.0.0 |
+| [api-throttling-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-throttling-manager) | Manage API throttling with dynamic rate limits and quota management | Jeremy Longshore | 1.0.0 |
+| [api-versioning-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-versioning-manager) | Manage API versions with migration strategies and backward compatibility | Jeremy Longshore | 1.0.0 |
+| [graphql-server-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/graphql-server-builder) | Build GraphQL servers with schema-first design, resolvers, and subscriptions | Jeremy Longshore | 1.0.0 |
+| [grpc-service-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/grpc-service-generator) | Generate gRPC services with Protocol Buffers and streaming support | Jeremy Longshore | 1.0.0 |
+| [rest-api-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/rest-api-generator) | Generate RESTful APIs from schemas with proper routing, validation, and documentation | Jeremy Longshore | 1.0.0 |
+| [webhook-handler-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/webhook-handler-creator) | Create secure webhook endpoints with signature verification and retry logic | Jeremy Longshore | 1.0.0 |
+| [websocket-server-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/websocket-server-builder) | Build WebSocket servers for real-time bidirectional communication | Jeremy Longshore | 1.0.0 |
 
 
 ## automation
@@ -574,7 +574,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| workflow-orchestrator | DAG-based workflow automation with parallel task execution and dependency management | Jeremy Longshore | 1.0.0 |
+| [workflow-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/workflow-orchestrator) | DAG-based workflow automation with parallel task execution and dependency management | Jeremy Longshore | 1.0.0 |
 
 
 ## blockchain
@@ -603,11 +603,11 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| brand-guidelines | Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards. | None | 1.0.0 |
-| competitive-ads-extractor | Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate. | None | 1.0.0 |
-| domain-name-brainstormer | Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions. | None | 1.0.0 |
-| internal-comms | Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific for... | None | 1.0.0 |
-| lead-research-assistant | Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies. | None | 1.0.0 |
+| [brand-guidelines](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/brand-guidelines) | Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards. | None | 1.0.0 |
+| [competitive-ads-extractor](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/competitive-ads-extractor) | Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate. | None | 1.0.0 |
+| [domain-name-brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/domain-name-brainstormer) | Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions. | None | 1.0.0 |
+| [internal-comms](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/internal-comms) | Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific for... | None | 1.0.0 |
+| [lead-research-assistant](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/lead-research-assistant) | Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies. | None | 1.0.0 |
 
 
 ## business-tools
@@ -616,7 +616,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| excel-analyst-pro | Professional financial modeling toolkit for Claude Code with auto-invoked Skills and Excel MCP integration. Build DCF models, LBO analysis, varianc... | ClaudeCodePlugins | 1.0.0 |
+| [excel-analyst-pro](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/business-tools/excel-analyst-pro) | Professional financial modeling toolkit for Claude Code with auto-invoked Skills and Excel MCP integration. Build DCF models, LBO analysis, varianc... | ClaudeCodePlugins | 1.0.0 |
 
 
 ## code-quality
@@ -625,7 +625,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| project-health-auditor | Multi-dimensional code health analysis with complexity, churn, and test coverage - identifies technical debt hot spots | Jeremy Longshore | 1.0.0 |
+| [project-health-auditor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/project-health-auditor) | Multi-dimensional code health analysis with complexity, churn, and test coverage - identifies technical debt hot spots | Jeremy Longshore | 1.0.0 |
 
 
 ## code-review
@@ -647,8 +647,8 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| content-research-writer | Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback. | None | 1.0.0 |
-| meeting-insights-analyzer | Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style. | None | 1.0.0 |
+| [content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback. | None | 1.0.0 |
+| [meeting-insights-analyzer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/meeting-insights-analyzer) | Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style. | None | 1.0.0 |
 
 
 ## creative-media
@@ -657,12 +657,12 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| algorithmic-art | Creates algorithmic art and generative designs using computational creativity techniques. | None | 1.0.0 |
-| canvas-design | Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces. | None | 1.0.0 |
-| image-enhancer | Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. | None | 1.0.0 |
-| slack-gif-creator | Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives. | None | 1.0.0 |
-| theme-factory | Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes. | None | 1.0.0 |
-| video-downloader | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options. | None | 1.0.0 |
+| [algorithmic-art](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/algorithmic-art) | Creates algorithmic art and generative designs using computational creativity techniques. | None | 1.0.0 |
+| [canvas-design](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/canvas-design) | Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces. | None | 1.0.0 |
+| [image-enhancer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/image-enhancer) | Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. | None | 1.0.0 |
+| [slack-gif-creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/slack-gif-creator) | Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives. | None | 1.0.0 |
+| [theme-factory](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/theme-factory) | Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes. | None | 1.0.0 |
+| [video-downloader](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/video-downloader) | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options. | None | 1.0.0 |
 
 
 ## crypto
@@ -671,31 +671,31 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| arbitrage-opportunity-finder | Find and analyze arbitrage opportunities across exchanges and DeFi protocols | Jeremy Longshore | 1.0.0 |
-| blockchain-explorer-cli | Command-line blockchain explorer for transactions, addresses, and contracts | Jeremy Longshore | 1.0.0 |
-| cross-chain-bridge-monitor | Monitor cross-chain bridge activity, track transfers, analyze security, and detect bridge exploits | Jeremy Longshore | 1.0.0 |
-| crypto-derivatives-tracker | Track crypto futures, options, perpetual swaps with funding rates, open interest, and derivatives market analysis | Jeremy Longshore | 1.0.0 |
-| crypto-news-aggregator | Aggregate and analyze crypto news from multiple sources with sentiment analysis | Jeremy Longshore | 1.0.0 |
-| crypto-portfolio-tracker | Professional crypto portfolio tracking with real-time prices, PnL analysis, and risk metrics | Jeremy Longshore | 1.0.0 |
-| crypto-signal-generator | Generate trading signals from technical indicators and market analysis | Jeremy Longshore | 1.0.0 |
-| crypto-tax-calculator | Calculate crypto taxes with FIFO/LIFO methods and generate tax reports | Jeremy Longshore | 1.0.0 |
-| defi-yield-optimizer | Optimize DeFi yield farming strategies across protocols with APY tracking and risk assessment | Jeremy Longshore | 1.0.0 |
-| dex-aggregator-router | Find optimal DEX routes for token swaps across multiple exchanges | Jeremy Longshore | 1.0.0 |
-| flash-loan-simulator | Simulate and analyze flash loan strategies including arbitrage, liquidations, and collateral swaps | Jeremy Longshore | 1.0.0 |
-| gas-fee-optimizer | Optimize transaction gas fees with timing and routing recommendations | Jeremy Longshore | 1.0.0 |
-| liquidity-pool-analyzer | Analyze DeFi liquidity pools for impermanent loss, APY, and optimization opportunities | Jeremy Longshore | 1.0.0 |
-| market-movers-scanner | Scan for top market movers - gainers, losers, volume spikes, and unusual activity | Jeremy Longshore | 1.0.0 |
-| market-price-tracker | Real-time market price tracking with multi-exchange feeds and advanced alerts | Jeremy Longshore | 1.0.0 |
-| market-sentiment-analyzer | Analyze market sentiment from social media, news, and on-chain data | Jeremy Longshore | 1.0.0 |
-| mempool-analyzer | Advanced mempool analysis for MEV opportunities, pending transaction monitoring, and gas price optimization | Jeremy Longshore | 1.0.0 |
-| nft-rarity-analyzer | Analyze NFT rarity scores and valuations across collections | Jeremy Longshore | 1.0.0 |
-| on-chain-analytics | Analyze on-chain metrics including whale movements, network activity, and holder distribution | Jeremy Longshore | 1.0.0 |
-| options-flow-analyzer | Track institutional options flow, unusual activity, and smart money movements | Jeremy Longshore | 1.0.0 |
-| staking-rewards-optimizer | Optimize staking rewards across multiple protocols and chains | Jeremy Longshore | 1.0.0 |
-| token-launch-tracker | Track new token launches, detect rugpulls, and analyze contract security for early-stage crypto projects | Jeremy Longshore | 1.0.0 |
-| trading-strategy-backtester | Backtest trading strategies with historical data, performance metrics, and risk analysis | Jeremy Longshore | 1.0.0 |
-| wallet-portfolio-tracker | Track crypto wallets across multiple chains with portfolio analytics and transaction history | Jeremy Longshore | 1.0.0 |
-| whale-alert-monitor | Monitor large crypto transactions and whale wallet movements in real-time | Jeremy Longshore | 1.0.0 |
+| [arbitrage-opportunity-finder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/arbitrage-opportunity-finder) | Find and analyze arbitrage opportunities across exchanges and DeFi protocols | Jeremy Longshore | 1.0.0 |
+| [blockchain-explorer-cli](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/blockchain-explorer-cli) | Command-line blockchain explorer for transactions, addresses, and contracts | Jeremy Longshore | 1.0.0 |
+| [cross-chain-bridge-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/cross-chain-bridge-monitor) | Monitor cross-chain bridge activity, track transfers, analyze security, and detect bridge exploits | Jeremy Longshore | 1.0.0 |
+| [crypto-derivatives-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-derivatives-tracker) | Track crypto futures, options, perpetual swaps with funding rates, open interest, and derivatives market analysis | Jeremy Longshore | 1.0.0 |
+| [crypto-news-aggregator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-news-aggregator) | Aggregate and analyze crypto news from multiple sources with sentiment analysis | Jeremy Longshore | 1.0.0 |
+| [crypto-portfolio-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-portfolio-tracker) | Professional crypto portfolio tracking with real-time prices, PnL analysis, and risk metrics | Jeremy Longshore | 1.0.0 |
+| [crypto-signal-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-signal-generator) | Generate trading signals from technical indicators and market analysis | Jeremy Longshore | 1.0.0 |
+| [crypto-tax-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-tax-calculator) | Calculate crypto taxes with FIFO/LIFO methods and generate tax reports | Jeremy Longshore | 1.0.0 |
+| [defi-yield-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/defi-yield-optimizer) | Optimize DeFi yield farming strategies across protocols with APY tracking and risk assessment | Jeremy Longshore | 1.0.0 |
+| [dex-aggregator-router](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/dex-aggregator-router) | Find optimal DEX routes for token swaps across multiple exchanges | Jeremy Longshore | 1.0.0 |
+| [flash-loan-simulator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/flash-loan-simulator) | Simulate and analyze flash loan strategies including arbitrage, liquidations, and collateral swaps | Jeremy Longshore | 1.0.0 |
+| [gas-fee-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/gas-fee-optimizer) | Optimize transaction gas fees with timing and routing recommendations | Jeremy Longshore | 1.0.0 |
+| [liquidity-pool-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/liquidity-pool-analyzer) | Analyze DeFi liquidity pools for impermanent loss, APY, and optimization opportunities | Jeremy Longshore | 1.0.0 |
+| [market-movers-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/market-movers-scanner) | Scan for top market movers - gainers, losers, volume spikes, and unusual activity | Jeremy Longshore | 1.0.0 |
+| [market-price-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/market-price-tracker) | Real-time market price tracking with multi-exchange feeds and advanced alerts | Jeremy Longshore | 1.0.0 |
+| [market-sentiment-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/market-sentiment-analyzer) | Analyze market sentiment from social media, news, and on-chain data | Jeremy Longshore | 1.0.0 |
+| [mempool-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/mempool-analyzer) | Advanced mempool analysis for MEV opportunities, pending transaction monitoring, and gas price optimization | Jeremy Longshore | 1.0.0 |
+| [nft-rarity-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/nft-rarity-analyzer) | Analyze NFT rarity scores and valuations across collections | Jeremy Longshore | 1.0.0 |
+| [on-chain-analytics](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/on-chain-analytics) | Analyze on-chain metrics including whale movements, network activity, and holder distribution | Jeremy Longshore | 1.0.0 |
+| [options-flow-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/options-flow-analyzer) | Track institutional options flow, unusual activity, and smart money movements | Jeremy Longshore | 1.0.0 |
+| [staking-rewards-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/staking-rewards-optimizer) | Optimize staking rewards across multiple protocols and chains | Jeremy Longshore | 1.0.0 |
+| [token-launch-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/token-launch-tracker) | Track new token launches, detect rugpulls, and analyze contract security for early-stage crypto projects | Jeremy Longshore | 1.0.0 |
+| [trading-strategy-backtester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/trading-strategy-backtester) | Backtest trading strategies with historical data, performance metrics, and risk analysis | Jeremy Longshore | 1.0.0 |
+| [wallet-portfolio-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/wallet-portfolio-tracker) | Track crypto wallets across multiple chains with portfolio analytics and transaction history | Jeremy Longshore | 1.0.0 |
+| [whale-alert-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/whale-alert-monitor) | Monitor large crypto transactions and whale wallet movements in real-time | Jeremy Longshore | 1.0.0 |
 
 
 ## data
@@ -721,33 +721,33 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| data-seeder-generator | Generate realistic test data and database seed scripts for development and testing environments | Jeremy Longshore | 1.0.0 |
-| data-validation-engine | Database plugin for data-validation-engine | Jeremy Longshore | 1.0.0 |
-| database-archival-system | Database plugin for database-archival-system | Jeremy Longshore | 1.0.0 |
-| database-audit-logger | Database plugin for database-audit-logger | Jeremy Longshore | 1.0.0 |
-| database-backup-automator | Automate database backups with scheduling, compression, encryption, and restore procedures | Jeremy Longshore | 1.0.0 |
-| database-cache-layer | Database plugin for database-cache-layer | Jeremy Longshore | 1.0.0 |
-| database-connection-pooler | Implement and optimize database connection pooling for improved performance and resource management | Jeremy Longshore | 1.0.0 |
-| database-deadlock-detector | Database plugin for database-deadlock-detector | Jeremy Longshore | 1.0.0 |
-| database-diff-tool | Database plugin for database-diff-tool | Jeremy Longshore | 1.0.0 |
-| database-documentation-gen | Database plugin for database-documentation-gen | Jeremy Longshore | 1.0.0 |
-| database-health-monitor | Database plugin for database-health-monitor | Jeremy Longshore | 1.0.0 |
-| database-index-advisor | Analyze query patterns and recommend optimal database indexes with impact analysis | Jeremy Longshore | 1.0.0 |
-| database-migration-manager | Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking | Jeremy Longshore | 1.0.0 |
-| database-partition-manager | Database plugin for database-partition-manager | Jeremy Longshore | 1.0.0 |
-| database-recovery-manager | Database plugin for database-recovery-manager | Jeremy Longshore | 1.0.0 |
-| database-replication-manager | Manage database replication, failover, and high availability configurations | Jeremy Longshore | 1.0.0 |
-| database-schema-designer | Design and visualize database schemas with normalization guidance, relationship mapping, and ERD generation | Jeremy Longshore | 1.0.0 |
-| database-security-scanner | Database plugin for database-security-scanner | Jeremy Longshore | 1.0.0 |
-| database-sharding-manager | Database plugin for database-sharding-manager | Jeremy Longshore | 1.0.0 |
-| database-transaction-monitor | Database plugin for database-transaction-monitor | Jeremy Longshore | 1.0.0 |
-| fairdb-ops-manager | Database operations management for FairDB PostgreSQL clusters | Community | 1.0.0 |
-| jeremy-firestore | Firestore database specialist for schema design, queries, and real-time sync | Jeremy Longshore | 1.0.0 |
-| nosql-data-modeler | Database plugin for nosql-data-modeler | Jeremy Longshore | 1.0.0 |
-| orm-code-generator | Generate ORM models from database schemas or create database schemas from models for TypeORM, Prisma, Sequelize, SQLAlchemy, and more | Jeremy Longshore | 1.0.0 |
-| query-performance-analyzer | Analyze query performance with EXPLAIN plan interpretation, bottleneck identification, and optimization recommendations | Jeremy Longshore | 1.0.0 |
-| sql-query-optimizer | Analyze and optimize SQL queries for better performance, suggesting indexes, query rewrites, and execution plan improvements | Jeremy Longshore | 1.0.0 |
-| stored-procedure-generator | Database plugin for stored-procedure-generator | Jeremy Longshore | 1.0.0 |
+| [data-seeder-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/data-seeder-generator) | Generate realistic test data and database seed scripts for development and testing environments | Jeremy Longshore | 1.0.0 |
+| [data-validation-engine](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/data-validation-engine) | Database plugin for data-validation-engine | Jeremy Longshore | 1.0.0 |
+| [database-archival-system](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-archival-system) | Database plugin for database-archival-system | Jeremy Longshore | 1.0.0 |
+| [database-audit-logger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-audit-logger) | Database plugin for database-audit-logger | Jeremy Longshore | 1.0.0 |
+| [database-backup-automator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-backup-automator) | Automate database backups with scheduling, compression, encryption, and restore procedures | Jeremy Longshore | 1.0.0 |
+| [database-cache-layer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-cache-layer) | Database plugin for database-cache-layer | Jeremy Longshore | 1.0.0 |
+| [database-connection-pooler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-connection-pooler) | Implement and optimize database connection pooling for improved performance and resource management | Jeremy Longshore | 1.0.0 |
+| [database-deadlock-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-deadlock-detector) | Database plugin for database-deadlock-detector | Jeremy Longshore | 1.0.0 |
+| [database-diff-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-diff-tool) | Database plugin for database-diff-tool | Jeremy Longshore | 1.0.0 |
+| [database-documentation-gen](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-documentation-gen) | Database plugin for database-documentation-gen | Jeremy Longshore | 1.0.0 |
+| [database-health-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-health-monitor) | Database plugin for database-health-monitor | Jeremy Longshore | 1.0.0 |
+| [database-index-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-index-advisor) | Analyze query patterns and recommend optimal database indexes with impact analysis | Jeremy Longshore | 1.0.0 |
+| [database-migration-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-migration-manager) | Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking | Jeremy Longshore | 1.0.0 |
+| [database-partition-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-partition-manager) | Database plugin for database-partition-manager | Jeremy Longshore | 1.0.0 |
+| [database-recovery-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-recovery-manager) | Database plugin for database-recovery-manager | Jeremy Longshore | 1.0.0 |
+| [database-replication-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-replication-manager) | Manage database replication, failover, and high availability configurations | Jeremy Longshore | 1.0.0 |
+| [database-schema-designer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-schema-designer) | Design and visualize database schemas with normalization guidance, relationship mapping, and ERD generation | Jeremy Longshore | 1.0.0 |
+| [database-security-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-security-scanner) | Database plugin for database-security-scanner | Jeremy Longshore | 1.0.0 |
+| [database-sharding-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-sharding-manager) | Database plugin for database-sharding-manager | Jeremy Longshore | 1.0.0 |
+| [database-transaction-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-transaction-monitor) | Database plugin for database-transaction-monitor | Jeremy Longshore | 1.0.0 |
+| [fairdb-ops-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/fairdb-ops-manager) | Database operations management for FairDB PostgreSQL clusters | Community | 1.0.0 |
+| [jeremy-firestore](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/jeremy-firestore) | Firestore database specialist for schema design, queries, and real-time sync | Jeremy Longshore | 1.0.0 |
+| [nosql-data-modeler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/nosql-data-modeler) | Database plugin for nosql-data-modeler | Jeremy Longshore | 1.0.0 |
+| [orm-code-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/orm-code-generator) | Generate ORM models from database schemas or create database schemas from models for TypeORM, Prisma, Sequelize, SQLAlchemy, and more | Jeremy Longshore | 1.0.0 |
+| [query-performance-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/query-performance-analyzer) | Analyze query performance with EXPLAIN plan interpretation, bottleneck identification, and optimization recommendations | Jeremy Longshore | 1.0.0 |
+| [sql-query-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/sql-query-optimizer) | Analyze and optimize SQL queries for better performance, suggesting indexes, query rewrites, and execution plan improvements | Jeremy Longshore | 1.0.0 |
+| [stored-procedure-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/stored-procedure-generator) | Database plugin for stored-procedure-generator | Jeremy Longshore | 1.0.0 |
 
 
 ## debugging
@@ -764,7 +764,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| conversational-api-debugger | Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation | Jeremy Longshore | 1.0.0 |
+| [conversational-api-debugger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/conversational-api-debugger) | Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation | Jeremy Longshore | 1.0.0 |
 
 
 ## design
@@ -773,7 +773,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| design-to-code | Convert Figma designs and screenshots to React/Svelte/Vue components with built-in accessibility | Jeremy Longshore | 1.0.0 |
+| [design-to-code](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/design-to-code) | Convert Figma designs and screenshots to React/Svelte/Vue components with built-in accessibility | Jeremy Longshore | 1.0.0 |
 
 
 ## development
@@ -798,23 +798,23 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| agentdev | Create, implement, and review Claude Code agents and commands with multi-model validation and LLM performance tracking (NEW). Full-cycle developmen... | Jack Rudenko | 1.1.0 |
-| bun | Production-ready TypeScript backend development with Bun runtime. Includes specialized agents for backend development, API design, and DevOps. Feat... | Jack Rudenko | 1.5.2 |
-| code-analysis | Deep code investigation with ENFORCED claudemem v0.2.0 semantic search. LLM-enriched symbol_summary and file_summary for understanding code behavio... | Jack Rudenko | 2.4.0 |
-| frontend | Comprehensive frontend development toolkit with TypeScript, React 19, Vite, TanStack Router & Query v5, shadcn/ui. Features code-analysis integrati... | Jack Rudenko | 3.13.0 |
-| orchestration | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.5.0 |
+| [agentdev](https://github.com/MadAppGang/claude-code/tree/main/plugins/agentdev) | Create, implement, and review Claude Code agents and commands with multi-model validation and LLM performance tracking (NEW). Full-cycle developmen... | Jack Rudenko | 1.1.0 |
+| [bun](https://github.com/MadAppGang/claude-code/tree/main/plugins/bun) | Production-ready TypeScript backend development with Bun runtime. Includes specialized agents for backend development, API design, and DevOps. Feat... | Jack Rudenko | 1.5.2 |
+| [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | Deep code investigation with ENFORCED claudemem v0.2.0 semantic search. LLM-enriched symbol_summary and file_summary for understanding code behavio... | Jack Rudenko | 2.4.0 |
+| [frontend](https://github.com/MadAppGang/claude-code/tree/main/plugins/frontend) | Comprehensive frontend development toolkit with TypeScript, React 19, Vite, TanStack Router & Query v5, shadcn/ui. Features code-analysis integrati... | Jack Rudenko | 3.13.0 |
+| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.5.0 |
 
 ### awesome-claude-skills
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| artifacts-builder | Builds elaborate, multi-component Claude.ai HTML artifacts using modern frontend technologies including React, Tailwind CSS, and shadcn/ui. | None | 1.0.0 |
-| changelog-generator | Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly releas... | None | 1.0.0 |
-| developer-growth-analysis | Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning r... | None | 1.0.0 |
-| mcp-builder | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | None | 1.0.0 |
-| skill-creator | Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations. | None | 1.0.0 |
-| template-skill | A template skill that demonstrates the structure and format for creating new Claude Skills. | None | 1.0.0 |
-| webapp-testing | Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots. | None | 1.0.0 |
+| [artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/artifacts-builder) | Builds elaborate, multi-component Claude.ai HTML artifacts using modern frontend technologies including React, Tailwind CSS, and shadcn/ui. | None | 1.0.0 |
+| [changelog-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/changelog-generator) | Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly releas... | None | 1.0.0 |
+| [developer-growth-analysis](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/developer-growth-analysis) | Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning r... | None | 1.0.0 |
+| [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/mcp-builder) | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | None | 1.0.0 |
+| [skill-creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skill-creator) | Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations. | None | 1.0.0 |
+| [template-skill](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/template-skill) | A template skill that demonstrates the structure and format for creating new Claude Skills. | None | 1.0.0 |
+| [webapp-testing](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/webapp-testing) | Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots. | None | 1.0.0 |
 
 
 ## devops
@@ -823,39 +823,39 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| ansible-playbook-creator | Create Ansible playbooks for configuration management | Jeremy Longshore | 1.0.0 |
-| auto-scaling-configurator | Configure auto-scaling policies for applications and infrastructure | Jeremy Longshore | 1.0.0 |
-| backup-strategy-implementor | Implement backup strategies for databases and applications | Jeremy Longshore | 1.0.0 |
-| ci-cd-pipeline-builder | Build CI/CD pipelines for GitHub Actions, GitLab CI, Jenkins, and more | Jeremy Longshore | 1.0.0 |
-| cloud-cost-optimizer | Optimize cloud costs and generate cost reports | Jeremy Longshore | 1.0.0 |
-| compliance-checker | Check infrastructure compliance (SOC2, HIPAA, PCI-DSS) | Jeremy Longshore | 1.0.0 |
-| container-registry-manager | Manage container registries (ECR, GCR, Harbor) | Jeremy Longshore | 1.0.0 |
-| container-security-scanner | Scan containers for vulnerabilities using Trivy, Snyk, and other security tools | Jeremy Longshore | 1.0.0 |
-| deployment-pipeline-orchestrator | Orchestrate complex multi-stage deployment pipelines | Jeremy Longshore | 1.0.0 |
-| deployment-rollback-manager | Manage and execute deployment rollbacks with safety checks | Jeremy Longshore | 1.0.0 |
-| devops-automation-pack | Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC... | Jeremy Longshore | 1.0.0 |
-| disaster-recovery-planner | Plan and implement disaster recovery procedures | Jeremy Longshore | 1.0.0 |
-| docker-compose-generator | Generate Docker Compose configurations for multi-container applications with best practices | Jeremy Longshore | 1.0.0 |
-| environment-config-manager | Manage environment configurations and secrets across deployments | Jeremy Longshore | 1.0.0 |
-| fairdb-operations-kit | Complete operations kit for FairDB PostgreSQL as a Service - VPS setup, PostgreSQL management, customer provisioning, monitoring, and backup automa... | Jeremy Longshore | 1.0.0 |
-| git-commit-smart | AI-powered conventional commit message generator with smart analysis | Jeremy Longshore | 1.0.0 |
-| gitops-workflow-builder | Build GitOps workflows with ArgoCD and Flux | Jeremy Longshore | 1.0.0 |
-| helm-chart-generator | Generate Helm charts for Kubernetes applications | Jeremy Longshore | 1.0.0 |
-| infrastructure-as-code-generator | Generate Infrastructure as Code for Terraform, CloudFormation, Pulumi, and more | Jeremy Longshore | 1.0.0 |
-| infrastructure-drift-detector | Detect infrastructure drift from desired state | Jeremy Longshore | 1.0.0 |
-| jeremy-adk-terraform | Terraform infrastructure as code for ADK and Vertex AI Agent Engine deployments | Jeremy Longshore | 1.0.0 |
-| jeremy-genkit-terraform | Terraform modules for Firebase Genkit infrastructure and deployments | Jeremy Longshore | 1.0.0 |
-| jeremy-github-actions-gcp | GitHub Actions CI/CD workflows for Google Cloud and Vertex AI deployments | Jeremy Longshore | 1.0.0 |
-| jeremy-vertex-terraform | Terraform configurations for Vertex AI platform and Agent Engine | Jeremy Longshore | 1.0.0 |
-| kubernetes-deployment-creator | Create Kubernetes deployments, services, and configurations with best practices | Jeremy Longshore | 1.0.0 |
-| load-balancer-configurator | Configure load balancers (ALB, NLB, Nginx, HAProxy) | Jeremy Longshore | 1.0.0 |
-| log-aggregation-setup | Set up log aggregation (ELK, Loki, Splunk) | Jeremy Longshore | 1.0.0 |
-| monitoring-stack-deployer | Deploy monitoring stacks (Prometheus, Grafana, Datadog) | Jeremy Longshore | 1.0.0 |
-| network-policy-manager | Manage Kubernetes network policies and firewall rules | Jeremy Longshore | 1.0.0 |
-| secrets-manager-integrator | Integrate with secrets managers (Vault, AWS Secrets Manager, etc) | Jeremy Longshore | 1.0.0 |
-| service-mesh-configurator | Configure service mesh (Istio, Linkerd) for microservices | Jeremy Longshore | 1.0.0 |
-| sugar | Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation | Steven Leggett | 2.0.0 |
-| terraform-module-builder | Build reusable Terraform modules | Jeremy Longshore | 1.0.0 |
+| [ansible-playbook-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/ansible-playbook-creator) | Create Ansible playbooks for configuration management | Jeremy Longshore | 1.0.0 |
+| [auto-scaling-configurator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/auto-scaling-configurator) | Configure auto-scaling policies for applications and infrastructure | Jeremy Longshore | 1.0.0 |
+| [backup-strategy-implementor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/backup-strategy-implementor) | Implement backup strategies for databases and applications | Jeremy Longshore | 1.0.0 |
+| [ci-cd-pipeline-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/ci-cd-pipeline-builder) | Build CI/CD pipelines for GitHub Actions, GitLab CI, Jenkins, and more | Jeremy Longshore | 1.0.0 |
+| [cloud-cost-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/cloud-cost-optimizer) | Optimize cloud costs and generate cost reports | Jeremy Longshore | 1.0.0 |
+| [compliance-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/compliance-checker) | Check infrastructure compliance (SOC2, HIPAA, PCI-DSS) | Jeremy Longshore | 1.0.0 |
+| [container-registry-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/container-registry-manager) | Manage container registries (ECR, GCR, Harbor) | Jeremy Longshore | 1.0.0 |
+| [container-security-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/container-security-scanner) | Scan containers for vulnerabilities using Trivy, Snyk, and other security tools | Jeremy Longshore | 1.0.0 |
+| [deployment-pipeline-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/deployment-pipeline-orchestrator) | Orchestrate complex multi-stage deployment pipelines | Jeremy Longshore | 1.0.0 |
+| [deployment-rollback-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/deployment-rollback-manager) | Manage and execute deployment rollbacks with safety checks | Jeremy Longshore | 1.0.0 |
+| [devops-automation-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/devops-automation-pack) | Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC... | Jeremy Longshore | 1.0.0 |
+| [disaster-recovery-planner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/disaster-recovery-planner) | Plan and implement disaster recovery procedures | Jeremy Longshore | 1.0.0 |
+| [docker-compose-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/docker-compose-generator) | Generate Docker Compose configurations for multi-container applications with best practices | Jeremy Longshore | 1.0.0 |
+| [environment-config-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/environment-config-manager) | Manage environment configurations and secrets across deployments | Jeremy Longshore | 1.0.0 |
+| [fairdb-operations-kit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/fairdb-operations-kit) | Complete operations kit for FairDB PostgreSQL as a Service - VPS setup, PostgreSQL management, customer provisioning, monitoring, and backup automa... | Jeremy Longshore | 1.0.0 |
+| [git-commit-smart](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/git-commit-smart) | AI-powered conventional commit message generator with smart analysis | Jeremy Longshore | 1.0.0 |
+| [gitops-workflow-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/gitops-workflow-builder) | Build GitOps workflows with ArgoCD and Flux | Jeremy Longshore | 1.0.0 |
+| [helm-chart-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/helm-chart-generator) | Generate Helm charts for Kubernetes applications | Jeremy Longshore | 1.0.0 |
+| [infrastructure-as-code-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/infrastructure-as-code-generator) | Generate Infrastructure as Code for Terraform, CloudFormation, Pulumi, and more | Jeremy Longshore | 1.0.0 |
+| [infrastructure-drift-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/infrastructure-drift-detector) | Detect infrastructure drift from desired state | Jeremy Longshore | 1.0.0 |
+| [jeremy-adk-terraform](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/jeremy-adk-terraform) | Terraform infrastructure as code for ADK and Vertex AI Agent Engine deployments | Jeremy Longshore | 1.0.0 |
+| [jeremy-genkit-terraform](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/jeremy-genkit-terraform) | Terraform modules for Firebase Genkit infrastructure and deployments | Jeremy Longshore | 1.0.0 |
+| [jeremy-github-actions-gcp](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/jeremy-github-actions-gcp) | GitHub Actions CI/CD workflows for Google Cloud and Vertex AI deployments | Jeremy Longshore | 1.0.0 |
+| [jeremy-vertex-terraform](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/jeremy-vertex-terraform) | Terraform configurations for Vertex AI platform and Agent Engine | Jeremy Longshore | 1.0.0 |
+| [kubernetes-deployment-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/kubernetes-deployment-creator) | Create Kubernetes deployments, services, and configurations with best practices | Jeremy Longshore | 1.0.0 |
+| [load-balancer-configurator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/load-balancer-configurator) | Configure load balancers (ALB, NLB, Nginx, HAProxy) | Jeremy Longshore | 1.0.0 |
+| [log-aggregation-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/log-aggregation-setup) | Set up log aggregation (ELK, Loki, Splunk) | Jeremy Longshore | 1.0.0 |
+| [monitoring-stack-deployer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/monitoring-stack-deployer) | Deploy monitoring stacks (Prometheus, Grafana, Datadog) | Jeremy Longshore | 1.0.0 |
+| [network-policy-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/network-policy-manager) | Manage Kubernetes network policies and firewall rules | Jeremy Longshore | 1.0.0 |
+| [secrets-manager-integrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/secrets-manager-integrator) | Integrate with secrets managers (Vault, AWS Secrets Manager, etc) | Jeremy Longshore | 1.0.0 |
+| [service-mesh-configurator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/service-mesh-configurator) | Configure service mesh (Istio, Linkerd) for microservices | Jeremy Longshore | 1.0.0 |
+| [sugar](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/sugar) | Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation | Steven Leggett | 2.0.0 |
+| [terraform-module-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/terraform-module-builder) | Build reusable Terraform modules | Jeremy Longshore | 1.0.0 |
 
 
 ## documentation
@@ -883,9 +883,9 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| hello-world | Simple example plugin demonstrating basic slash commands | Jeremy Longshore | 1.0.0 |
-| pi-pathfinder | PI Pathfinder - Finds the path through 229 plugins. Automatically picks the best plugin for your task, extracts its skills, and applies them. You d... | Jeremy Longshore | 1.0.0 |
-| skills-powerkit | Ultimate plugin management toolkit with 5 Agent Skills - automates creating, validating, auditing, and managing plugins in the claude-code-plugins ... | Claude Code Plugins | 1.0.0 |
+| [hello-world](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/hello-world) | Simple example plugin demonstrating basic slash commands | Jeremy Longshore | 1.0.0 |
+| [pi-pathfinder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/pi-pathfinder) | PI Pathfinder - Finds the path through 229 plugins. Automatically picks the best plugin for your task, extracts its skills, and applies them. You d... | Jeremy Longshore | 1.0.0 |
+| [skills-powerkit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/skills-powerkit) | Ultimate plugin management toolkit with 5 Agent Skills - automates creating, validating, auditing, and managing plugins in the claude-code-plugins ... | Claude Code Plugins | 1.0.0 |
 
 
 ## explore
@@ -910,7 +910,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| openbb-terminal | Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, an... | Jeremy Longshore | 1.0.0 |
+| [openbb-terminal](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/finance/openbb-terminal) | Open-source investment research terminal integration - comprehensive equity analysis, crypto tracking, macro indicators, portfolio optimization, an... | Jeremy Longshore | 1.0.0 |
 
 
 ## fullstack
@@ -919,7 +919,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| fullstack-starter-pack | Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents | Jeremy Longshore | 1.0.0 |
+| [fullstack-starter-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/fullstack-starter-pack) | Complete fullstack development toolkit: React, Express/FastAPI, PostgreSQL scaffolding with AI agents | Jeremy Longshore | 1.0.0 |
 
 
 ## gaming
@@ -1028,7 +1028,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| creator-studio-pack | Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content ... | Jeremy Longshore | 1.0.0 |
+| [creator-studio-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/creator-studio-pack) | Complete plugin suite for builder-filmmakers: Build products AND create viral videos. 20 plugins covering documentation, video production, content ... | Jeremy Longshore | 1.0.0 |
 
 
 ## payments
@@ -1059,31 +1059,31 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| alerting-rule-creator | Create intelligent alerting rules for performance monitoring | Jeremy Longshore | 1.0.0 |
-| apm-dashboard-creator | Create Application Performance Monitoring dashboards | Jeremy Longshore | 1.0.0 |
-| application-profiler | Profile application performance with CPU, memory, and execution time analysis | Jeremy Longshore | 1.0.0 |
-| bottleneck-detector | Detect and resolve performance bottlenecks | Jeremy Longshore | 1.0.0 |
-| cache-performance-optimizer | Optimize caching strategies for improved performance | Jeremy Longshore | 1.0.0 |
-| capacity-planning-analyzer | Analyze and plan for capacity requirements | Jeremy Longshore | 1.0.0 |
-| cpu-usage-monitor | Monitor and analyze CPU usage patterns in applications | Jeremy Longshore | 1.0.0 |
-| database-query-profiler | Profile and optimize database queries for performance | Jeremy Longshore | 1.0.0 |
-| distributed-tracing-setup | Set up distributed tracing for microservices | Jeremy Longshore | 1.0.0 |
-| error-rate-monitor | Monitor and analyze application error rates | Jeremy Longshore | 1.0.0 |
-| infrastructure-metrics-collector | Collect comprehensive infrastructure performance metrics | Jeremy Longshore | 1.0.0 |
-| load-test-runner | Create and execute load tests for performance validation | Jeremy Longshore | 1.0.0 |
-| log-analysis-tool | Analyze logs for performance insights and issues | Jeremy Longshore | 1.0.0 |
-| memory-leak-detector | Detect memory leaks and analyze memory usage patterns | Jeremy Longshore | 1.0.0 |
-| metrics-aggregator | Aggregate and centralize performance metrics | Jeremy Longshore | 1.0.0 |
-| network-latency-analyzer | Analyze network latency and optimize request patterns | Jeremy Longshore | 1.0.0 |
-| performance-budget-validator | Validate application against performance budgets | Jeremy Longshore | 1.0.0 |
-| performance-optimization-advisor | Get comprehensive performance optimization recommendations | Jeremy Longshore | 1.0.0 |
-| performance-regression-detector | Detect performance regressions in CI/CD pipeline | Jeremy Longshore | 1.0.0 |
-| real-user-monitoring | Implement Real User Monitoring for actual performance data | Jeremy Longshore | 1.0.0 |
-| resource-usage-tracker | Track and optimize resource usage across the stack | Jeremy Longshore | 1.0.0 |
-| response-time-tracker | Track and optimize application response times | Jeremy Longshore | 1.0.0 |
-| sla-sli-tracker | Track SLAs, SLIs, and SLOs for service reliability | Jeremy Longshore | 1.0.0 |
-| synthetic-monitoring-setup | Set up synthetic monitoring for proactive performance tracking | Jeremy Longshore | 1.0.0 |
-| throughput-analyzer | Analyze and optimize system throughput | Jeremy Longshore | 1.0.0 |
+| [alerting-rule-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/alerting-rule-creator) | Create intelligent alerting rules for performance monitoring | Jeremy Longshore | 1.0.0 |
+| [apm-dashboard-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/apm-dashboard-creator) | Create Application Performance Monitoring dashboards | Jeremy Longshore | 1.0.0 |
+| [application-profiler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/application-profiler) | Profile application performance with CPU, memory, and execution time analysis | Jeremy Longshore | 1.0.0 |
+| [bottleneck-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/bottleneck-detector) | Detect and resolve performance bottlenecks | Jeremy Longshore | 1.0.0 |
+| [cache-performance-optimizer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/cache-performance-optimizer) | Optimize caching strategies for improved performance | Jeremy Longshore | 1.0.0 |
+| [capacity-planning-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/capacity-planning-analyzer) | Analyze and plan for capacity requirements | Jeremy Longshore | 1.0.0 |
+| [cpu-usage-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/cpu-usage-monitor) | Monitor and analyze CPU usage patterns in applications | Jeremy Longshore | 1.0.0 |
+| [database-query-profiler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/database-query-profiler) | Profile and optimize database queries for performance | Jeremy Longshore | 1.0.0 |
+| [distributed-tracing-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/distributed-tracing-setup) | Set up distributed tracing for microservices | Jeremy Longshore | 1.0.0 |
+| [error-rate-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/error-rate-monitor) | Monitor and analyze application error rates | Jeremy Longshore | 1.0.0 |
+| [infrastructure-metrics-collector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/infrastructure-metrics-collector) | Collect comprehensive infrastructure performance metrics | Jeremy Longshore | 1.0.0 |
+| [load-test-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/load-test-runner) | Create and execute load tests for performance validation | Jeremy Longshore | 1.0.0 |
+| [log-analysis-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/log-analysis-tool) | Analyze logs for performance insights and issues | Jeremy Longshore | 1.0.0 |
+| [memory-leak-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/memory-leak-detector) | Detect memory leaks and analyze memory usage patterns | Jeremy Longshore | 1.0.0 |
+| [metrics-aggregator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/metrics-aggregator) | Aggregate and centralize performance metrics | Jeremy Longshore | 1.0.0 |
+| [network-latency-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/network-latency-analyzer) | Analyze network latency and optimize request patterns | Jeremy Longshore | 1.0.0 |
+| [performance-budget-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-budget-validator) | Validate application against performance budgets | Jeremy Longshore | 1.0.0 |
+| [performance-optimization-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-optimization-advisor) | Get comprehensive performance optimization recommendations | Jeremy Longshore | 1.0.0 |
+| [performance-regression-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-regression-detector) | Detect performance regressions in CI/CD pipeline | Jeremy Longshore | 1.0.0 |
+| [real-user-monitoring](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/real-user-monitoring) | Implement Real User Monitoring for actual performance data | Jeremy Longshore | 1.0.0 |
+| [resource-usage-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/resource-usage-tracker) | Track and optimize resource usage across the stack | Jeremy Longshore | 1.0.0 |
+| [response-time-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/response-time-tracker) | Track and optimize application response times | Jeremy Longshore | 1.0.0 |
+| [sla-sli-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/sla-sli-tracker) | Track SLAs, SLIs, and SLOs for service reliability | Jeremy Longshore | 1.0.0 |
+| [synthetic-monitoring-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/synthetic-monitoring-setup) | Set up synthetic monitoring for proactive performance tracking | Jeremy Longshore | 1.0.0 |
+| [throughput-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/throughput-analyzer) | Analyze and optimize system throughput | Jeremy Longshore | 1.0.0 |
 
 
 ## plan
@@ -1110,20 +1110,20 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| 000-jeremy-content-consistency-validator | Read-only validator that generates comprehensive discrepancy reports comparing messaging consistency across ANY HTML-based website (WordPress, Hugo... | Jeremy Longshore | 1.0.0 |
-| 001-jeremy-taskwarrior-integration | Enforces complete Taskwarrior integration protocol for ALL coding tasks with automatic task lifecycle management and time tracking via Timewarrior | Jeremy Longshore | 1.0.0 |
-| 002-jeremy-yaml-master-agent | Intelligent YAML validation, generation, and transformation agent with schema inference, linting, and format conversion capabilities | Jeremy Longshore | 1.0.0 |
-| 003-jeremy-vertex-ai-media-master | Comprehensive Google Vertex AI multimodal mastery for Jeremy - video processing (6+ hours), audio generation, image creation with Gemini 2.0/2.5 an... | Jeremy Longshore | 1.0.0 |
-| 004-jeremy-google-cloud-agent-sdk | Google Cloud Agent Development Kit (ADK) and Agent Starter Pack mastery - build containerized multi-agent systems with production-ready templates, ... | Jeremy Longshore | 1.0.0 |
-| agent-context-manager | Automatically detects and loads AGENTS.md files to provide agent-specific instructions | Jeremy Longshore | 1.0.0 |
-| agent-context-manager | Automatically detects and loads AGENTS.md files to provide agent-specific instructions alongside CLAUDE.md. Enables specialized agent behaviors wit... | Jeremy Longshore | 1.0.0 |
-| ai-commit-gen | AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly | Jeremy Longshore | 1.0.0 |
-| claude-never-forgets | Persistent memory plugin for Claude Code - remembers preferences, decisions, and corrections across sessions and context limits | yldrmahmet | 0.1.0 |
-| domain-memory-agent | Knowledge base with TF-IDF semantic search and extractive summarization - no ML dependencies required | Jeremy Longshore | 1.0.0 |
-| formatter | Code formatting plugin using hooks to auto-format on save | None | 1.0.0 |
-| overnight-dev | Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features | Intent Solutions IO | 1.0.0 |
-| prettier-markdown-hook | Automatically format markdown files with prettier when Claude stops responding, with configurable organization and path exclusions | Terry Li | 1.0.0 |
-| travel-assistant | Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel co... | Jeremy Longshore | 1.0.0 |
+| [000-jeremy-content-consistency-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/000-jeremy-content-consistency-validator) | Read-only validator that generates comprehensive discrepancy reports comparing messaging consistency across ANY HTML-based website (WordPress, Hugo... | Jeremy Longshore | 1.0.0 |
+| [001-jeremy-taskwarrior-integration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/001-jeremy-taskwarrior-integration) | Enforces complete Taskwarrior integration protocol for ALL coding tasks with automatic task lifecycle management and time tracking via Timewarrior | Jeremy Longshore | 1.0.0 |
+| [002-jeremy-yaml-master-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/002-jeremy-yaml-master-agent) | Intelligent YAML validation, generation, and transformation agent with schema inference, linting, and format conversion capabilities | Jeremy Longshore | 1.0.0 |
+| [003-jeremy-vertex-ai-media-master](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/003-jeremy-vertex-ai-media-master) | Comprehensive Google Vertex AI multimodal mastery for Jeremy - video processing (6+ hours), audio generation, image creation with Gemini 2.0/2.5 an... | Jeremy Longshore | 1.0.0 |
+| [004-jeremy-google-cloud-agent-sdk](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/004-jeremy-google-cloud-agent-sdk) | Google Cloud Agent Development Kit (ADK) and Agent Starter Pack mastery - build containerized multi-agent systems with production-ready templates, ... | Jeremy Longshore | 1.0.0 |
+| [agent-context-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/agent-context-manager) | Automatically detects and loads AGENTS.md files to provide agent-specific instructions | Jeremy Longshore | 1.0.0 |
+| [agent-context-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/agent-context-manager) | Automatically detects and loads AGENTS.md files to provide agent-specific instructions alongside CLAUDE.md. Enables specialized agent behaviors wit... | Jeremy Longshore | 1.0.0 |
+| [ai-commit-gen](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/ai-commit-gen) | AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly | Jeremy Longshore | 1.0.0 |
+| [claude-never-forgets](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/claude-never-forgets) | Persistent memory plugin for Claude Code - remembers preferences, decisions, and corrections across sessions and context limits | yldrmahmet | 0.1.0 |
+| [domain-memory-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/domain-memory-agent) | Knowledge base with TF-IDF semantic search and extractive summarization - no ML dependencies required | Jeremy Longshore | 1.0.0 |
+| [formatter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/formatter) | Code formatting plugin using hooks to auto-format on save | None | 1.0.0 |
+| [overnight-dev](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/overnight-dev) | Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features | Intent Solutions IO | 1.0.0 |
+| [prettier-markdown-hook](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/prettier-markdown-hook) | Automatically format markdown files with prettier when Claude stops responding, with configurable organization and path exclusions | Terry Li | 1.0.0 |
+| [travel-assistant](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/travel-assistant) | Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel co... | Jeremy Longshore | 1.0.0 |
 
 
 ## productivity-organization
@@ -1132,13 +1132,13 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| document-skills-docx | Skills for working with Microsoft Word documents including creation, editing, and formatting using DOCX format. | None | 1.0.0 |
-| document-skills-pdf | Skills for working with PDF documents including creation, editing, forms, and advanced PDF operations. | None | 1.0.0 |
-| document-skills-pptx | Skills for working with PowerPoint presentations including creation, editing, and formatting using PPTX format. | None | 1.0.0 |
-| document-skills-xlsx | Skills for working with Excel spreadsheets including creation, editing, formulas, and data manipulation. | None | 1.0.0 |
-| file-organizer | Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. | None | 1.0.0 |
-| invoice-organizer | Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently. | None | 1.0.0 |
-| raffle-winner-picker | Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness. | None | 1.0.0 |
+| [document-skills-docx](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/document-skills/docx) | Skills for working with Microsoft Word documents including creation, editing, and formatting using DOCX format. | None | 1.0.0 |
+| [document-skills-pdf](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/document-skills/pdf) | Skills for working with PDF documents including creation, editing, forms, and advanced PDF operations. | None | 1.0.0 |
+| [document-skills-pptx](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/document-skills/pptx) | Skills for working with PowerPoint presentations including creation, editing, and formatting using PPTX format. | None | 1.0.0 |
+| [document-skills-xlsx](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/document-skills/xlsx) | Skills for working with Excel spreadsheets including creation, editing, formulas, and data manipulation. | None | 1.0.0 |
+| [file-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/file-organizer) | Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. | None | 1.0.0 |
+| [invoice-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently. | None | 1.0.0 |
+| [raffle-winner-picker](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/raffle-winner-picker) | Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness. | None | 1.0.0 |
 
 
 ## quality
@@ -1176,33 +1176,33 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| access-control-auditor | Audit access control implementations | Jeremy Longshore | 1.0.0 |
-| authentication-validator | Validate authentication implementations | Jeremy Longshore | 1.0.0 |
-| compliance-report-generator | Generate compliance reports | Jeremy Longshore | 1.0.0 |
-| cors-policy-validator | Validate CORS policies | Jeremy Longshore | 1.0.0 |
-| csrf-protection-validator | Validate CSRF protection | Jeremy Longshore | 1.0.0 |
-| data-privacy-scanner | Scan for data privacy issues | Jeremy Longshore | 1.0.0 |
-| dependency-checker | Check dependencies for known vulnerabilities, outdated packages, and license compliance | Jeremy Longshore | 1.0.0 |
-| encryption-tool | Encrypt and decrypt data with various algorithms | Jeremy Longshore | 1.0.0 |
-| gdpr-compliance-scanner | Scan for GDPR compliance issues | Jeremy Longshore | 1.0.0 |
-| hipaa-compliance-checker | Check HIPAA compliance | Jeremy Longshore | 1.0.0 |
-| input-validation-scanner | Scan input validation practices | Jeremy Longshore | 1.0.0 |
-| owasp-compliance-checker | Check OWASP Top 10 compliance | Jeremy Longshore | 1.0.0 |
-| pci-dss-validator | Validate PCI DSS compliance | Jeremy Longshore | 1.0.0 |
-| penetration-tester | Automated penetration testing for web applications with OWASP Top 10 coverage | Jeremy Longshore | 1.0.0 |
-| secret-scanner | Scan codebase for exposed secrets, API keys, passwords, and sensitive credentials | Jeremy Longshore | 1.0.0 |
-| security-agent | Security review subagent for code analysis | None | 1.0.0 |
-| security-audit-reporter | Generate comprehensive security audit reports | Jeremy Longshore | 1.0.0 |
-| security-headers-analyzer | Analyze HTTP security headers | Jeremy Longshore | 1.0.0 |
-| security-incident-responder | Assist with security incident response | Jeremy Longshore | 1.0.0 |
-| security-misconfiguration-finder | Find security misconfigurations | Jeremy Longshore | 1.0.0 |
-| security-pro-pack | Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security | Jeremy Longshore | 1.0.0 |
-| session-security-checker | Check session security implementation | Jeremy Longshore | 1.0.0 |
-| soc2-audit-helper | Assist with SOC2 audit preparation | Jeremy Longshore | 1.0.0 |
-| sql-injection-detector | Detect SQL injection vulnerabilities | Jeremy Longshore | 1.0.0 |
-| ssl-certificate-manager | Manage and monitor SSL/TLS certificates | Jeremy Longshore | 1.0.0 |
-| vulnerability-scanner | Comprehensive vulnerability scanning for code, dependencies, and configurations with CVE detection | Jeremy Longshore | 1.0.0 |
-| xss-vulnerability-scanner | Scan for XSS vulnerabilities | Jeremy Longshore | 1.0.0 |
+| [access-control-auditor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/access-control-auditor) | Audit access control implementations | Jeremy Longshore | 1.0.0 |
+| [authentication-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/authentication-validator) | Validate authentication implementations | Jeremy Longshore | 1.0.0 |
+| [compliance-report-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/compliance-report-generator) | Generate compliance reports | Jeremy Longshore | 1.0.0 |
+| [cors-policy-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/cors-policy-validator) | Validate CORS policies | Jeremy Longshore | 1.0.0 |
+| [csrf-protection-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/csrf-protection-validator) | Validate CSRF protection | Jeremy Longshore | 1.0.0 |
+| [data-privacy-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/data-privacy-scanner) | Scan for data privacy issues | Jeremy Longshore | 1.0.0 |
+| [dependency-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/dependency-checker) | Check dependencies for known vulnerabilities, outdated packages, and license compliance | Jeremy Longshore | 1.0.0 |
+| [encryption-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/encryption-tool) | Encrypt and decrypt data with various algorithms | Jeremy Longshore | 1.0.0 |
+| [gdpr-compliance-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/gdpr-compliance-scanner) | Scan for GDPR compliance issues | Jeremy Longshore | 1.0.0 |
+| [hipaa-compliance-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/hipaa-compliance-checker) | Check HIPAA compliance | Jeremy Longshore | 1.0.0 |
+| [input-validation-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/input-validation-scanner) | Scan input validation practices | Jeremy Longshore | 1.0.0 |
+| [owasp-compliance-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/owasp-compliance-checker) | Check OWASP Top 10 compliance | Jeremy Longshore | 1.0.0 |
+| [pci-dss-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/pci-dss-validator) | Validate PCI DSS compliance | Jeremy Longshore | 1.0.0 |
+| [penetration-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/penetration-tester) | Automated penetration testing for web applications with OWASP Top 10 coverage | Jeremy Longshore | 1.0.0 |
+| [secret-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/secret-scanner) | Scan codebase for exposed secrets, API keys, passwords, and sensitive credentials | Jeremy Longshore | 1.0.0 |
+| [security-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/security-agent) | Security review subagent for code analysis | None | 1.0.0 |
+| [security-audit-reporter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-audit-reporter) | Generate comprehensive security audit reports | Jeremy Longshore | 1.0.0 |
+| [security-headers-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-headers-analyzer) | Analyze HTTP security headers | Jeremy Longshore | 1.0.0 |
+| [security-incident-responder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-incident-responder) | Assist with security incident response | Jeremy Longshore | 1.0.0 |
+| [security-misconfiguration-finder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-misconfiguration-finder) | Find security misconfigurations | Jeremy Longshore | 1.0.0 |
+| [security-pro-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/security-pro-pack) | Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security | Jeremy Longshore | 1.0.0 |
+| [session-security-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/session-security-checker) | Check session security implementation | Jeremy Longshore | 1.0.0 |
+| [soc2-audit-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/soc2-audit-helper) | Assist with SOC2 audit preparation | Jeremy Longshore | 1.0.0 |
+| [sql-injection-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/sql-injection-detector) | Detect SQL injection vulnerabilities | Jeremy Longshore | 1.0.0 |
+| [ssl-certificate-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/ssl-certificate-manager) | Manage and monitor SSL/TLS certificates | Jeremy Longshore | 1.0.0 |
+| [vulnerability-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/vulnerability-scanner) | Comprehensive vulnerability scanning for code, dependencies, and configurations with CVE detection | Jeremy Longshore | 1.0.0 |
+| [xss-vulnerability-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/xss-vulnerability-scanner) | Scan for XSS vulnerabilities | Jeremy Longshore | 1.0.0 |
 
 
 ## skill-enhancers
@@ -1211,12 +1211,12 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| axiom | Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development - 13 production-ready skills covering debugging, concurren... | Charles Wiltgen | 0.1.6 |
-| calendar-to-workflow | Enhances calendar Skills by automating meeting prep and workflow triggers | Claude Code Plugins Team | 0.1.0 |
-| file-to-code | Converts file references into executable code implementations | Claude Code Plugins Team | 0.1.0 |
-| research-to-deploy | Transforms research findings into deployed solutions automatically | Claude Code Plugins Team | 0.1.0 |
-| search-to-slack | Automatically posts search results to Slack channels | Claude Code Plugins Team | 0.1.0 |
-| web-to-github-issue | Enhances web_search Skill by automatically creating GitHub issues from research findings. Research topics, extract key insights, and generate forma... | Claude Code Plugins Team | 1.0.0 |
+| [axiom](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/axiom) | Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development - 13 production-ready skills covering debugging, concurren... | Charles Wiltgen | 0.1.6 |
+| [calendar-to-workflow](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/calendar-to-workflow) | Enhances calendar Skills by automating meeting prep and workflow triggers | Claude Code Plugins Team | 0.1.0 |
+| [file-to-code](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/file-to-code) | Converts file references into executable code implementations | Claude Code Plugins Team | 0.1.0 |
+| [research-to-deploy](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/research-to-deploy) | Transforms research findings into deployed solutions automatically | Claude Code Plugins Team | 0.1.0 |
+| [search-to-slack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/search-to-slack) | Automatically posts search results to Slack channels | Claude Code Plugins Team | 0.1.0 |
+| [web-to-github-issue](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/skill-enhancers/web-to-github-issue) | Enhances web_search Skill by automatically creating GitHub issues from research findings. Research topics, extract key insights, and generate forma... | Claude Code Plugins Team | 1.0.0 |
 
 
 ## testing
@@ -1237,31 +1237,31 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| accessibility-test-scanner | A11y compliance testing with WCAG 2.1/2.2 validation, screen reader compatibility, and automated accessibility audits | Claude Code Plugin Hub | 1.0.0 |
-| api-fuzzer | Fuzz testing for APIs with malformed inputs, edge cases, and security vulnerability detection | Claude Code Plugin Hub | 1.0.0 |
-| api-test-automation | Automated API endpoint testing with request generation, validation, and comprehensive test coverage | Jeremy Longshore | 1.0.0 |
-| browser-compatibility-tester | Cross-browser testing with BrowserStack, Selenium Grid, and Playwright - test across Chrome, Firefox, Safari, Edge | Claude Code Plugin Hub | 1.0.0 |
-| chaos-engineering-toolkit | Chaos testing for resilience with failure injection, latency simulation, and system resilience validation | Claude Code Plugin Hub | 1.0.0 |
-| contract-test-validator | API contract testing with Pact, OpenAPI validation, and consumer-driven contract verification | Claude Code Plugin Hub | 1.0.0 |
-| database-test-manager | Database testing utilities with test data setup, transaction rollback, and schema validation | Claude Code Plugin Hub | 1.0.0 |
-| e2e-test-framework | End-to-end test automation with Playwright, Cypress, and Selenium for browser-based testing | Jeremy Longshore | 1.0.0 |
-| integration-test-runner | Run and manage integration test suites with environment setup, database seeding, and cleanup | Jeremy Longshore | 1.0.0 |
-| load-balancer-tester | Test load balancing strategies with traffic distribution validation and failover testing | Claude Code Plugin Hub | 1.0.0 |
-| mobile-app-tester | Mobile app test automation with Appium, Detox, XCUITest - test iOS and Android apps | Claude Code Plugin Hub | 1.0.0 |
-| mutation-test-runner | Mutation testing to validate test quality by introducing code changes and verifying tests catch them | Jeremy Longshore | 1.0.0 |
-| performance-test-suite | Load testing and performance benchmarking with metrics analysis and bottleneck identification | Jeremy Longshore | 1.0.0 |
-| regression-test-tracker | Track and run regression tests to ensure new changes don't break existing functionality | Jeremy Longshore | 1.0.0 |
-| security-test-scanner | Automated security vulnerability testing covering OWASP Top 10, SQL injection, XSS, CSRF, and authentication issues | Jeremy Longshore | 1.0.0 |
-| smoke-test-runner | Quick smoke test suites to verify critical functionality after deployments | Claude Code Plugin Hub | 1.0.0 |
-| snapshot-test-manager | Manage and update snapshot tests with intelligent diff analysis and selective updates | Claude Code Plugin Hub | 1.0.0 |
-| test-coverage-analyzer | Analyze code coverage metrics, identify untested code, and generate comprehensive coverage reports | Jeremy Longshore | 1.0.0 |
-| test-data-generator | Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing | Jeremy Longshore | 1.0.0 |
-| test-doubles-generator | Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks | Claude Code Plugin Hub | 1.0.0 |
-| test-environment-manager | Manage test environments with Docker Compose, Testcontainers, and environment isolation | Claude Code Plugin Hub | 1.0.0 |
-| test-orchestrator | Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection | Claude Code Plugin Hub | 1.0.0 |
-| test-report-generator | Generate comprehensive test reports with coverage, trends, and stakeholder-friendly formats | Claude Code Plugin Hub | 1.0.0 |
-| unit-test-generator | Automatically generate comprehensive unit tests from source code with multiple testing framework support | Jeremy Longshore | 1.0.0 |
-| visual-regression-tester | Visual diff testing with Percy, Chromatic, BackstopJS - catch unintended UI changes | Claude Code Plugin Hub | 1.0.0 |
+| [accessibility-test-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/accessibility-test-scanner) | A11y compliance testing with WCAG 2.1/2.2 validation, screen reader compatibility, and automated accessibility audits | Claude Code Plugin Hub | 1.0.0 |
+| [api-fuzzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/api-fuzzer) | Fuzz testing for APIs with malformed inputs, edge cases, and security vulnerability detection | Claude Code Plugin Hub | 1.0.0 |
+| [api-test-automation](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/api-test-automation) | Automated API endpoint testing with request generation, validation, and comprehensive test coverage | Jeremy Longshore | 1.0.0 |
+| [browser-compatibility-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/browser-compatibility-tester) | Cross-browser testing with BrowserStack, Selenium Grid, and Playwright - test across Chrome, Firefox, Safari, Edge | Claude Code Plugin Hub | 1.0.0 |
+| [chaos-engineering-toolkit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/chaos-engineering-toolkit) | Chaos testing for resilience with failure injection, latency simulation, and system resilience validation | Claude Code Plugin Hub | 1.0.0 |
+| [contract-test-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/contract-test-validator) | API contract testing with Pact, OpenAPI validation, and consumer-driven contract verification | Claude Code Plugin Hub | 1.0.0 |
+| [database-test-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/database-test-manager) | Database testing utilities with test data setup, transaction rollback, and schema validation | Claude Code Plugin Hub | 1.0.0 |
+| [e2e-test-framework](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/e2e-test-framework) | End-to-end test automation with Playwright, Cypress, and Selenium for browser-based testing | Jeremy Longshore | 1.0.0 |
+| [integration-test-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/integration-test-runner) | Run and manage integration test suites with environment setup, database seeding, and cleanup | Jeremy Longshore | 1.0.0 |
+| [load-balancer-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/load-balancer-tester) | Test load balancing strategies with traffic distribution validation and failover testing | Claude Code Plugin Hub | 1.0.0 |
+| [mobile-app-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/mobile-app-tester) | Mobile app test automation with Appium, Detox, XCUITest - test iOS and Android apps | Claude Code Plugin Hub | 1.0.0 |
+| [mutation-test-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/mutation-test-runner) | Mutation testing to validate test quality by introducing code changes and verifying tests catch them | Jeremy Longshore | 1.0.0 |
+| [performance-test-suite](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/performance-test-suite) | Load testing and performance benchmarking with metrics analysis and bottleneck identification | Jeremy Longshore | 1.0.0 |
+| [regression-test-tracker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/regression-test-tracker) | Track and run regression tests to ensure new changes don't break existing functionality | Jeremy Longshore | 1.0.0 |
+| [security-test-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/security-test-scanner) | Automated security vulnerability testing covering OWASP Top 10, SQL injection, XSS, CSRF, and authentication issues | Jeremy Longshore | 1.0.0 |
+| [smoke-test-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/smoke-test-runner) | Quick smoke test suites to verify critical functionality after deployments | Claude Code Plugin Hub | 1.0.0 |
+| [snapshot-test-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/snapshot-test-manager) | Manage and update snapshot tests with intelligent diff analysis and selective updates | Claude Code Plugin Hub | 1.0.0 |
+| [test-coverage-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-coverage-analyzer) | Analyze code coverage metrics, identify untested code, and generate comprehensive coverage reports | Jeremy Longshore | 1.0.0 |
+| [test-data-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-data-generator) | Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing | Jeremy Longshore | 1.0.0 |
+| [test-doubles-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-doubles-generator) | Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks | Claude Code Plugin Hub | 1.0.0 |
+| [test-environment-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-environment-manager) | Manage test environments with Docker Compose, Testcontainers, and environment isolation | Claude Code Plugin Hub | 1.0.0 |
+| [test-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-orchestrator) | Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection | Claude Code Plugin Hub | 1.0.0 |
+| [test-report-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-report-generator) | Generate comprehensive test reports with coverage, trends, and stakeholder-friendly formats | Claude Code Plugin Hub | 1.0.0 |
+| [unit-test-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/unit-test-generator) | Automatically generate comprehensive unit tests from source code with multiple testing framework support | Jeremy Longshore | 1.0.0 |
+| [visual-regression-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/visual-regression-tester) | Visual diff testing with Percy, Chromatic, BackstopJS - catch unintended UI changes | Claude Code Plugin Hub | 1.0.0 |
 
 
 ## utilities
