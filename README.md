@@ -339,7 +339,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.2 |
+| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.4 |
 
 
 ## Workflow Orchestration
