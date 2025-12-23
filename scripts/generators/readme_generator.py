@@ -10,6 +10,7 @@ import re
 
 logger = logging.getLogger(__name__)
 
+
 class ReadmeGenerator:
     """Generates README content from marketplace and plugin data."""
 
@@ -50,23 +51,25 @@ class ReadmeGenerator:
             return ""
 
         lines = ["## Marketplaces\n\n"]
-        lines.append("| Marketplace | Description | URL |")
-        lines.append("|-------------|-------------|-----|")
+        lines.append("| Marketplace | Description |")
+        lines.append("|-------------|-------------|")
 
         for marketplace in sorted(self.marketplaces, key=lambda x: x.get("name", "")):
             name = marketplace.get("name", marketplace.get("id", "Unknown"))
-            description = marketplace.get("description", "")[:100]  # Truncate long descriptions
+            description = marketplace.get("description", "")[
+                :100
+            ]  # Truncate long descriptions
 
             # Construct URL from repoOwner and repoName if available
             repo_owner = marketplace.get("repoOwner")
             repo_name = marketplace.get("repoName")
             if repo_owner and repo_name:
                 url = f"https://github.com/{repo_owner}/{repo_name}"
-                url_cell = f"[Link]({url})"
+                name_cell = f"[{name}]({url})"
             else:
-                url_cell = "-"
+                name_cell = name
 
-            lines.append(f"| {name} | {description} | {url_cell} |")
+            lines.append(f"| {name_cell} | {description} |")
 
         lines.append("")
         return "\n".join(lines)
@@ -98,15 +101,17 @@ class ReadmeGenerator:
                     lines.append(f"### {marketplace_name}\n")
 
                 # Table header
-                lines.append("| Plugin | Description | Author | Version | URL |")
-                lines.append("|--------|-------------|--------|---------|-----|")
+                lines.append("| Plugin | Description | Author | Version |")
+                lines.append("|--------|-------------|--------|---------|")
 
                 # Sort plugins alphabetically
                 sorted_plugins = sorted(plugins, key=lambda p: p.get("name", ""))
 
                 for plugin in sorted_plugins:
                     name = plugin.get("name", "Unknown Plugin")
-                    description = plugin.get("description", "").replace("\n", " ").strip()
+                    description = (
+                        plugin.get("description", "").replace("\n", " ").strip()
+                    )
                     # Truncate description for table readability
                     if len(description) > 150:
                         description = description[:147] + "..."
@@ -119,16 +124,18 @@ class ReadmeGenerator:
                     version = plugin.get("version", "latest")
                     repo_url = plugin.get("repo_url", "")
 
-                    # Create URL cell with hyperlink if URL exists
+                    # Create name cell with hyperlink if URL exists
                     if repo_url:
-                        url_cell = f"[Link]({repo_url})"
+                        name_cell = f"[{name}]({repo_url})"
                     else:
-                        url_cell = "-"
+                        name_cell = name
 
                     # Escape pipe characters in description
                     description = description.replace("|", "\\|")
 
-                    lines.append(f"| {name} | {description} | {author} | {version} | {url_cell} |")
+                    lines.append(
+                        f"| {name_cell} | {description} | {author} | {version} |"
+                    )
 
                 lines.append("")
 
@@ -156,7 +163,7 @@ To add a new plugin or marketplace:
             self.generate_table_of_contents(),
             self.generate_marketplaces_table(),
             self.generate_plugins_by_category(),
-            self.generate_contributing()
+            self.generate_contributing(),
         ]
 
         content = "".join(sections)
@@ -188,7 +195,7 @@ To add a new plugin or marketplace:
         """Basic markdown validation for generated content."""
         try:
             # Check for balanced brackets in links [text](url)
-            link_pattern = r'\[([^\]]*)\]\(([^)]*)\)'
+            link_pattern = r"\[([^\]]*)\]\(([^)]*)\)"
             links = re.findall(link_pattern, content)
 
             for text, url in links:
@@ -200,13 +207,18 @@ To add a new plugin or marketplace:
                     return False
 
             # Basic check for table structure - just ensure tables have separators
-            lines = content.split('\n')
+            lines = content.split("\n")
             table_started = False
             has_separator = False
 
             for line in lines:
-                if '|' in line and not line.strip().startswith('#'):
-                    if '|---' in line or '|:--' in line or ':---' in line or '---:' in line:
+                if "|" in line and not line.strip().startswith("#"):
+                    if (
+                        "|---" in line
+                        or "|:--" in line
+                        or ":---" in line
+                        or "---:" in line
+                    ):
                         has_separator = True
                         table_started = False
                     elif not table_started:
