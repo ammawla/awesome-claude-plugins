@@ -149,6 +149,7 @@ The generated `README.md` will contain:
   - Description
   - Author
   - Version
+  - **URL** (linked to plugin repository)
 
 ## Troubleshooting
 

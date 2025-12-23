@@ -56,9 +56,12 @@ class ReadmeGenerator:
         for marketplace in sorted(self.marketplaces, key=lambda x: x.get("name", "")):
             name = marketplace.get("name", marketplace.get("id", "Unknown"))
             description = marketplace.get("description", "")[:100]  # Truncate long descriptions
-            url = marketplace.get("url", "")
 
-            if url:
+            # Construct URL from repoOwner and repoName if available
+            repo_owner = marketplace.get("repoOwner")
+            repo_name = marketplace.get("repoName")
+            if repo_owner and repo_name:
+                url = f"https://github.com/{repo_owner}/{repo_name}"
                 url_cell = f"[Link]({url})"
             else:
                 url_cell = "-"
@@ -95,8 +98,8 @@ class ReadmeGenerator:
                     lines.append(f"### {marketplace_name}\n")
 
                 # Table header
-                lines.append("| Plugin | Description | Author | Version |")
-                lines.append("|--------|-------------|--------|---------|")
+                lines.append("| Plugin | Description | Author | Version | URL |")
+                lines.append("|--------|-------------|--------|---------|-----|")
 
                 # Sort plugins alphabetically
                 sorted_plugins = sorted(plugins, key=lambda p: p.get("name", ""))
@@ -114,11 +117,18 @@ class ReadmeGenerator:
                     else:
                         author = str(author_data)
                     version = plugin.get("version", "latest")
+                    repo_url = plugin.get("repo_url", "")
+
+                    # Create URL cell with hyperlink if URL exists
+                    if repo_url:
+                        url_cell = f"[Link]({repo_url})"
+                    else:
+                        url_cell = "-"
 
                     # Escape pipe characters in description
                     description = description.replace("|", "\\|")
 
-                    lines.append(f"| {name} | {description} | {author} | {version} |")
+                    lines.append(f"| {name} | {description} | {author} | {version} | {url_cell} |")
 
                 lines.append("")
 

@@ -98,7 +98,7 @@ Represents a data source configuration for marketplace repositories.
 2. **Completeness**: Plugins without required fields (name, description) are skipped
 3. **Categorization**: All plugins must have a valid category
 4. **Source Reliability**: Failed sources don't stop processing of other sources
-5. **Data Freshness**: marketplace.json files are fetched fresh on each run (no caching)
+5. **Data Freshness**: marketplace.json files are cached for 1 hour to improve performance, with fresh fetches for expired or missing cache entries
 
 ## Error Handling
 

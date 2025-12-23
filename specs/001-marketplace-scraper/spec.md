@@ -73,6 +73,7 @@ As a project maintainer, I want plugins automatically organized by categories in
 ### Session 2025-12-23 (continued)
 - Q: How should plugins be fetched from configured marketplaces - individual manifest files per plugin or structured marketplace.json files? → A: Option A - Adopt the .claude-plugin/marketplace.json approach where each marketplace repository contains a marketplace.json file with a "plugins" array listing all plugins with metadata
 - Q: How should plugins be displayed in the generated README - as bullet lists or tables? → A: Tables - Display plugins in table format with columns for Plugin, Description, Author, and Version
+- Q: Should each marketplace and plugin have a URL that users can click to go there? → A: Yes, each marketplace and plugin should have a URL for user navigation
 
 ## Requirements *(mandatory)*
 
@@ -87,7 +88,7 @@ As a project maintainer, I want plugins automatically organized by categories in
 - **FR-007**: System MUST merge data from multiple sources, handling duplicates appropriately
 - **FR-008**: System MUST generate README.md with a table of contents at the top
 - **FR-009**: System MUST generate a table of marketplaces with columns for name, description, and URL
-- **FR-010**: System MUST generate tables of plugins organized by categories, with each plugin displayed in a table format including Plugin name, Description, Author, and Version columns
+- **FR-010**: System MUST generate tables of plugins organized by categories, with each plugin displayed in a table format including Plugin name, Description, Author, Version, and URL columns
 - **FR-011**: System MUST handle network errors gracefully by logging failures and continuing with available data
 - **FR-012**: System MUST validate JSON format and skip malformed data with appropriate error logging
 - **FR-013**: System MUST handle repositories that lack plugin manifests or are inaccessible
