@@ -339,7 +339,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version | URL |
 |--------|-------------|--------|---------|-----|
-| claude-mem | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.0 | [Link](https://github.com/thedotmack/claude-mem) |
+| claude-mem | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.2 | [Link](https://github.com/thedotmack/claude-mem) |
 
 
 ## Workflow Orchestration
@@ -517,6 +517,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | model-versioning-tracker | Track and manage model versions | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 | neural-network-builder | Build and configure neural network architectures | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 | nlp-text-analyzer | Natural language processing and text analysis | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
+| ollama-local-ai | Run AI models locally with Ollama - free alternative to OpenAI, Anthropic, and other paid LLM APIs. Zero-cost, privacy-first AI infrastructure. | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 | recommendation-engine | Build recommendation systems and engines | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 | regression-analysis-tool | Regression analysis and modeling | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
 | sentiment-analysis-tool | Sentiment analysis on text data | Jeremy Longshore | 1.0.0 | [Link](https://github.com/jeremylongshore/claude-code-plugins-plus) |
