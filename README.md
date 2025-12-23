@@ -800,7 +800,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 |--------|-------------|--------|---------|
 | [agentdev](https://github.com/MadAppGang/claude-code/tree/main/plugins/agentdev) | Create, implement, and review Claude Code agents and commands with multi-model validation and LLM performance tracking (NEW). Full-cycle developmen... | Jack Rudenko | 1.1.0 |
 | [bun](https://github.com/MadAppGang/claude-code/tree/main/plugins/bun) | Production-ready TypeScript backend development with Bun runtime. Includes specialized agents for backend development, API design, and DevOps. Feat... | Jack Rudenko | 1.5.2 |
-| [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | Deep code investigation with ENFORCED claudemem v0.2.0 semantic search. LLM-enriched symbol_summary and file_summary for understanding code behavio... | Jack Rudenko | 2.4.0 |
+| [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | Deep code investigation with claudemem v0.4.0 AST structural analysis. NEW: Code Analysis Commands (dead-code, test-gaps, impact), Multi-Agent Orch... | Jack Rudenko | 2.6.0 |
 | [frontend](https://github.com/MadAppGang/claude-code/tree/main/plugins/frontend) | Comprehensive frontend development toolkit with TypeScript, React 19, Vite, TanStack Router & Query v5, shadcn/ui. Features code-analysis integrati... | Jack Rudenko | 3.13.0 |
 | [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.5.0 |
 
