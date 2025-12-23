@@ -7,6 +7,7 @@ import sys
 import argparse
 import logging
 from pathlib import Path
+from typing import List
 
 try:
     from .config import Config
@@ -51,7 +52,7 @@ def generate_readme(marketplaces: list, plugins: list, output_file: str) -> bool
         logger.error("Failed to write README: %s", e)
         return False
 
-def parse_marketplace_data(raw_data: dict) -> list[Marketplace]:
+def parse_marketplace_data(raw_data: dict) -> List[Marketplace]:
     """Parse raw marketplace data into Marketplace objects."""
     marketplaces = []
     for marketplace_id, data in raw_data.items():
