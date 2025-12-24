@@ -28,7 +28,7 @@ class ReadmeGenerator:
 
     def generate_title(self) -> str:
         """Generate the README title."""
-        return "# Awesome Claude Plugins\n\nA curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.\n\n"
+        return "# Awesome Claude Plugins\n\nA curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.\n\nLast updated: 2025-12-24 08:25 UTC\n\n"
 
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""

@@ -2,6 +2,8 @@
 
 A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
 
+Last updated: 2025-12-24 08:25 UTC
+
 ## Contents
 
 - [Marketplaces](#marketplaces)
