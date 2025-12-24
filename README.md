@@ -796,6 +796,12 @@ Last updated: 2025-12-24 08:25 UTC
 | [frontend-mobile-development](https://github.com/wshobson/agents) | Frontend UI development and mobile application implementation across platforms | Seth Hobson | 1.2.1 |
 | [multi-platform-apps](https://github.com/wshobson/agents) | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
 
+### claude-code-plugins-plus
+
+| Plugin | Description | Author | Version |
+|--------|-------------|--------|---------|
+| [sprint](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/sprint) | Autonomous multi-agent development framework with spec-driven sprints. Write specs, run /sprint, and let coordinated agents (backend, frontend, QA,... | Damien Laine | 1.0.0 |
+
 ### mag-claude-plugins
 
 | Plugin | Description | Author | Version |
