@@ -892,8 +892,8 @@ Last updated: 2025-12-24 08:25 UTC
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
 | [hello-world](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/hello-world) | Simple example plugin demonstrating basic slash commands | Jeremy Longshore | 1.0.0 |
+| [jeremy-plugin-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/jeremy-plugin-tool) | Production-grade plugin creator with nixtla-validated quality standards. 4 Agent Skills automate creating, validating, auditing, and versioning plu... | Claude Code Plugins | 2.0.0 |
 | [pi-pathfinder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/pi-pathfinder) | PI Pathfinder - Finds the path through 229 plugins. Automatically picks the best plugin for your task, extracts its skills, and applies them. You d... | Jeremy Longshore | 1.0.0 |
-| [skills-powerkit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/skills-powerkit) | Ultimate plugin management toolkit with 5 Agent Skills - automates creating, validating, auditing, and managing plugins in the claude-code-plugins ... | Claude Code Plugins | 1.0.0 |
 
 
 ## explore
@@ -1119,7 +1119,6 @@ Last updated: 2025-12-24 08:25 UTC
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
 | [000-jeremy-content-consistency-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/000-jeremy-content-consistency-validator) | Read-only validator that generates comprehensive discrepancy reports comparing messaging consistency across ANY HTML-based website (WordPress, Hugo... | Jeremy Longshore | 1.0.0 |
-| [001-jeremy-taskwarrior-integration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/001-jeremy-taskwarrior-integration) | Enforces complete Taskwarrior integration protocol for ALL coding tasks with automatic task lifecycle management and time tracking via Timewarrior | Jeremy Longshore | 1.0.0 |
 | [002-jeremy-yaml-master-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/002-jeremy-yaml-master-agent) | Intelligent YAML validation, generation, and transformation agent with schema inference, linting, and format conversion capabilities | Jeremy Longshore | 1.0.0 |
 | [003-jeremy-vertex-ai-media-master](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/003-jeremy-vertex-ai-media-master) | Comprehensive Google Vertex AI multimodal mastery for Jeremy - video processing (6+ hours), audio generation, image creation with Gemini 2.0/2.5 an... | Jeremy Longshore | 1.0.0 |
 | [004-jeremy-google-cloud-agent-sdk](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/004-jeremy-google-cloud-agent-sdk) | Google Cloud Agent Development Kit (ADK) and Agent Starter Pack mastery - build containerized multi-agent systems with production-ready templates, ... | Jeremy Longshore | 1.0.0 |
