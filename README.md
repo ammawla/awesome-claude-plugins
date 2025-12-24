@@ -305,7 +305,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | [double-shot-latte](https://github.com/obra/double-shot-latte.git) | Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision ma... | None | 1.1.5 |
 | [elements-of-style](https://github.com/obra/the-elements-of-style.git) | Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing | None | 1.0.0 |
 | [episodic-memory](https://github.com/obra/episodic-memory.git) | Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists b... | None | 1.0.15 |
-| [superpowers](https://github.com/obra/superpowers.git) | Core skills library: TDD, debugging, collaboration patterns, and proven techniques | None | 4.0.1 |
+| [superpowers](https://github.com/obra/superpowers.git) | Core skills library: TDD, debugging, collaboration patterns, and proven techniques | None | 4.0.2 |
 | [superpowers-chrome](https://github.com/obra/superpowers-chrome.git) | BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browse... | None | 1.6.2 |
 | [superpowers-developing-for-claude-code](https://github.com/obra/superpowers-developing-for-claude-code.git) | Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and sel... | None | 0.3.1 |
 | [superpowers-lab](https://github.com/obra/superpowers-lab.git) | Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation | None | 0.1.0 |
@@ -327,7 +327,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [superpowers](https://github.com/obra/superpowers/tree/main/) | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques | Jesse Vincent | 4.0.1 |
+| [superpowers](https://github.com/obra/superpowers/tree/main/) | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques | Jesse Vincent | 4.0.2 |
 
 ### hcp-terraform-skills
 
