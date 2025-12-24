@@ -339,7 +339,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.4 |
+| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.6 |
 
 
 ## Workflow Orchestration
@@ -802,7 +802,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 | [bun](https://github.com/MadAppGang/claude-code/tree/main/plugins/bun) | Production-ready TypeScript backend development with Bun runtime. Includes specialized agents for backend development, API design, and DevOps. Feat... | Jack Rudenko | 1.5.2 |
 | [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | Deep code investigation with claudemem v0.4.0 AST structural analysis. NEW: Code Analysis Commands (dead-code, test-gaps, impact), Multi-Agent Orch... | Jack Rudenko | 2.6.0 |
 | [frontend](https://github.com/MadAppGang/claude-code/tree/main/plugins/frontend) | Comprehensive frontend development toolkit with TypeScript, React 19, Vite, TanStack Router & Query v5, shadcn/ui. Features code-analysis integrati... | Jack Rudenko | 3.13.0 |
-| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.5.0 |
+| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.6.0 |
 
 ### awesome-claude-skills
 
