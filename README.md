@@ -343,7 +343,7 @@ Last updated: 2025-12-24 08:25 UTC
 
 | Plugin | Description | Author | Version |
 |--------|-------------|--------|---------|
-| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.0.6 |
+| [claude-mem](https://github.com/thedotmack/claude-mem/tree/main/plugin) | Persistent memory system for Claude Code - context compression across sessions | None | 8.1.0 |
 
 
 ## Workflow Orchestration
