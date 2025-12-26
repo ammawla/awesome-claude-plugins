@@ -79,12 +79,12 @@ Last updated: 2025-12-24 08:25 UTC
 |-------------|-------------|
 | [anthropic-agent-skills](https://github.com/anthropics/skills) | Anthropic example skills |
 | [awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins) | Awesome Claude Code plugins collection |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated marketplace of practical Claude Skills for enhancing productivity across Claude.ai, Claude |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated marketplace of practical Claude Skills for enhancing productivity across Claude.ai, Cla... |
 | [cc-marketplace](https://github.com/ananddtyagi/claude-code-marketplace) | A marketplace for Claude Code plugins |
 | [claude-code-plugins-plus](https://github.com/jeremylongshore/claude-code-plugins-plus) | A comprehensive marketplace and educational hub for Claude Code plugins |
-| [claude-code-workflows](https://github.com/wshobson/agents) | Production-ready workflow orchestration with 67 focused plugins, 99 specialized agents, and 107 skil |
+| [claude-code-workflows](https://github.com/wshobson/agents) | Production-ready workflow orchestration with 67 focused plugins, 99 specialized agents, and 107 s... |
 | [compounding-engineering](https://github.com/EveryInc/compounding-engineering-plugin) | A Claude Code plugin for compounding engineering practices |
-| [hcp-terraform-skills](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform) | Comprehensive Claude Code skills for HashiCorp Terraform, including style guides, testing frameworks |
+| [hcp-terraform-skills](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform) | Comprehensive Claude Code skills for HashiCorp Terraform, including style guides, testing framewo... |
 | [mag-claude-plugins](https://github.com/MadAppGang/claude-code) | MAG team's curated collection of Claude Code plugins for modern full-stack development |
 | [superpowers-dev](https://github.com/obra/superpowers) | Development marketplace for Superpowers core skills library |
 | [superpowers-marketplace](https://github.com/obra/superpowers-marketplace) | Curated Claude Code plugins: skills, workflows, and productivity tools |
