@@ -1,7 +1,7 @@
 #!/bin/bash
-"""
-Test runner script for marketplace scraper
-"""
+#
+# Test runner script for marketplace scraper
+#
 
 echo "Running Marketplace Scraper Tests"
 echo "=================================="

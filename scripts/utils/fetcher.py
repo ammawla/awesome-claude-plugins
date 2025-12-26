@@ -111,15 +111,8 @@ class Fetcher:
         logger.info("Fetched %d marketplaces from %s", len(marketplaces), url)
         return marketplaces
 
-    def fetch_plugin_manifest(self, repo_owner: str, repo_name: str,
-                            repo_branch: str = "main", plugin_path: str = "") -> Optional[Dict[str, Any]]:
-        """Fetch marketplace.json from GitHub repository.
-
-        Looks for .claude-plugin/marketplace.json file that contains plugin listings.
-        """
-        # Try the marketplace.json path used by code-assistant-manager
-        marketplace_json_path = ".claude-plugin/marketplace.json"
-
+    def _fetch_repo_file(self, repo_owner: str, repo_name: str, filename: str, repo_branch: str = "main") -> Optional[Dict[str, Any]]:
+        """Fetch a JSON file from a GitHub repository with branch fallback."""
         # Try multiple branch names in order of popularity
         branch_attempts = [repo_branch]
         if repo_branch == "main":
@@ -128,23 +121,46 @@ class Fetcher:
             branch_attempts.extend(["main", "develop", "development", "dev"])
 
         for attempt_branch in branch_attempts:
-            url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{attempt_branch}/{marketplace_json_path}"
+            url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{attempt_branch}/{filename}"
             try:
-                logger.debug(f"Trying to fetch marketplace.json from {url}")
+                logger.debug(f"Trying to fetch {filename} from {url}")
                 response = self.session.get(url, timeout=self.timeout)
                 response.raise_for_status()
 
-                marketplace_data = response.json()
-                if self._validate_marketplace_json(marketplace_data):
-                    logger.info(f"Successfully fetched marketplace.json from {repo_owner}/{repo_name}")
-                    return marketplace_data
-                else:
-                    logger.warning(f"Invalid marketplace.json format from {repo_owner}/{repo_name}")
+                data = response.json()
+                logger.info(f"Successfully fetched {filename} from {repo_owner}/{repo_name}")
+                return data
             except requests.exceptions.RequestException as e:
-                logger.debug(f"Failed to fetch from branch {attempt_branch}: {e}")
+                logger.debug(f"Failed to fetch {filename} from branch {attempt_branch}: {e}")
+                continue
+            except json.JSONDecodeError as e:
+                logger.warning(f"Failed to parse JSON from {url}: {e}")
                 continue
 
+        return None
+
+    def fetch_plugin_manifest(self, repo_owner: str, repo_name: str,
+                            repo_branch: str = "main", plugin_path: str = "") -> Optional[Dict[str, Any]]:
+        """Fetch marketplace.json from GitHub repository.
+
+        Looks for .claude-plugin/marketplace.json file that contains plugin listings.
+        """
+        data = self._fetch_repo_file(repo_owner, repo_name, ".claude-plugin/marketplace.json", repo_branch)
+        
+        if data and self._validate_marketplace_json(data):
+            return data
+            
         logger.warning(f"No valid marketplace.json found in {repo_owner}/{repo_name}")
+        return None
+
+    def fetch_plugin_config(self, repo_owner: str, repo_name: str, repo_branch: str = "main") -> Optional[Dict[str, Any]]:
+        """Fetch plugin.json from GitHub repository."""
+        data = self._fetch_repo_file(repo_owner, repo_name, ".claude-plugin/plugin.json", repo_branch)
+        
+        if data and self._validate_plugin_json(data):
+            logger.info(f"Successfully fetched plugin.json from {repo_owner}/{repo_name}")
+            return data
+            
         return None
 
     def _validate_marketplace_json(self, data: Dict[str, Any]) -> bool:
@@ -166,8 +182,15 @@ class Fetcher:
 
         return True
 
+    def _validate_plugin_json(self, data: Dict[str, Any]) -> bool:
+        """Validate plugin.json structure."""
+        if not isinstance(data, dict):
+            return False
+        # Basic requirements for a plugin
+        return "name" in data and "description" in data
+
     def fetch_plugins_from_marketplace(self, marketplace_data: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Fetch all plugins from a marketplace by reading its marketplace.json file."""
+        """Fetch all plugins from a marketplace by reading its marketplace.json or plugin.json file."""
         plugins = []
 
         repo_owner = marketplace_data.get("repoOwner")
@@ -178,39 +201,53 @@ class Fetcher:
             logger.warning("Missing repo information for marketplace: %s", marketplace_data.get("id"))
             return plugins
 
-        # Fetch marketplace.json which contains the plugins array
+        # 1. Try fetching marketplace.json (collection of plugins)
         marketplace_json = self.fetch_plugin_manifest(repo_owner, repo_name, repo_branch)
 
-        if not marketplace_json:
-            logger.warning("No marketplace.json found for %s/%s, marketplace will have no plugins", repo_owner, repo_name)
-            return plugins
+        if marketplace_json:
+            # Extract plugins from the marketplace.json
+            marketplace_plugins = marketplace_json.get("plugins", [])
+            for plugin_data in marketplace_plugins:
+                if not isinstance(plugin_data, dict):
+                    logger.warning("Invalid plugin data in marketplace.json, skipping")
+                    continue
+                
+                plugins.append(self._create_plugin_entry(
+                    plugin_data, marketplace_data, repo_owner, repo_name, repo_branch, is_single=False
+                ))
+        
+        # 2. If no plugins found (or specifically if marketplace.json wasn't there), try plugin.json
+        if not plugins:
+            plugin_json = self.fetch_plugin_config(repo_owner, repo_name, repo_branch)
+            if plugin_json:
+                plugins.append(self._create_plugin_entry(
+                    plugin_json, marketplace_data, repo_owner, repo_name, repo_branch, is_single=True
+                ))
 
-        # Extract plugins from the marketplace.json
-        marketplace_plugins = marketplace_json.get("plugins", [])
-
-        for plugin_data in marketplace_plugins:
-            if not isinstance(plugin_data, dict):
-                logger.warning("Invalid plugin data in marketplace.json, skipping")
-                continue
-
-            # Build plugin entry with marketplace association
-            plugin = {
-                "id": f"{repo_owner}/{repo_name}:{plugin_data.get('name', 'unknown')}",
-                "name": plugin_data.get("name", "Unknown Plugin"),
-                "description": plugin_data.get("description", ""),
-                "category": plugin_data.get("category", "Uncategorized"),
-                "marketplace_id": marketplace_data["id"],
-                "repo_url": f"https://github.com/{repo_owner}/{repo_name}",
-                "manifest_url": f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{repo_branch}/.claude-plugin/marketplace.json",
-                "author": plugin_data.get("author"),
-                "version": plugin_data.get("version", "1.0.0"),
-                "tags": plugin_data.get("tags", []),
-                "homepage": plugin_data.get("homepage"),
-                "installation": plugin_data.get("installation"),
-                # Include any additional fields from the marketplace.json
-                "source_data": plugin_data
-            }
-            plugins.append(plugin)
+        if not plugins:
+            logger.warning("No plugins found for %s/%s", repo_owner, repo_name)
 
         logger.info("Fetched %d plugins from marketplace %s", len(plugins), marketplace_data.get("id"))
         return plugins
+
+    def _create_plugin_entry(self, plugin_data: Dict[str, Any], marketplace_data: Dict[str, Any], 
+                           repo_owner: str, repo_name: str, repo_branch: str, is_single: bool) -> Dict[str, Any]:
+        """Create a plugin entry from data."""
+        manifest_filename = ".claude-plugin/plugin.json" if is_single else ".claude-plugin/marketplace.json"
+        
+        return {
+            "id": f"{repo_owner}/{repo_name}:{plugin_data.get('name', 'unknown')}",
+            "name": plugin_data.get("name", "Unknown Plugin"),
+            "description": plugin_data.get("description", ""),
+            "category": plugin_data.get("category", "Uncategorized"),
+            "marketplace_id": marketplace_data["id"],
+            "repo_url": f"https://github.com/{repo_owner}/{repo_name}",
+            "manifest_url": f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{repo_branch}/{manifest_filename}",
+            "author": plugin_data.get("author"),
+            "version": plugin_data.get("version", "1.0.0"),
+            "tags": plugin_data.get("tags", []),
+            "homepage": plugin_data.get("homepage"),
+            "installation": plugin_data.get("installation"),
+            # Include any additional fields
+            "source_data": plugin_data
+        }
