@@ -8,6 +8,8 @@ from typing import List, Dict, Any
 from collections import defaultdict
 import re
 
+import requests
+
 logger = logging.getLogger(__name__)
 
 
@@ -17,6 +19,7 @@ class ReadmeGenerator:
     def __init__(self):
         self.marketplaces: List[Dict[str, Any]] = []
         self.plugins: List[Dict[str, Any]] = []
+        self._url_ok_cache: Dict[str, bool] = {}
 
     def add_marketplaces(self, marketplaces: List[Dict[str, Any]]):
         """Add marketplace data."""
@@ -82,38 +85,73 @@ class ReadmeGenerator:
                     author = str(author_data)
                 version = plugin.get("version", "latest")
                 homepage_url = plugin.get("homepage", "")
+
+                # Prefer linking plugin name to a non-404 GitHub source location (or repo) over homepage.
+                candidate_urls: List[str] = []
+                source_data = plugin.get("source_data", {})
+                if isinstance(source_data, dict):
+                    source_info = source_data.get("source", {})
+                    if isinstance(source_info, dict) and source_info.get("url"):
+                        candidate_urls.append(source_info["url"])
+                    elif isinstance(source_info, str) and source_info.startswith("./"):
+                        repo_url = plugin.get("repo_url", "")
+                        repo_branch = plugin.get("repo_branch", "main")
+                        if repo_url:
+                            relative_path = source_info[2:]  # Remove "./"
+                            candidate_urls.extend([
+                                f"{repo_url}/tree/{repo_branch}/{relative_path}",
+                                f"{repo_url}/blob/{repo_branch}/{relative_path}",
+                            ])
+
+                plugin_url = plugin.get("url", "")
+                if plugin_url:
+                    candidate_urls.append(plugin_url)
+
+                repo_url = plugin.get("repo_url", "")
+                if repo_url:
+                    candidate_urls.append(repo_url)
+
+                if homepage_url:
+                    candidate_urls.append(homepage_url)
                 
                 # Get marketplace name
                 marketplace_id = plugin.get("marketplace_id", "unknown")
                 marketplace_name = self._get_marketplace_name(marketplace_id)
 
-                # Create name cell with hyperlink
-                if homepage_url:
-                    name_cell = f"[{name}]({homepage_url})"
-                else:
-                    # Fallback: construct URL from source field and repo_url
-                    source_data = plugin.get("source_data", {})
-                    if isinstance(source_data, dict):
-                        source_info = source_data.get("source", {})
-                        if isinstance(source_info, dict) and source_info.get("url"):
-                            # Handle object-style source with URL
-                            plugin_url = source_info["url"]
-                            name_cell = f"[{name}]({plugin_url})"
-                        elif isinstance(
-                            source_info, str
-                        ) and source_info.startswith("./"):
-                            # Handle string-style source path
-                            repo_url = plugin.get("repo_url", "")
-                            if repo_url:
-                                relative_path = source_info[2:]  # Remove "./"
-                                plugin_url = f"{repo_url}/tree/main/{relative_path}"
-                                name_cell = f"[{name}]({plugin_url})"
-                            else:
-                                name_cell = name
-                        else:
-                            name_cell = name
+                # Create name cell with hyperlink.
+                # Only do HTTP availability checks when a homepage is present (we need to choose between links);
+                # otherwise, link to the best candidate directly to keep generation offline-friendly.
+                name_cell = name
+                filtered_urls = [
+                    u for u in candidate_urls if isinstance(u, str) and u.startswith("http")
+                ]
+                if filtered_urls:
+                    if not homepage_url:
+                        name_cell = f"[{name}]({filtered_urls[0]})"
                     else:
-                        name_cell = name
+                        for url in filtered_urls:
+                            if url in self._url_ok_cache:
+                                ok = self._url_ok_cache[url]
+                            else:
+                                ok = False
+                                try:
+                                    resp = requests.head(url, allow_redirects=True, timeout=10)
+                                    if resp.status_code == 405:
+                                        resp = requests.get(
+                                            url, allow_redirects=True, timeout=10, stream=True
+                                        )
+                                    ok = resp.status_code < 400
+                                except Exception:
+                                    ok = False
+                                self._url_ok_cache[url] = ok
+
+                            if ok:
+                                name_cell = f"[{name}]({url})"
+                                break
+
+                        # If we couldn't validate (e.g. no network), still pick the preferred candidate.
+                        if name_cell == name:
+                            name_cell = f"[{name}]({filtered_urls[0]})"
 
                 # Escape pipe characters in description
                 description = description.replace("|", "\\|")

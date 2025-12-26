@@ -242,6 +242,7 @@ class Fetcher:
             "category": plugin_data.get("category", "Uncategorized"),
             "marketplace_id": marketplace_data["id"],
             "repo_url": f"https://github.com/{repo_owner}/{repo_name}",
+            "repo_branch": repo_branch,
             "manifest_url": f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{repo_branch}/{manifest_filename}",
             "author": plugin_data.get("author"),
             "version": plugin_data.get("version", "1.0.0"),
