@@ -56,9 +56,17 @@ class ReadmeGenerator:
 
         for marketplace in sorted(self.marketplaces, key=lambda x: x.get("name", "")):
             name = marketplace.get("name", marketplace.get("id", "Unknown"))
-            description = marketplace.get("description", "")[
-                :100
-            ]  # Truncate long descriptions
+            
+            # Process description
+            description = marketplace.get("description", "") or ""
+            description = description.replace("\n", " ").strip()
+            
+            # Truncate long descriptions (before escaping to ensure length is based on content)
+            if len(description) > 100:
+                description = description[:97] + "..."
+                
+            # Escape pipes for markdown table
+            description = description.replace("|", "\\|")
 
             # Construct URL from repoOwner and repoName if available
             repo_owner = marketplace.get("repoOwner")
