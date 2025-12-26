@@ -8,6 +8,7 @@ from typing import List, Dict, Any
 from collections import defaultdict
 import re
 import concurrent.futures
+from datetime import datetime
 
 import requests
 
@@ -44,7 +45,9 @@ class ReadmeGenerator:
 
     def generate_title(self) -> str:
         """Generate the README title."""
-        return f"# Awesome Claude Plugins\n\nA curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.\n\nTotal Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}\n\nLast updated: 2025-12-24 08:25 UTC\n\n"
+        # Get current UTC timestamp
+        current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+        return f"# Awesome Claude Plugins\n\nA curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.\n\nTotal Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}\n\nLast updated: {current_time}\n\n"
 
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""
