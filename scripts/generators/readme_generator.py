@@ -33,7 +33,6 @@ class ReadmeGenerator:
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""
         lines = ["## Contents\n"]
-        lines.append("- [Marketplaces](#marketplaces)")
 
         # Group plugins by category
         categories = self._get_categories()
@@ -42,43 +41,6 @@ class ReadmeGenerator:
             lines.append(f"- [{category}](#{anchor})")
 
         lines.append("- [Contributing](#contributing)")
-        lines.append("")
-        return "\n".join(lines)
-
-    def generate_marketplaces_table(self) -> str:
-        """Generate marketplaces table."""
-        if not self.marketplaces:
-            return ""
-
-        lines = ["## Marketplaces\n\n"]
-        lines.append("| Marketplace | Description |")
-        lines.append("|-------------|-------------|")
-
-        for marketplace in sorted(self.marketplaces, key=lambda x: x.get("name", "")):
-            name = marketplace.get("name", marketplace.get("id", "Unknown"))
-            
-            # Process description
-            description = marketplace.get("description", "") or ""
-            description = description.replace("\n", " ").strip()
-            
-            # Truncate long descriptions (before escaping to ensure length is based on content)
-            if len(description) > 100:
-                description = description[:97] + "..."
-                
-            # Escape pipes for markdown table
-            description = description.replace("|", "\\|")
-
-            # Construct URL from repoOwner and repoName if available
-            repo_owner = marketplace.get("repoOwner")
-            repo_name = marketplace.get("repoName")
-            if repo_owner and repo_name:
-                url = f"https://github.com/{repo_owner}/{repo_name}"
-                name_cell = f"[{name}]({url})"
-            else:
-                name_cell = name
-
-            lines.append(f"| {name_cell} | {description} |")
-
         lines.append("")
         return "\n".join(lines)
 
@@ -97,77 +59,68 @@ class ReadmeGenerator:
         for category in sorted(categories.keys()):
             lines.append(f"## {category}\n")
 
-            # Group plugins by marketplace within category
-            marketplace_plugins = defaultdict(list)
-            for plugin in categories[category]:
+            # Table header
+            lines.append("| Plugin | Marketplace | Description | Author | Version |")
+            lines.append("|--------|-------------|-------------|--------|---------|")
+
+            # Sort plugins alphabetically within the category
+            sorted_plugins = sorted(categories[category], key=lambda p: p.get("name", ""))
+
+            for plugin in sorted_plugins:
+                name = plugin.get("name", "Unknown Plugin")
+                description = (
+                    plugin.get("description", "").replace("\n", " ").strip()
+                )
+                # Truncate description for table readability
+                if len(description) > 150:
+                    description = description[:147] + "..."
+                author_data = plugin.get("author", "")
+                # Handle author as string or dict with name
+                if isinstance(author_data, dict):
+                    author = author_data.get("name", "")
+                else:
+                    author = str(author_data)
+                version = plugin.get("version", "latest")
+                homepage_url = plugin.get("homepage", "")
+                
+                # Get marketplace name
                 marketplace_id = plugin.get("marketplace_id", "unknown")
-                marketplace_plugins[marketplace_id].append(plugin)
-
-            for marketplace_id, plugins in marketplace_plugins.items():
                 marketplace_name = self._get_marketplace_name(marketplace_id)
-                if marketplace_name:
-                    lines.append(f"### {marketplace_name}\n")
 
-                # Table header
-                lines.append("| Plugin | Description | Author | Version |")
-                lines.append("|--------|-------------|--------|---------|")
-
-                # Sort plugins alphabetically
-                sorted_plugins = sorted(plugins, key=lambda p: p.get("name", ""))
-
-                for plugin in sorted_plugins:
-                    name = plugin.get("name", "Unknown Plugin")
-                    description = (
-                        plugin.get("description", "").replace("\n", " ").strip()
-                    )
-                    # Truncate description for table readability
-                    if len(description) > 150:
-                        description = description[:147] + "..."
-                    author_data = plugin.get("author", "")
-                    # Handle author as string or dict with name
-                    if isinstance(author_data, dict):
-                        author = author_data.get("name", "")
-                    else:
-                        author = str(author_data)
-                    version = plugin.get("version", "latest")
-                    homepage_url = plugin.get("homepage", "")
-
-                    # Create name cell with hyperlink
-                    if homepage_url:
-                        name_cell = f"[{name}]({homepage_url})"
-                    else:
-                        # Fallback: construct URL from source field and repo_url
-                        source_data = plugin.get("source_data", {})
-                        if isinstance(source_data, dict):
-                            source_info = source_data.get("source", {})
-                            if isinstance(source_info, dict) and source_info.get("url"):
-                                # Handle object-style source with URL
-                                plugin_url = source_info["url"]
+                # Create name cell with hyperlink
+                if homepage_url:
+                    name_cell = f"[{name}]({homepage_url})"
+                else:
+                    # Fallback: construct URL from source field and repo_url
+                    source_data = plugin.get("source_data", {})
+                    if isinstance(source_data, dict):
+                        source_info = source_data.get("source", {})
+                        if isinstance(source_info, dict) and source_info.get("url"):
+                            # Handle object-style source with URL
+                            plugin_url = source_info["url"]
+                            name_cell = f"[{name}]({plugin_url})"
+                        elif isinstance(
+                            source_info, str
+                        ) and source_info.startswith("./"):
+                            # Handle string-style source path
+                            repo_url = plugin.get("repo_url", "")
+                            if repo_url:
+                                relative_path = source_info[2:]  # Remove "./"
+                                plugin_url = f"{repo_url}/tree/main/{relative_path}"
                                 name_cell = f"[{name}]({plugin_url})"
-                            elif isinstance(
-                                source_info, str
-                            ) and source_info.startswith("./"):
-                                # Handle string-style source path
-                                repo_url = plugin.get("repo_url", "")
-                                if repo_url:
-                                    relative_path = source_info[2:]  # Remove "./"
-                                    plugin_url = f"{repo_url}/tree/main/{relative_path}"
-                                    name_cell = f"[{name}]({plugin_url})"
-                                else:
-                                    name_cell = name
                             else:
                                 name_cell = name
                         else:
                             name_cell = name
+                    else:
+                        name_cell = name
 
-                    # Escape pipe characters in description
-                    description = description.replace("|", "\\|")
+                # Escape pipe characters in description
+                description = description.replace("|", "\\|")
 
-                    lines.append(
-                        f"| {name_cell} | {description} | {author} | {version} |"
-                    )
-
-                lines.append("")
+                lines.append(
+                    f"| {name_cell} | {marketplace_name} | {description} | {author} | {version} |"
+                )
 
             lines.append("")
 
@@ -191,7 +144,6 @@ To add a new plugin or marketplace:
         sections = [
             self.generate_title(),
             self.generate_table_of_contents(),
-            self.generate_marketplaces_table(),
             self.generate_plugins_by_category(),
             self.generate_contributing(),
         ]
