@@ -7,6 +7,7 @@ import logging
 from typing import List, Dict, Any
 from collections import defaultdict
 import re
+import concurrent.futures
 
 import requests
 
@@ -20,6 +21,18 @@ class ReadmeGenerator:
         self.marketplaces: List[Dict[str, Any]] = []
         self.plugins: List[Dict[str, Any]] = []
         self._url_ok_cache: Dict[str, bool] = {}
+
+    def _check_url_availability(self, url: str) -> bool:
+        """Check if a URL is available (returns status code < 400)."""
+        try:
+            resp = requests.head(url, allow_redirects=True, timeout=10)
+            if resp.status_code == 405:  # Method not allowed, try GET
+                resp = requests.get(
+                    url, allow_redirects=True, timeout=10, stream=True
+                )
+            return resp.status_code < 400
+        except Exception:
+            return False
 
     def add_marketplaces(self, marketplaces: List[Dict[str, Any]]):
         """Add marketplace data."""
@@ -129,23 +142,27 @@ class ReadmeGenerator:
                     if not homepage_url:
                         name_cell = f"[{name}]({filtered_urls[0]})"
                     else:
-                        for url in filtered_urls:
-                            if url in self._url_ok_cache:
-                                ok = self._url_ok_cache[url]
-                            else:
-                                ok = False
-                                try:
-                                    resp = requests.head(url, allow_redirects=True, timeout=10)
-                                    if resp.status_code == 405:
-                                        resp = requests.get(
-                                            url, allow_redirects=True, timeout=10, stream=True
-                                        )
-                                    ok = resp.status_code < 400
-                                except Exception:
-                                    ok = False
-                                self._url_ok_cache[url] = ok
+                        # Check URL availability in parallel for better performance
+                        urls_to_check = [url for url in filtered_urls if url not in self._url_ok_cache]
 
-                            if ok:
+                        if urls_to_check:
+                            # Use ThreadPoolExecutor to check URLs in parallel
+                            with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(urls_to_check), 10)) as executor:
+                                # Submit all URL checks
+                                future_to_url = {executor.submit(self._check_url_availability, url): url for url in urls_to_check}
+                                # Collect results as they complete
+                                for future in concurrent.futures.as_completed(future_to_url):
+                                    url = future_to_url[future]
+                                    try:
+                                        ok = future.result()
+                                    except Exception as e:
+                                        logger.debug(f"Error checking URL {url}: {e}")
+                                        ok = False
+                                    self._url_ok_cache[url] = ok
+
+                        # Find the first available URL
+                        for url in filtered_urls:
+                            if self._url_ok_cache.get(url, False):
                                 name_cell = f"[{name}]({url})"
                                 break
 
