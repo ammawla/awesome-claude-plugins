@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 13 | Total Plugins: 609
 
-Last updated: 2025-12-27 06:38 UTC
+Last updated: 2025-12-27 07:23 UTC
 
 ## Contents
 
@@ -298,13 +298,13 @@ Last updated: 2025-12-27 06:38 UTC
 | [brand-guardian](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/brand-guardian) | cc-marketplace | Use this agent when establishing brand guidelines, ensuring visual consistency, managing brand assets, or evolving brand identity. This agent speci... | Michael Galpert | 1.0.0 |
 | [ceo-quality-controller-agent](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ceo-quality-controller-agent) | cc-marketplace | Universal quality control orchestrator and final authority for any software development project. Dynamically discovers and coordinates with availab... | Beau Lewis | 1.0.0 |
 | [changelog-generator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/changelog-generator) | cc-marketplace | Changelog Generator subagent | Joe Heitzeberg | 1.0.0 |
-| [code-architect](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-architect) | cc-marketplace | Use this agent when you need to design scalable architecture and folder structures for new features or projects. Examples include: when starting a ... | abhishek shah | 1.0.0 |
-| [code-reviewer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-reviewer) | cc-marketplace | Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. | Anand Tyagi | 1.0.0 |
-| [codebase-documenter](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/codebase-documenter) | cc-marketplace | Use this agent when you need to analyze a service or codebase component and create comprehensive documentation in CLAUDE.md files. This agent shoul... | Anand Tyagi | 1.0.0 |
-| [compliance-automation-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/compliance-automation-specialist) | cc-marketplace | Use this agent when you need to automate compliance processes for SOC 2, ISO 27001, GDPR, HIPAA, and other enterprise regulatory requirements. This... | Alysson Franklin | 1.0.0 |
-| [content-creator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/content-creator) | cc-marketplace | Content Creator subagent | Michael Galpert | 1.0.0 |
-| [context7-docs-fetcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/context7-docs-fetcher) | cc-marketplace | Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: Use... | normalnormie | 1.0.0 |
-| [customer-success-manager](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/customer-success-manager) | cc-marketplace | Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitori... | Alysson Franklin | 1.0.0 |
+| [code-architect](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to design scalable architecture and folder structures for new features or projects. Examples include: when starting a ... | abhishek shah | 1.0.0 |
+| [code-reviewer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. | Anand Tyagi | 1.0.0 |
+| [codebase-documenter](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to analyze a service or codebase component and create comprehensive documentation in CLAUDE.md files. This agent shoul... | Anand Tyagi | 1.0.0 |
+| [compliance-automation-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to automate compliance processes for SOC 2, ISO 27001, GDPR, HIPAA, and other enterprise regulatory requirements. This... | Alysson Franklin | 1.0.0 |
+| [content-creator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Content Creator subagent | Michael Galpert | 1.0.0 |
+| [context7-docs-fetcher](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: Use... | normalnormie | 1.0.0 |
+| [customer-success-manager](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitori... | Alysson Franklin | 1.0.0 |
 | [data-privacy-engineer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to implement data privacy engineering, GDPR compliance, data protection frameworks, and privacy-by-design principles f... | Alysson Franklin | 1.0.0 |
 | [data-scientist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Data analysis expert for SQL queries, BigQuery operations, and data insights. Use proactively for data analysis tasks and queries. | Anand Tyagi | 1.0.0 |
 | [database-performance-optimizer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize database performance for B2B applications at enterprise scale. This agent specializes in multi-tenant data... | Alysson Franklin | 1.0.0 |
