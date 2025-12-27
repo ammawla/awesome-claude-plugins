@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 17 | Total Plugins: 656
 
-Last updated: 2025-12-27 18:35 UTC
+Last updated: 2025-12-27 19:19 UTC
 
 ## Contents
 
@@ -808,20 +808,20 @@ Last updated: 2025-12-27 18:35 UTC
 | [create-worktrees](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-worktrees) | cc-marketplace | Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom bra... | evmts | 1.0.0 |
 | [fix-github-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-github-issue) | cc-marketplace | Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests,... | jeremymailen | 1.0.0 |
 | [fix-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-issue) | cc-marketplace | Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper in... | metabase | 1.0.0 |
-| [fix-pr](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-pr) | cc-marketplace | Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and... | metabase | 1.0.0 |
-| [husky](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/husky) | cc-marketplace | Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ens... | evmts | 1.0.0 |
-| [pr-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-review) | cc-marketplace | Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase. | arkavo-org | 1.0.0 |
-| [update-branch-name](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/update-branch-name) | cc-marketplace | Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates. | giselles-ai | 1.0.0 |
+| [fix-pr](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and... | metabase | 1.0.0 |
+| [husky](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ens... | evmts | 1.0.0 |
+| [pr-review](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase. | arkavo-org | 1.0.0 |
+| [update-branch-name](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates. | giselles-ai | 1.0.0 |
 
 ## infrastructure
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [cicd-automation](https://github.com/wshobson/agents/tree/main/plugins/cicd-automation) | claude-code-workflows | CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration | Seth Hobson | 1.2.1 |
-| [cloud-infrastructure](https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure) | claude-code-workflows | Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi... | Seth Hobson | 1.2.2 |
-| [deployment-strategies](https://github.com/wshobson/agents/tree/main/plugins/deployment-strategies) | claude-code-workflows | Deployment patterns, rollback automation, and infrastructure templates | Seth Hobson | 1.2.0 |
-| [deployment-validation](https://github.com/wshobson/agents/tree/main/plugins/deployment-validation) | claude-code-workflows | Pre-deployment checks, configuration validation, and deployment readiness assessment | Seth Hobson | 1.2.0 |
-| [kubernetes-operations](https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations) | claude-code-workflows | Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling | Seth Hobson | 1.2.1 |
+| [cicd-automation](https://github.com/wshobson/agents) | claude-code-workflows | CI/CD pipeline configuration, GitHub Actions/GitLab CI workflow setup, and automated deployment pipeline orchestration | Seth Hobson | 1.2.1 |
+| [cloud-infrastructure](https://github.com/wshobson/agents) | claude-code-workflows | Cloud architecture design for AWS/Azure/GCP, Kubernetes cluster configuration, Terraform infrastructure-as-code, hybrid cloud networking, and multi... | Seth Hobson | 1.2.2 |
+| [deployment-strategies](https://github.com/wshobson/agents) | claude-code-workflows | Deployment patterns, rollback automation, and infrastructure templates | Seth Hobson | 1.2.0 |
+| [deployment-validation](https://github.com/wshobson/agents) | claude-code-workflows | Pre-deployment checks, configuration validation, and deployment readiness assessment | Seth Hobson | 1.2.0 |
+| [kubernetes-operations](https://github.com/wshobson/agents) | claude-code-workflows | Kubernetes manifest generation, networking configuration, security policies, observability setup, GitOps workflows, and auto-scaling | Seth Hobson | 1.2.1 |
 
 ## languages
 
