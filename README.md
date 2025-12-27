@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 13 | Total Plugins: 609
 
-Last updated: 2025-12-27 10:26 UTC
+Last updated: 2025-12-27 10:28 UTC
 
 ## Contents
 
@@ -503,10 +503,10 @@ Last updated: 2025-12-27 10:26 UTC
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
 | [audit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/audit) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
-| [code-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
-| [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review-assistant) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
-| [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-issue-resolve) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
-| [update-claudemd](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/update-claudemd) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
+| [code-review](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
+| [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
+| [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
+| [update-claudemd](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
 
 ## communication-writing
 
@@ -566,8 +566,8 @@ Last updated: 2025-12-27 10:26 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [data-engineering](https://github.com/wshobson/agents/tree/main/plugins/data-engineering) | claude-code-workflows | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.2 |
-| [data-validation-suite](https://github.com/wshobson/agents/tree/main/plugins/data-validation-suite) | claude-code-workflows | Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs | Seth Hobson | 1.2.0 |
+| [data-engineering](https://github.com/wshobson/agents) | claude-code-workflows | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.2 |
+| [data-validation-suite](https://github.com/wshobson/agents) | claude-code-workflows | Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs | Seth Hobson | 1.2.0 |
 
 ## database
 
@@ -581,13 +581,13 @@ Last updated: 2025-12-27 10:26 UTC
 | [database-cache-layer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-cache-layer) | claude-code-plugins-plus | Database plugin for database-cache-layer | Jeremy Longshore | 1.0.0 |
 | [database-connection-pooler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-connection-pooler) | claude-code-plugins-plus | Implement and optimize database connection pooling for improved performance and resource management | Jeremy Longshore | 1.0.0 |
 | [database-deadlock-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-deadlock-detector) | claude-code-plugins-plus | Database plugin for database-deadlock-detector | Jeremy Longshore | 1.0.0 |
-| [database-design](https://github.com/wshobson/agents/tree/main/plugins/database-design) | claude-code-workflows | Database architecture, schema design, and SQL optimization for production systems | Seth Hobson | 1.2.0 |
+| [database-design](https://github.com/wshobson/agents) | claude-code-workflows | Database architecture, schema design, and SQL optimization for production systems | Seth Hobson | 1.2.0 |
 | [database-diff-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-diff-tool) | claude-code-plugins-plus | Database plugin for database-diff-tool | Jeremy Longshore | 1.0.0 |
 | [database-documentation-gen](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-documentation-gen) | claude-code-plugins-plus | Database plugin for database-documentation-gen | Jeremy Longshore | 1.0.0 |
 | [database-health-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-health-monitor) | claude-code-plugins-plus | Database plugin for database-health-monitor | Jeremy Longshore | 1.0.0 |
 | [database-index-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-index-advisor) | claude-code-plugins-plus | Analyze query patterns and recommend optimal database indexes with impact analysis | Jeremy Longshore | 1.0.0 |
 | [database-migration-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-migration-manager) | claude-code-plugins-plus | Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking | Jeremy Longshore | 1.0.0 |
-| [database-migrations](https://github.com/wshobson/agents/tree/main/plugins/database-migrations) | claude-code-workflows | Database migration automation, observability, and cross-database migration strategies | Seth Hobson | 1.2.0 |
+| [database-migrations](https://github.com/wshobson/agents) | claude-code-workflows | Database migration automation, observability, and cross-database migration strategies | Seth Hobson | 1.2.0 |
 | [database-partition-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-partition-manager) | claude-code-plugins-plus | Database plugin for database-partition-manager | Jeremy Longshore | 1.0.0 |
 | [database-recovery-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-recovery-manager) | claude-code-plugins-plus | Database plugin for database-recovery-manager | Jeremy Longshore | 1.0.0 |
 | [database-replication-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-replication-manager) | claude-code-plugins-plus | Manage database replication, failover, and high availability configurations | Jeremy Longshore | 1.0.0 |
@@ -607,10 +607,10 @@ Last updated: 2025-12-27 10:26 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [bug-detective](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/bug-detective) | cc-marketplace | Systematically debug issues with step-by-step troubleshooting approaches. | Anonymous | 1.0.0 |
+| [bug-detective](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Systematically debug issues with step-by-step troubleshooting approaches. | Anonymous | 1.0.0 |
 | [conversational-api-debugger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/conversational-api-debugger) | claude-code-plugins-plus | Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation | Jeremy Longshore | 1.0.0 |
-| [debug-session](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/debug-session) | cc-marketplace | Ask Claude Code to help you debug an issue |  Anand Tyagi | 1.0.0 |
-| [github-issue-fix](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/github-issue-fix) | cc-marketplace | This is a detailed way you can analyze the GitHub issues and let Claude handle them in best possible way. | safayavatsal | 1.0.0 |
+| [debug-session](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Ask Claude Code to help you debug an issue |  Anand Tyagi | 1.0.0 |
+| [github-issue-fix](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | This is a detailed way you can analyze the GitHub issues and let Claude handle them in best possible way. | safayavatsal | 1.0.0 |
 
 ## design
 
@@ -623,19 +623,19 @@ Last updated: 2025-12-27 10:26 UTC
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
 | [agentdev](https://github.com/MadAppGang/claude-code/tree/main/plugins/agentdev) | mag-claude-plugins | Create, implement, and review Claude Code agents and commands with multi-model validation and LLM performance tracking (NEW). Full-cycle developmen... | Jack Rudenko | 1.1.0 |
-| [api-contract-sync-manager](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/api-contract-sync-manager) | cc-marketplace | Validate and synchronize API contracts (OpenAPI, GraphQL) with implementation, detect breaking changes, and generate type-safe client code | Claude Code Marketplace | 1.0.0 |
+| [api-contract-sync-manager](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Validate and synchronize API contracts (OpenAPI, GraphQL) with implementation, detect breaking changes, and generate type-safe client code | Claude Code Marketplace | 1.0.0 |
 | [artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder) | awesome-claude-skills | Builds elaborate, multi-component Claude.ai HTML artifacts using modern frontend technologies including React, Tailwind CSS, and shadcn/ui. | None | 1.0.0 |
-| [backend-development](https://github.com/wshobson/agents/tree/main/plugins/backend-development) | claude-code-workflows | Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development | Seth Hobson | 1.2.4 |
+| [backend-development](https://github.com/wshobson/agents) | claude-code-workflows | Backend API design, GraphQL architecture, workflow orchestration with Temporal, and test-driven backend development | Seth Hobson | 1.2.4 |
 | [bun](https://github.com/MadAppGang/claude-code/tree/main/plugins/bun) | mag-claude-plugins | Production-ready TypeScript backend development with Bun runtime. Includes specialized agents for backend development, API design, and DevOps. Feat... | Jack Rudenko | 1.5.2 |
 | [changelog-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) | awesome-claude-skills | Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly releas... | None | 1.0.0 |
 | [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | mag-claude-plugins | Deep code investigation with claudemem v0.7.0. NEW: Framework documentation fetching (Context7, llms.txt, DevDocs) with unified search across code ... | Jack Rudenko | 2.7.0 |
-| [debugging-toolkit](https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit) | claude-code-workflows | Interactive debugging, developer experience optimization, and smart debugging workflows | Seth Hobson | 1.2.0 |
-| [developer-essentials](https://github.com/wshobson/agents/tree/main/plugins/developer-essentials) | claude-code-workflows | Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and mono... | Seth Hobson | 1.0.1 |
+| [debugging-toolkit](https://github.com/wshobson/agents) | claude-code-workflows | Interactive debugging, developer experience optimization, and smart debugging workflows | Seth Hobson | 1.2.0 |
+| [developer-essentials](https://github.com/wshobson/agents) | claude-code-workflows | Essential developer skills including Git workflows, SQL optimization, error handling, code review, E2E testing, authentication, debugging, and mono... | Seth Hobson | 1.0.1 |
 | [developer-growth-analysis](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis) | awesome-claude-skills | Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning r... | None | 1.0.0 |
 | [frontend](https://github.com/MadAppGang/claude-code/tree/main/plugins/frontend) | mag-claude-plugins | Comprehensive frontend development toolkit with TypeScript, React 19, Vite, TanStack Router & Query v5, shadcn/ui. Features code-analysis integrati... | Jack Rudenko | 3.13.0 |
-| [frontend-mobile-development](https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development) | claude-code-workflows | Frontend UI development and mobile application implementation across platforms | Seth Hobson | 1.2.1 |
+| [frontend-mobile-development](https://github.com/wshobson/agents) | claude-code-workflows | Frontend UI development and mobile application implementation across platforms | Seth Hobson | 1.2.1 |
 | [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) | awesome-claude-skills | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | None | 1.0.0 |
-| [multi-platform-apps](https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps) | claude-code-workflows | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
+| [multi-platform-apps](https://github.com/wshobson/agents) | claude-code-workflows | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
 | [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | mag-claude-plugins | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.6.0 |
 | [skill-creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator) | awesome-claude-skills | Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations. | None | 1.0.0 |
 | [sprint](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/sprint) | claude-code-plugins-plus | Autonomous multi-agent development framework with spec-driven sprints. Write specs, run /sprint, and let coordinated agents (backend, frontend, QA,... | Damien Laine | 1.0.0 |
@@ -684,12 +684,12 @@ Last updated: 2025-12-27 10:26 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [c4-architecture](https://github.com/wshobson/agents/tree/main/plugins/c4-architecture) | claude-code-workflows | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram gene... | Seth Hobson | 1.0.0 |
-| [code-documentation](https://github.com/wshobson/agents/tree/main/plugins/code-documentation) | claude-code-workflows | Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation | Seth Hobson | 1.2.0 |
-| [documentation-generation](https://github.com/wshobson/agents/tree/main/plugins/documentation-generation) | claude-code-workflows | OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation | Seth Hobson | 1.2.1 |
-| [documentation-generator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/documentation-generator) | cc-marketplace | Create comprehensive documentation for code, APIs, and projects. | Anonymous | 1.0.0 |
-| [generate-api-docs](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/generate-api-docs) | cc-marketplace | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
-| [openapi-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/openapi-expert) | cc-marketplace | Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This include... | Meiring de Wet | 1.0.0 |
+| [c4-architecture](https://github.com/wshobson/agents) | claude-code-workflows | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram gene... | Seth Hobson | 1.0.0 |
+| [code-documentation](https://github.com/wshobson/agents) | claude-code-workflows | Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation | Seth Hobson | 1.2.0 |
+| [documentation-generation](https://github.com/wshobson/agents) | claude-code-workflows | OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation | Seth Hobson | 1.2.1 |
+| [documentation-generator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Create comprehensive documentation for code, APIs, and projects. | Anonymous | 1.0.0 |
+| [generate-api-docs](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
+| [openapi-expert](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This include... | Meiring de Wet | 1.0.0 |
 
 ## example
 
@@ -703,8 +703,8 @@ Last updated: 2025-12-27 10:26 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [analyze-codebase](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/analyze-codebase) | cc-marketplace | Generate comprehensive analysis and documentation of entire codebase |  Anand Tyagi | 1.0.0 |
-| [explore](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/explore) | cc-marketplace | Helps Claude read a planning document and explore related files to get familiar with a topic. Asking Claude to prepare to discuss seems to work bet... | Galen Ward | 1.0.0 |
+| [analyze-codebase](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Generate comprehensive analysis and documentation of entire codebase |  Anand Tyagi | 1.0.0 |
+| [explore](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Helps Claude read a planning document and explore related files to get familiar with a topic. Asking Claude to prepare to discuss seems to work bet... | Galen Ward | 1.0.0 |
 
 ## finance
 
