@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 26 | Total Plugins: 760
 
-Last updated: 2025-12-28 17:23 UTC
+Last updated: 2025-12-28 18:36 UTC
 
 ## Contents
 
@@ -323,9 +323,9 @@ Last updated: 2025-12-28 17:23 UTC
 | [claude-desktop-extension](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/claude-desktop-extension) | awesome-claude-code-plugins | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
 | [lyra](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/lyra) | awesome-claude-code-plugins | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
 | [model-context-protocol-mcp-expert](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/model-context-protocol-mcp-expert) | awesome-claude-code-plugins | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
-| [problem-solver-specialist](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
-| [studio-coach](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
-| [ultrathink](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
+| [problem-solver-specialist](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/problem-solver-specialist) | awesome-claude-code-plugins | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
+| [studio-coach](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/studio-coach) | awesome-claude-code-plugins | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
+| [ultrathink](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ultrathink) | awesome-claude-code-plugins | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
 
 ## abap
 
@@ -390,39 +390,39 @@ Last updated: 2025-12-28 17:23 UTC
 | [mobile-ux-optimizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/mobile-ux-optimizer) | cc-marketplace | Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mob... | abhishek shah | 1.0.0 |
 | [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/model-context-protocol-mcp-expert) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
 | [monitoring-observability-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/monitoring-observability-specialist) | cc-marketplace | Use this agent when you need to implement comprehensive monitoring, observability, and alerting systems for enterprise B2B applications. This agent... | Alysson Franklin | 1.0.0 |
-| [n8n-workflow-builder](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/n8n-workflow-builder) | cc-marketplace | Use this agent when you need to design, build, or validate n8n automation workflows. This agent specializes in creating efficient n8n workflows usi... | Jure Šunić | 1.0.0 |
-| [onomastophes](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/onomastophes) | cc-marketplace | Use proactively for generating creative non-olympian Greek god names with rich backstories, mythological authenticity, and modern accessibility for... | normalnormie | 1.0.0 |
-| [performance-benchmarker](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/performance-benchmarker) | cc-marketplace | Use this agent for comprehensive performance testing, profiling, and optimization recommendations. This agent specializes in measuring speed, ident... | Michael Galpert | 1.0.0 |
-| [planning-prd-agent](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/planning-prd-agent) | cc-marketplace | 'MUST BE USED PROACTIVELY when user mentions: planning, PRD, product requirements document, project plan, roadmap, specification, requirements anal... | clouddna-au | 1.0.0 |
-| [prd-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/prd-specialist) | cc-marketplace | Use this agent when you need to create comprehensive Product Requirements Documents (PRDs) that combine business strategy, technical architecture, ... | Jure Šunić | 1.0.0 |
-| [pricing-packaging-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pricing-packaging-specialist) | cc-marketplace | Use this agent when you need to optimize B2B pricing strategies, packaging models, and revenue optimization for enterprise sales. This agent specia... | Alysson Franklin | 1.0.0 |
-| [problem-solver-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/problem-solver-specialist) | cc-marketplace | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
-| [product-sales-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/product-sales-specialist) | cc-marketplace | Use this agent when you need to support B2B sales through product design, user research, project management, and creative RFP responses. This agent... | Alysson Franklin | 1.0.0 |
-| [project-curator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/project-curator) | cc-marketplace | Reorganizes project structure by cleaning root clutter, creating logical folder hierarchies, and moving files to optimal locations. Tracks dependen... | alanKerrigan | 1.0.0 |
-| [project-shipper](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/project-shipper) | cc-marketplace | PROACTIVELY use this agent when approaching launch milestones, release deadlines, or go-to-market activities. This agent specializes in coordinatin... | Michael Galpert | 1.0.0 |
-| [python-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/python-expert) | cc-marketplace | Use this agent when working with Python code that requires advanced features, performance optimization, or comprehensive refactoring. Examples: <ex... | Jure Šunić | 1.0.0 |
-| [rapid-prototyper](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/rapid-prototyper) | cc-marketplace | Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent... | Michael Galpert | 1.0.0 |
-| [react-native-dev](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/react-native-dev) | cc-marketplace | Use this agent when you need expert assistance with React Native development tasks including code analysis, component creation, debugging, performa... | abhishek shah | 1.0.0 |
-| [reddit-community-builder](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/reddit-community-builder) | cc-marketplace | Reddit Community Builder subagent | Michael Galpert | 1.0.0 |
-| [sprint-prioritizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/sprint-prioritizer) | cc-marketplace | Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent ... | Michael Galpert | 1.0.0 |
-| [studio-coach](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/studio-coach) | cc-marketplace | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
-| [studio-producer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/studio-producer) | cc-marketplace | PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in... | Michael Galpert | 1.0.0 |
-| [support-responder](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/support-responder) | cc-marketplace | Use this agent when handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patte... | Michael Galpert | 1.0.0 |
-| [technical-sales-engineer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/technical-sales-engineer) | cc-marketplace | Use this agent when you need to bridge technical and sales requirements for B2B enterprise deals. This agent specializes in technical demos, POC de... | Alysson Franklin | 1.0.0 |
-| [test-results-analyzer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/test-results-analyzer) | cc-marketplace | Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializ... | Michael Galpert | 1.0.0 |
-| [test-writer-fixer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/test-writer-fixer) | cc-marketplace | Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaini... | Michael Galpert | 1.0.0 |
-| [tiktok-strategist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/tiktok-strategist) | cc-marketplace | Use this agent when you need to create TikTok marketing strategies, develop viral content ideas, plan TikTok campaigns, or optimize for TikTok's al... | Michael Galpert | 1.0.0 |
-| [tool-evaluator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/tool-evaluator) | cc-marketplace | Use this agent when evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comp... | Michael Galpert | 1.0.0 |
-| [trend-researcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/trend-researcher) | cc-marketplace | Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behavio... | Michael Galpert | 1.0.0 |
-| [twitter-engager](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/twitter-engager) | cc-marketplace | Twitter Engager subagent | Michael Galpert | 1.0.0 |
-| [ui-designer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ui-designer) | cc-marketplace | Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes... | Michael Galpert | 1.0.0 |
-| [unit-test-generator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/unit-test-generator) | cc-marketplace | Expert Flutter/Dart unit test specialist that systematically improves test coverage using automated workflows with strict validation, git managemen... | Community | 1.0.0 |
-| [ux-researcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ux-researcher) | cc-marketplace | Use this agent when conducting user research, analyzing user behavior, creating journey maps, or validating design decisions through testing. This ... | Michael Galpert | 1.0.0 |
-| [vision-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/vision-specialist) | cc-marketplace | Expert in vision models, OCR systems, barcode detection, and visual AI. Stays current with latest models (GPT-4V, Claude Vision, Mistral-OCR, etc.)... | alanKerrigan | 1.0.0 |
-| [visual-storyteller](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/visual-storyteller) | cc-marketplace | Use this agent when creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery. Thi... | Michael Galpert | 1.0.0 |
-| [web-dev](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/web-dev) | cc-marketplace | Use this agent for expert assistance with web development tasks using React, Next.js, NestJS, and other modern web frameworks with TypeScript and T... | safayavatsal | 1.0.0 |
-| [whimsy-injector](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/whimsy-injector) | cc-marketplace | PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. This agent specializes in adding joy, s... | Michael Galpert | 1.0.0 |
-| [workflow-optimizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/workflow-optimizer) | cc-marketplace | Use this agent for optimizing human-agent collaboration workflows and analyzing workflow efficiency. This agent specializes in identifying bottlene... | Michael Galpert | 1.0.0 |
+| [n8n-workflow-builder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to design, build, or validate n8n automation workflows. This agent specializes in creating efficient n8n workflows usi... | Jure Šunić | 1.0.0 |
+| [onomastophes](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use proactively for generating creative non-olympian Greek god names with rich backstories, mythological authenticity, and modern accessibility for... | normalnormie | 1.0.0 |
+| [performance-benchmarker](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent for comprehensive performance testing, profiling, and optimization recommendations. This agent specializes in measuring speed, ident... | Michael Galpert | 1.0.0 |
+| [planning-prd-agent](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | 'MUST BE USED PROACTIVELY when user mentions: planning, PRD, product requirements document, project plan, roadmap, specification, requirements anal... | clouddna-au | 1.0.0 |
+| [prd-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to create comprehensive Product Requirements Documents (PRDs) that combine business strategy, technical architecture, ... | Jure Šunić | 1.0.0 |
+| [pricing-packaging-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize B2B pricing strategies, packaging models, and revenue optimization for enterprise sales. This agent specia... | Alysson Franklin | 1.0.0 |
+| [problem-solver-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
+| [product-sales-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to support B2B sales through product design, user research, project management, and creative RFP responses. This agent... | Alysson Franklin | 1.0.0 |
+| [project-curator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Reorganizes project structure by cleaning root clutter, creating logical folder hierarchies, and moving files to optimal locations. Tracks dependen... | alanKerrigan | 1.0.0 |
+| [project-shipper](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | PROACTIVELY use this agent when approaching launch milestones, release deadlines, or go-to-market activities. This agent specializes in coordinatin... | Michael Galpert | 1.0.0 |
+| [python-expert](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when working with Python code that requires advanced features, performance optimization, or comprehensive refactoring. Examples: <ex... | Jure Šunić | 1.0.0 |
+| [rapid-prototyper](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent... | Michael Galpert | 1.0.0 |
+| [react-native-dev](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need expert assistance with React Native development tasks including code analysis, component creation, debugging, performa... | abhishek shah | 1.0.0 |
+| [reddit-community-builder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Reddit Community Builder subagent | Michael Galpert | 1.0.0 |
+| [sprint-prioritizer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent ... | Michael Galpert | 1.0.0 |
+| [studio-coach](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
+| [studio-producer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in... | Michael Galpert | 1.0.0 |
+| [support-responder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patte... | Michael Galpert | 1.0.0 |
+| [technical-sales-engineer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to bridge technical and sales requirements for B2B enterprise deals. This agent specializes in technical demos, POC de... | Alysson Franklin | 1.0.0 |
+| [test-results-analyzer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializ... | Michael Galpert | 1.0.0 |
+| [test-writer-fixer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaini... | Michael Galpert | 1.0.0 |
+| [tiktok-strategist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to create TikTok marketing strategies, develop viral content ideas, plan TikTok campaigns, or optimize for TikTok's al... | Michael Galpert | 1.0.0 |
+| [tool-evaluator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comp... | Michael Galpert | 1.0.0 |
+| [trend-researcher](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behavio... | Michael Galpert | 1.0.0 |
+| [twitter-engager](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Twitter Engager subagent | Michael Galpert | 1.0.0 |
+| [ui-designer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes... | Michael Galpert | 1.0.0 |
+| [unit-test-generator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Expert Flutter/Dart unit test specialist that systematically improves test coverage using automated workflows with strict validation, git managemen... | Community | 1.0.0 |
+| [ux-researcher](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when conducting user research, analyzing user behavior, creating journey maps, or validating design decisions through testing. This ... | Michael Galpert | 1.0.0 |
+| [vision-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Expert in vision models, OCR systems, barcode detection, and visual AI. Stays current with latest models (GPT-4V, Claude Vision, Mistral-OCR, etc.)... | alanKerrigan | 1.0.0 |
+| [visual-storyteller](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery. Thi... | Michael Galpert | 1.0.0 |
+| [web-dev](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent for expert assistance with web development tasks using React, Next.js, NestJS, and other modern web frameworks with TypeScript and T... | safayavatsal | 1.0.0 |
+| [whimsy-injector](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. This agent specializes in adding joy, s... | Michael Galpert | 1.0.0 |
+| [workflow-optimizer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent for optimizing human-agent collaboration workflows and analyzing workflow efficiency. This agent specializes in identifying bottlene... | Michael Galpert | 1.0.0 |
 
 ## ai
 
@@ -446,7 +446,7 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [agent-orchestration](https://github.com/wshobson/agents/tree/main/plugins/agent-orchestration) | claude-code-workflows | Multi-agent system optimization, agent improvement workflows, and context management | Seth Hobson | 1.2.0 |
+| [agent-orchestration](https://github.com/wshobson/agents) | claude-code-workflows | Multi-agent system optimization, agent improvement workflows, and context management | Seth Hobson | 1.2.0 |
 | [ai-ethics-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ai-ethics-validator) | claude-code-plugins-plus | AI ethics and fairness validation | Jeremy Longshore | 1.0.0 |
 | [ai-experiment-logger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/ai-experiment-logger) | claude-code-plugins-plus | Track and analyze AI experiments with a web dashboard and MCP tools | Claude Code Plugins | 1.0.0 |
 | [ai-ml-engineering-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/ai-ml-engineering-pack) | claude-code-plugins-plus | Professional AI/ML Engineering toolkit: Prompt engineering, LLM integration, RAG systems, AI safety with 12 expert plugins | Jeremy Longshore | 1.0.0 |
@@ -456,7 +456,7 @@ Last updated: 2025-12-28 17:23 UTC
 | [classification-model-builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/classification-model-builder) | claude-code-plugins-plus | Build classification models | Jeremy Longshore | 1.0.0 |
 | [clustering-algorithm-runner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/clustering-algorithm-runner) | claude-code-plugins-plus | Run clustering algorithms on datasets | Jeremy Longshore | 1.0.0 |
 | [computer-vision-processor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/computer-vision-processor) | claude-code-plugins-plus | Computer vision image processing and analysis | Jeremy Longshore | 1.0.0 |
-| [context-management](https://github.com/wshobson/agents/tree/main/plugins/context-management) | claude-code-workflows | Context persistence, restoration, and long-running conversation management | Seth Hobson | 1.2.0 |
+| [context-management](https://github.com/wshobson/agents) | claude-code-workflows | Context persistence, restoration, and long-running conversation management | Seth Hobson | 1.2.0 |
 | [data-preprocessing-pipeline](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/data-preprocessing-pipeline) | claude-code-plugins-plus | Automated data preprocessing and cleaning pipelines | Jeremy Longshore | 1.0.0 |
 | [data-visualization-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/data-visualization-creator) | claude-code-plugins-plus | Create data visualizations and plots | Jeremy Longshore | 1.0.0 |
 | [dataset-splitter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/dataset-splitter) | claude-code-plugins-plus | Split datasets for training, validation, and testing | Jeremy Longshore | 1.0.0 |
@@ -470,8 +470,8 @@ Last updated: 2025-12-28 17:23 UTC
 | [jeremy-genkit-pro](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-genkit-pro) | claude-code-plugins-plus | Firebase Genkit expert for production-ready AI workflows with RAG and tool calling | Jeremy Longshore | 1.0.0 |
 | [jeremy-vertex-engine](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-vertex-engine) | claude-code-plugins-plus | Vertex AI Agent Engine deployment inspector and runtime validator | Jeremy Longshore | 1.0.0 |
 | [jeremy-vertex-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/jeremy-vertex-validator) | claude-code-plugins-plus | Production readiness validator for Vertex AI deployments and configurations | Jeremy Longshore | 1.0.0 |
-| [llm-application-dev](https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev) | claude-code-workflows | LLM application development, prompt engineering, and AI assistant optimization | Seth Hobson | 1.2.2 |
-| [machine-learning-ops](https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops) | claude-code-workflows | ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows | Seth Hobson | 1.2.1 |
+| [llm-application-dev](https://github.com/wshobson/agents) | claude-code-workflows | LLM application development, prompt engineering, and AI assistant optimization | Seth Hobson | 1.2.2 |
+| [machine-learning-ops](https://github.com/wshobson/agents) | claude-code-workflows | ML model training pipelines, hyperparameter tuning, model deployment automation, experiment tracking, and MLOps workflows | Seth Hobson | 1.2.1 |
 | [ml-model-trainer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/ml-model-trainer) | claude-code-plugins-plus | Train and optimize machine learning models with automated workflows | Jeremy Longshore | 1.0.0 |
 | [model-deployment-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-deployment-helper) | claude-code-plugins-plus | Deploy ML models to production | Jeremy Longshore | 1.0.0 |
 | [model-evaluation-suite](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/model-evaluation-suite) | claude-code-plugins-plus | Comprehensive model evaluation with multiple metrics | Jeremy Longshore | 1.0.0 |
@@ -490,8 +490,8 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [api-scaffolding](https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding) | claude-code-workflows | REST and GraphQL API scaffolding, framework selection, backend architecture, and API generation | Seth Hobson | 1.2.1 |
-| [api-testing-observability](https://github.com/wshobson/agents/tree/main/plugins/api-testing-observability) | claude-code-workflows | API testing automation, request mocking, OpenAPI documentation generation, observability setup, and monitoring | Seth Hobson | 1.2.0 |
+| [api-scaffolding](https://github.com/wshobson/agents) | claude-code-workflows | REST and GraphQL API scaffolding, framework selection, backend architecture, and API generation | Seth Hobson | 1.2.1 |
+| [api-testing-observability](https://github.com/wshobson/agents) | claude-code-workflows | API testing automation, request mocking, OpenAPI documentation generation, observability setup, and monitoring | Seth Hobson | 1.2.0 |
 
 ## api-development
 
@@ -540,7 +540,7 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [blockchain-web3](https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3) | claude-code-workflows | Smart contract development with Solidity, DeFi protocol implementation, NFT platforms, and Web3 application architecture | Seth Hobson | 1.2.1 |
+| [blockchain-web3](https://github.com/wshobson/agents) | claude-code-workflows | Smart contract development with Solidity, DeFi protocol implementation, NFT platforms, and Web3 application architecture | Seth Hobson | 1.2.1 |
 
 ## btp
 
@@ -565,9 +565,9 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [business-analytics](https://github.com/wshobson/agents/tree/main/plugins/business-analytics) | claude-code-workflows | Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making | Seth Hobson | 1.2.1 |
-| [customer-sales-automation](https://github.com/wshobson/agents/tree/main/plugins/customer-sales-automation) | claude-code-workflows | Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration | Seth Hobson | 1.2.0 |
-| [hr-legal-compliance](https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance) | claude-code-workflows | HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation | Seth Hobson | 1.2.1 |
+| [business-analytics](https://github.com/wshobson/agents) | claude-code-workflows | Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making | Seth Hobson | 1.2.1 |
+| [customer-sales-automation](https://github.com/wshobson/agents) | claude-code-workflows | Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration | Seth Hobson | 1.2.0 |
+| [hr-legal-compliance](https://github.com/wshobson/agents) | claude-code-workflows | HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation | Seth Hobson | 1.2.1 |
 
 ## business-marketing
 
@@ -601,7 +601,7 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [audit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/audit) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
+| [audit](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
 | [code-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
 | [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review-assistant) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
 | [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-issue-resolve) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
@@ -996,7 +996,7 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [sentry](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly... | None | 1.0.0 |
+| [sentry](https://github.com/getsentry/sentry-for-claude.git) | anthropics/claude-plugins-official | Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly... | None | 1.0.0 |
 
 ## operations
 
@@ -1041,7 +1041,7 @@ Last updated: 2025-12-28 17:23 UTC
 | [memory-leak-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/memory-leak-detector) | claude-code-plugins-plus | Detect memory leaks and analyze memory usage patterns | Jeremy Longshore | 1.0.0 |
 | [metrics-aggregator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/metrics-aggregator) | claude-code-plugins-plus | Aggregate and centralize performance metrics | Jeremy Longshore | 1.0.0 |
 | [network-latency-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/network-latency-analyzer) | claude-code-plugins-plus | Analyze network latency and optimize request patterns | Jeremy Longshore | 1.0.0 |
-| [optimize](https://claudecodecommands.directory/commands/optimize) | cc-marketplace | Analyze and optimize code performance |  Anand Tyagi | 1.0.0 |
+| [optimize](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/optimize) | cc-marketplace | Analyze and optimize code performance |  Anand Tyagi | 1.0.0 |
 | [performance-budget-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-budget-validator) | claude-code-plugins-plus | Validate application against performance budgets | Jeremy Longshore | 1.0.0 |
 | [performance-optimization-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-optimization-advisor) | claude-code-plugins-plus | Get comprehensive performance optimization recommendations | Jeremy Longshore | 1.0.0 |
 | [performance-regression-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-regression-detector) | claude-code-plugins-plus | Detect performance regressions in CI/CD pipeline | Jeremy Longshore | 1.0.0 |
@@ -1056,10 +1056,10 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [discuss](https://claudecodecommands.directory/commands/discuss) | cc-marketplace | Collaborative technical discussion with proactive requirements gathering | Bohdan Triapitsyn | 1.0.0 |
-| [double-check](https://claudecodecommands.directory/commands/double-check) | cc-marketplace | An easy way to force agent to think again if it's statement that the "Job is done and production ready" is actually done - usually it's not. Thanks... | Robert S | 1.0.0 |
-| [plan](https://claudecodecommands.directory/commands/plan) | cc-marketplace | For easy problems, start here. For harder problems, do this after Explore. | Galen Ward | 1.0.0 |
-| [ultrathink](https://claudecodecommands.directory/commands/ultrathink) | cc-marketplace | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
+| [discuss](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/discuss) | cc-marketplace | Collaborative technical discussion with proactive requirements gathering | Bohdan Triapitsyn | 1.0.0 |
+| [double-check](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/double-check) | cc-marketplace | An easy way to force agent to think again if it's statement that the "Job is done and production ready" is actually done - usually it's not. Thanks... | Robert S | 1.0.0 |
+| [plan](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/plan) | cc-marketplace | For easy problems, start here. For harder problems, do this after Explore. | Galen Ward | 1.0.0 |
+| [ultrathink](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ultrathink) | cc-marketplace | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
 
 ## productivity
 
@@ -1069,30 +1069,30 @@ Last updated: 2025-12-28 17:23 UTC
 | [002-jeremy-yaml-master-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/002-jeremy-yaml-master-agent) | claude-code-plugins-plus | Intelligent YAML validation, generation, and transformation agent with schema inference, linting, and format conversion capabilities | Jeremy Longshore | 1.0.0 |
 | [003-jeremy-vertex-ai-media-master](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/003-jeremy-vertex-ai-media-master) | claude-code-plugins-plus | Comprehensive Google Vertex AI multimodal mastery for Jeremy - video processing (6+ hours), audio generation, image creation with Gemini 2.0/2.5 an... | Jeremy Longshore | 1.0.0 |
 | [004-jeremy-google-cloud-agent-sdk](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/004-jeremy-google-cloud-agent-sdk) | claude-code-plugins-plus | Google Cloud Agent Development Kit (ADK) and Agent Starter Pack mastery - build containerized multi-agent systems with production-ready templates, ... | Jeremy Longshore | 1.0.0 |
-| [Notion](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Notion workspace integration. Search pages, create and update documents, manage databases, and access your team's knowledge base directly from Clau... | None | 1.0.0 |
+| [Notion](https://github.com/makenotion/claude-code-notion-plugin.git) | anthropics/claude-plugins-official | Notion workspace integration. Search pages, create and update documents, manage databases, and access your team's knowledge base directly from Clau... | None | 1.0.0 |
 | [agent-context-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/agent-context-manager) | claude-code-plugins-plus | Automatically detects and loads AGENTS.md files to provide agent-specific instructions | Jeremy Longshore | 1.0.0 |
 | [ai-commit-gen](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/ai-commit-gen) | claude-code-plugins-plus | AI-powered commit message generator - analyzes your git diff and creates conventional commit messages instantly | Jeremy Longshore | 1.0.0 |
-| [asana](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development ... | None | 1.0.0 |
-| [atlassian](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your dev... | None | 1.0.0 |
+| [asana](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana) | anthropics/claude-plugins-official | Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development ... | None | 1.0.0 |
+| [atlassian](https://github.com/atlassian/atlassian-mcp-server.git) | anthropics/claude-plugins-official | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your dev... | None | 1.0.0 |
 | [claude-md-progressive-disclosurer](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Optimize user CLAUDE.md files by applying progressive disclosure principles. This skill should be used when users want to reduce CLAUDE.md bloat, m... | None | 1.0.0 |
 | [claude-never-forgets](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/claude-never-forgets) | claude-code-plugins-plus | Persistent memory plugin for Claude Code - remembers preferences, decisions, and corrections across sessions and context limits | yldrmahmet | 0.1.0 |
-| [code-review](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives | Anthropic | 1.0.0 |
-| [commit-commands](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Commands for git commit workflows including commit, push, and PR creation | Anthropic | 1.0.0 |
+| [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review) | anthropics/claude-plugins-official | Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives | Anthropic | 1.0.0 |
+| [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands) | anthropics/claude-plugins-official | Commands for git commit workflows including commit, push, and PR creation | Anthropic | 1.0.0 |
 | [docs-cleaner](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Consolidates redundant documentation while preserving all valuable content. Use when cleaning up documentation bloat, merging redundant docs, reduc... | None | 1.0.0 |
 | [domain-memory-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/domain-memory-agent) | claude-code-plugins-plus | Knowledge base with TF-IDF semantic search and extractive summarization - no ML dependencies required | Jeremy Longshore | 1.0.0 |
-| [experienced-engineer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/experienced-engineer) | cc-marketplace | Comprehensive plugin with specialized engineering subagents (API Architect, Security Specialist, Code Quality Reviewer, etc.) and productivity comm... | Anand Tyagi | 1.0.0 |
+| [experienced-engineer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Comprehensive plugin with specialized engineering subagents (API Architect, Security Specialist, Code Quality Reviewer, etc.) and productivity comm... | Anand Tyagi | 1.0.0 |
 | [formatter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/formatter) | claude-code-plugins-plus | Code formatting plugin using hooks to auto-format on save | None | 1.0.0 |
-| [github](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitH... | None | 1.0.0 |
+| [github](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github) | anthropics/claude-plugins-official | Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitH... | None | 1.0.0 |
 | [gitlab](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive ... | None | 1.0.0 |
-| [hookify](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple ... | Anthropic | 1.0.0 |
-| [linear](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software developm... | None | 1.0.0 |
+| [hookify](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify) | anthropics/claude-plugins-official | Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple ... | Anthropic | 1.0.0 |
+| [linear](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear) | anthropics/claude-plugins-official | Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software developm... | None | 1.0.0 |
 | [overnight-dev](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/overnight-dev) | claude-code-plugins-plus | Run Claude autonomously for 6-8 hours overnight using Git hooks that enforce TDD - wake up to fully tested features | Intent Solutions IO | 1.0.0 |
 | [ppt-creator](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Create professional slide decks from topics or documents. Generates structured content with data-driven charts, speaker notes, and complete PPTX fi... | None | 1.0.0 |
 | [pr-review-toolkit](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification | Anthropic | 1.0.0 |
 | [prettier-markdown-hook](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/prettier-markdown-hook) | claude-code-plugins-plus | Automatically format markdown files with prettier when Claude stops responding, with configurable organization and path exclusions | Terry Li | 1.0.0 |
 | [project-planner-skill](https://github.com/adrianpuiu/claude-skills-marketplace/tree/main/project-planner-skill) | adrianpuiu/claude-skills-marketplace | Comprehensive project planning and documentation generator for software projects. Creates structured requirements documents, system design document... | George A Puiu | 1.0.0 |
 | [prompt-optimizer](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Transform vague prompts into precise, well-structured specifications using EARS (Easy Approach to Requirements Syntax) methodology. Use when users ... | None | 1.1.0 |
-| [slack](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find ... | None | 1.0.0 |
+| [slack](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/slack) | anthropics/claude-plugins-official | Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find ... | None | 1.0.0 |
 | [transcript-fixer](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Corrects speech-to-text (ASR/STT) transcription errors in meeting notes, lecture recordings, interviews, and voice memos through dictionary-based r... | None | 1.1.0 |
 | [travel-assistant](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/travel-assistant) | claude-code-plugins-plus | Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel co... | Jeremy Longshore | 1.0.0 |
 | [vibe-guide](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/vibe-guide) | claude-code-plugins-plus | Non-technical progress summaries for Claude Code work (hides diffs/log noise). | Intent Solutions | 1.0.0 |
@@ -1113,15 +1113,15 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [code-review-ai](https://github.com/wshobson/agents/tree/main/plugins/code-review-ai) | claude-code-workflows | AI-powered architectural review and code quality analysis | Seth Hobson | 1.2.0 |
-| [comprehensive-review](https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review) | claude-code-workflows | Multi-perspective code analysis covering architecture, security, and best practices | Seth Hobson | 1.2.1 |
-| [performance-testing-review](https://github.com/wshobson/agents/tree/main/plugins/performance-testing-review) | claude-code-workflows | Performance analysis, test coverage review, and AI-powered code quality assessment | Seth Hobson | 1.2.0 |
+| [code-review-ai](https://github.com/wshobson/agents) | claude-code-workflows | AI-powered architectural review and code quality analysis | Seth Hobson | 1.2.0 |
+| [comprehensive-review](https://github.com/wshobson/agents) | claude-code-workflows | Multi-perspective code analysis covering architecture, security, and best practices | Seth Hobson | 1.2.1 |
+| [performance-testing-review](https://github.com/wshobson/agents) | claude-code-workflows | Performance analysis, test coverage review, and AI-powered code quality assessment | Seth Hobson | 1.2.0 |
 
 ## refactoring
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [refractor](https://claudecodecommands.directory/commands/refractor) | cc-marketplace | Refactor code following best practices and design patterns |  Anand Tyagi | 1.0.0 |
+| [refractor](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Refactor code following best practices and design patterns |  Anand Tyagi | 1.0.0 |
 
 ## security
 
@@ -1129,14 +1129,14 @@ Last updated: 2025-12-28 17:23 UTC
 |--------|-------------|-------------|--------|---------|
 | [access-control-auditor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/access-control-auditor) | claude-code-plugins-plus | Audit access control implementations | Jeremy Longshore | 1.0.0 |
 | [authentication-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/authentication-validator) | claude-code-plugins-plus | Validate authentication implementations | Jeremy Longshore | 1.0.0 |
-| [backend-api-security](https://github.com/wshobson/agents/tree/main/plugins/backend-api-security) | claude-code-workflows | API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation | Seth Hobson | 1.2.0 |
+| [backend-api-security](https://github.com/wshobson/agents) | claude-code-workflows | API security hardening, authentication implementation, authorization patterns, rate limiting, and input validation | Seth Hobson | 1.2.0 |
 | [compliance-report-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/compliance-report-generator) | claude-code-plugins-plus | Generate compliance reports | Jeremy Longshore | 1.0.0 |
 | [cors-policy-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/cors-policy-validator) | claude-code-plugins-plus | Validate CORS policies | Jeremy Longshore | 1.0.0 |
 | [csrf-protection-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/csrf-protection-validator) | claude-code-plugins-plus | Validate CSRF protection | Jeremy Longshore | 1.0.0 |
 | [data-privacy-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/data-privacy-scanner) | claude-code-plugins-plus | Scan for data privacy issues | Jeremy Longshore | 1.0.0 |
 | [dependency-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/dependency-checker) | claude-code-plugins-plus | Check dependencies for known vulnerabilities, outdated packages, and license compliance | Jeremy Longshore | 1.0.0 |
 | [encryption-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/encryption-tool) | claude-code-plugins-plus | Encrypt and decrypt data with various algorithms | Jeremy Longshore | 1.0.0 |
-| [frontend-mobile-security](https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-security) | claude-code-workflows | XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns | Seth Hobson | 1.2.0 |
+| [frontend-mobile-security](https://github.com/wshobson/agents) | claude-code-workflows | XSS prevention, CSRF protection, content security policies, mobile app security, and secure storage patterns | Seth Hobson | 1.2.0 |
 | [gdpr-compliance-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/gdpr-compliance-scanner) | claude-code-plugins-plus | Scan for GDPR compliance issues | Jeremy Longshore | 1.0.0 |
 | [hipaa-compliance-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/hipaa-compliance-checker) | claude-code-plugins-plus | Check HIPAA compliance | Jeremy Longshore | 1.0.0 |
 | [input-validation-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/input-validation-scanner) | claude-code-plugins-plus | Scan input validation practices | Jeremy Longshore | 1.0.0 |
@@ -1147,13 +1147,13 @@ Last updated: 2025-12-28 17:23 UTC
 | [secret-scanner](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/secret-scanner) | claude-code-plugins-plus | Scan codebase for exposed secrets, API keys, passwords, and sensitive credentials | Jeremy Longshore | 1.0.0 |
 | [security-agent](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/security-agent) | claude-code-plugins-plus | Security review subagent for code analysis | None | 1.0.0 |
 | [security-audit-reporter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-audit-reporter) | claude-code-plugins-plus | Generate comprehensive security audit reports | Jeremy Longshore | 1.0.0 |
-| [security-compliance](https://github.com/wshobson/agents/tree/main/plugins/security-compliance) | claude-code-workflows | SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation | Seth Hobson | 1.2.0 |
-| [security-guidance](https://github.com/anthropics/claude-plugins-official) | anthropics/claude-plugins-official | Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns | Anthropic | 1.0.0 |
+| [security-compliance](https://github.com/wshobson/agents) | claude-code-workflows | SOC2, HIPAA, and GDPR compliance validation, secrets scanning, compliance checklists, and regulatory documentation | Seth Hobson | 1.2.0 |
+| [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | anthropics/claude-plugins-official | Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns | Anthropic | 1.0.0 |
 | [security-headers-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-headers-analyzer) | claude-code-plugins-plus | Analyze HTTP security headers | Jeremy Longshore | 1.0.0 |
 | [security-incident-responder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-incident-responder) | claude-code-plugins-plus | Assist with security incident response | Jeremy Longshore | 1.0.0 |
 | [security-misconfiguration-finder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/security-misconfiguration-finder) | claude-code-plugins-plus | Find security misconfigurations | Jeremy Longshore | 1.0.0 |
 | [security-pro-pack](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/packages/security-pro-pack) | claude-code-plugins-plus | Professional security tools for Claude Code: vulnerability scanning, compliance, cryptography audit, container & API security | Jeremy Longshore | 1.0.0 |
-| [security-scanning](https://github.com/wshobson/agents/tree/main/plugins/security-scanning) | claude-code-workflows | SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening | Seth Hobson | 1.2.3 |
+| [security-scanning](https://github.com/wshobson/agents) | claude-code-workflows | SAST analysis, dependency vulnerability scanning, OWASP Top 10 compliance, container security scanning, and automated security hardening | Seth Hobson | 1.2.3 |
 | [session-security-checker](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/session-security-checker) | claude-code-plugins-plus | Check session security implementation | Jeremy Longshore | 1.0.0 |
 | [soc2-audit-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/soc2-audit-helper) | claude-code-plugins-plus | Assist with SOC2 audit preparation | Jeremy Longshore | 1.0.0 |
 | [sql-injection-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/sql-injection-detector) | claude-code-plugins-plus | Detect SQL injection vulnerabilities | Jeremy Longshore | 1.0.0 |
@@ -1199,11 +1199,11 @@ Last updated: 2025-12-28 17:23 UTC
 | [test-data-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-data-generator) | claude-code-plugins-plus | Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing | Jeremy Longshore | 1.0.0 |
 | [test-doubles-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-doubles-generator) | claude-code-plugins-plus | Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks | Claude Code Plugin Hub | 1.0.0 |
 | [test-environment-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-environment-manager) | claude-code-plugins-plus | Manage test environments with Docker Compose, Testcontainers, and environment isolation | Claude Code Plugin Hub | 1.0.0 |
-| [test-file](https://claudecodecommands.directory/commands/test-file) | cc-marketplace | Generate comprehensive tests for a specific file |  Anand Tyagi | 1.0.0 |
+| [test-file](https://github.com/ananddtyagi/claude-code-marketplace/blob/main/plugins/test-file) | cc-marketplace | Generate comprehensive tests for a specific file |  Anand Tyagi | 1.0.0 |
 | [test-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-orchestrator) | claude-code-plugins-plus | Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection | Claude Code Plugin Hub | 1.0.0 |
 | [test-report-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-report-generator) | claude-code-plugins-plus | Generate comprehensive test reports with coverage, trends, and stakeholder-friendly formats | Claude Code Plugin Hub | 1.0.0 |
 | [unit-test-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/unit-test-generator) | claude-code-plugins-plus | Automatically generate comprehensive unit tests from source code with multiple testing framework support | Jeremy Longshore | 1.0.0 |
-| [unit-testing](https://github.com/wshobson/agents/tree/main/plugins/unit-testing) | claude-code-workflows | Unit and integration test automation for Python and JavaScript with debugging support | Seth Hobson | 1.2.0 |
+| [unit-testing](https://github.com/wshobson/agents) | claude-code-workflows | Unit and integration test automation for Python and JavaScript with debugging support | Seth Hobson | 1.2.0 |
 | [visual-regression-tester](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/visual-regression-tester) | claude-code-plugins-plus | Visual diff testing with Percy, Chromatic, BackstopJS - catch unintended UI changes | Claude Code Plugin Hub | 1.0.0 |
 
 ## tooling
@@ -1226,28 +1226,28 @@ Last updated: 2025-12-28 17:23 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [code-refactoring](https://github.com/wshobson/agents/tree/main/plugins/code-refactoring) | claude-code-workflows | Code cleanup, refactoring automation, and technical debt management with context restoration | Seth Hobson | 1.2.0 |
-| [dependency-management](https://github.com/wshobson/agents/tree/main/plugins/dependency-management) | claude-code-workflows | Dependency auditing, version management, and security vulnerability scanning | Seth Hobson | 1.2.0 |
-| [error-debugging](https://github.com/wshobson/agents/tree/main/plugins/error-debugging) | claude-code-workflows | Error analysis, trace debugging, and multi-agent problem diagnosis | Seth Hobson | 1.2.0 |
+| [code-refactoring](https://github.com/wshobson/agents) | claude-code-workflows | Code cleanup, refactoring automation, and technical debt management with context restoration | Seth Hobson | 1.2.0 |
+| [dependency-management](https://github.com/wshobson/agents) | claude-code-workflows | Dependency auditing, version management, and security vulnerability scanning | Seth Hobson | 1.2.0 |
+| [error-debugging](https://github.com/wshobson/agents) | claude-code-workflows | Error analysis, trace debugging, and multi-agent problem diagnosis | Seth Hobson | 1.2.0 |
 | [repomix-unmixer](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Extract files from repomix packaged formats (XML, Markdown, JSON) with automatic format detection and validation | None | 1.0.0 |
-| [team-collaboration](https://github.com/wshobson/agents/tree/main/plugins/team-collaboration) | claude-code-workflows | Team workflows, issue management, standup automation, and developer experience optimization | Seth Hobson | 1.2.0 |
+| [team-collaboration](https://github.com/wshobson/agents/blob/main/plugins/team-collaboration) | claude-code-workflows | Team workflows, issue management, standup automation, and developer experience optimization | Seth Hobson | 1.2.0 |
 | [youtube-downloader](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, etc. using yt-dlp and ffmpeg. Use when users request downloading vid... | None | 1.1.0 |
 
 ## workflow
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [claude-desktop-extension](https://claudecodecommands.directory/commands/claude-desktop-extension) | cc-marketplace | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
-| [lyra](https://claudecodecommands.directory/commands/lyra) | cc-marketplace | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
-| [sugar](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/sugar) | cc-marketplace | Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation | Steven Leggett | 2.0.0 |
+| [claude-desktop-extension](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
+| [lyra](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
+| [sugar](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation | Steven Leggett | 2.0.0 |
 
 ## workflows
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [full-stack-orchestration](https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration) | claude-code-workflows | End-to-end feature orchestration with testing, security, performance, and deployment | Seth Hobson | 1.2.1 |
-| [git-pr-workflows](https://github.com/wshobson/agents/tree/main/plugins/git-pr-workflows) | claude-code-workflows | Git workflow automation, pull request enhancement, and team onboarding processes | Seth Hobson | 1.2.1 |
-| [tdd-workflows](https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows) | claude-code-workflows | Test-driven development methodology with red-green-refactor cycles and code review | Seth Hobson | 1.2.1 |
+| [full-stack-orchestration](https://github.com/wshobson/agents) | claude-code-workflows | End-to-end feature orchestration with testing, security, performance, and deployment | Seth Hobson | 1.2.1 |
+| [git-pr-workflows](https://github.com/wshobson/agents) | claude-code-workflows | Git workflow automation, pull request enhancement, and team onboarding processes | Seth Hobson | 1.2.1 |
+| [tdd-workflows](https://github.com/wshobson/agents) | claude-code-workflows | Test-driven development methodology with red-green-refactor cycles and code review | Seth Hobson | 1.2.1 |
 ## Contributing
 
 We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for details on how to add new marketplaces or plugins.
