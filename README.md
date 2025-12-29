@@ -2,9 +2,9 @@
 
 A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
 
-Total Marketplaces: 26 | Total Plugins: 766
+Total Marketplaces: 26 | Total Plugins: 770
 
-Last updated: 2025-12-28 23:24 UTC
+Last updated: 2025-12-29 02:19 UTC
 
 ## Contents
 
@@ -286,7 +286,6 @@ Last updated: 2025-12-28 23:24 UTC
 | [example-skills](https://github.com/anthropics/skills/tree/main/) | anthropic-agent-skills | Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal co... | None | 1.0.0 |
 | [git](https://github.com/bradleygolden/claude-marketplace-elixir/tree/main/plugins/git) | bradleygolden/claude-marketplace-elixir | Intelligent git commit workflow automation | None | 1.0.0 |
 | [git-workflow](https://github.com/davila7/claude-code-templates/tree/main/) | claude-code-templates | Git workflow automation: feature, release, and hotfix commands with git specialists | Daniel Avila | 1.0.0 |
-| [hcp-terraform-skills](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/) | hcp-terraform-skills | Collection of HashiCorp Terraform skills including style guides, testing frameworks, Terraform Stacks, and HCP Terraform automation | None | 1.0.0 |
 | [imbue](https://github.com/athola/claude-night-market/tree/main/plugins/imbue) | athola/claude-night-market | Intelligent workflow methodologies - review-core scaffolding, diff analysis, evidence logging, and catchup patterns | None | 1.0.4 |
 | [iothackbot](https://github.com/BrownFineSecurity/iothackbot/tree/master/) | BrownFineSecurity/iothackbot | IoT security testing toolkit with skills for firmware analysis, network reconnaissance, UEFI security, and device exploitation | None | 1.0.0 |
 | [leyline](https://github.com/athola/claude-night-market/tree/main/plugins/leyline) | athola/claude-night-market | Storage and persistence patterns - templates for data management and storage solutions | None | 1.0.4 |
@@ -827,6 +826,11 @@ Last updated: 2025-12-28 23:24 UTC
 | [stripe](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/stripe) | anthropics/claude-plugins-official | Stripe development plugin for Claude | None | 1.0.0 |
 | [swift-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp) | anthropics/claude-plugins-official | Swift language server (SourceKit-LSP) for code intelligence | Anthropic | 1.0.0 |
 | [template-skill](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/template-skill) | awesome-claude-skills | A template skill that demonstrates the structure and format for creating new Claude Skills. | None | 1.0.0 |
+| [terraform-lsp](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/plugins/terraform-lsp) | hcp-terraform-skills | HashiCorp Terraform language server for enhanced code intelligence | None | 1.0.0 |
+| [terraform-mcp-as-code](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/terraform-mcp-as-code) | hcp-terraform-skills | Automate Terraform Cloud/Enterprise operations programmatically via the HashiCorp MCP server | None | 1.0.0 |
+| [terraform-stacks](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/terraform-stacks) | hcp-terraform-skills | Comprehensive guide for HCP Terraform Stacks configurations including components, deployments, and OIDC authentication | None | 1.0.0 |
+| [terraform-style-guide](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/terraform-style-guide) | hcp-terraform-skills | Comprehensive guide for Terraform code style, formatting, and best practices based on HashiCorp's official standards and Azure Verified Modules (AV... | None | 1.0.0 |
+| [terraform-test](https://github.com/hashi-demo-lab/claude-skill-hcp-terraform/tree/main/terraform-test) | hcp-terraform-skills | Comprehensive guide for writing and running Terraform tests with run blocks, assertions, mock providers, and CI/CD integration | None | 1.0.0 |
 | [texlab](https://github.com/Piebald-AI/claude-code-lsps/tree/main/texlab) | Piebald-AI/claude-code-lsps | LaTeX language server with completion, references, and document symbols | Micah Stubbs | 0.1.0 |
 | [typescript-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp) | anthropics/claude-plugins-official | TypeScript/JavaScript language server for enhanced code intelligence | Anthropic | 1.0.0 |
 | [vscode-langservers](https://github.com/Piebald-AI/claude-code-lsps/tree/main/vscode-langservers) | Piebald-AI/claude-code-lsps | HTML and CSS language servers from VS Code | Piebald LLC | 0.1.0 |
