@@ -49,7 +49,17 @@ class ReadmeGenerator:
         current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
         return f"""# Awesome Claude Plugins
 
-## Installation
+A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
+
+Total Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}
+
+Last updated: {current_time}
+
+"""
+
+    def generate_installation(self) -> str:
+        """Generate the installation instructions."""
+        return """## Installation
 
 1. Install CAM: `curl -fsSL https://raw.githubusercontent.com/Chat2AnyLLM/code-assistant-manager/main/install.sh | bash`
 2. Find the marketplace to install, or install all marketplace
@@ -65,12 +75,6 @@ class ReadmeGenerator:
    cam plugin install superpowers
    ```
    That's all
-
-A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
-
-Total Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}
-
-Last updated: {current_time}
 
 """
 
@@ -226,6 +230,7 @@ To add a new plugin or marketplace:
         """Generate complete README content."""
         sections = [
             self.generate_title(),
+            self.generate_installation(),
             self.generate_plugins_by_category(),
             self.generate_contributing(),
         ]
