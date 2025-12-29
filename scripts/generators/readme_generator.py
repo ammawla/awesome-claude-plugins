@@ -78,6 +78,28 @@ Last updated: {current_time}
 
 """
 
+    def generate_concise_table_of_contents(self) -> str:
+        """Generate a concise table of contents."""
+        if not self.plugins:
+            return ""
+
+        # Get categories and sort them
+        categories = self._get_categories()
+        category_names = sorted(categories.keys())
+
+        if not category_names:
+            return ""
+
+        lines = ["## Table of Contents\n"]
+        for category in category_names:
+            # Create anchor link (lowercase, replace spaces/special chars)
+            anchor = category.lower().replace(" ", "-").replace("&", "").replace(",", "").replace("(", "").replace(")", "")
+            lines.append(f"- [{category}](#{anchor})")
+
+        lines.append("- [Contributing](#contributing)")
+        lines.append("")
+        return "\n".join(lines)
+
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""
         lines = ["## Contents\n"]
@@ -231,6 +253,7 @@ To add a new plugin or marketplace:
         sections = [
             self.generate_title(),
             self.generate_installation(),
+            self.generate_concise_table_of_contents(),
             self.generate_plugins_by_category(),
             self.generate_contributing(),
         ]
