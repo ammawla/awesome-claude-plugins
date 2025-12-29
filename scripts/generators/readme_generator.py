@@ -47,7 +47,32 @@ class ReadmeGenerator:
         """Generate the README title."""
         # Get current UTC timestamp
         current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-        return f"# Awesome Claude Plugins\n\nA curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.\n\nTotal Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}\n\nLast updated: {current_time}\n\n"
+        return f"""# Awesome Claude Plugins
+
+## Installation
+
+1. Install CAM: `curl -fsSL https://raw.githubusercontent.com/Chat2AnyLLM/code-assistant-manager/main/install.sh | bash`
+2. Find the marketplace to install, or install all marketplace
+   ```
+   cam plugin marketplace install superpowers-marketplace
+   ```
+   OR
+   ```
+   cam plugin marketplace install --all -a claude
+   ```
+3. Install plugin in the marketplaces
+   ```
+   cam plugin install superpowers
+   ```
+   That's all
+
+A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
+
+Total Marketplaces: {len(self.marketplaces)} | Total Plugins: {len(self.plugins)}
+
+Last updated: {current_time}
+
+"""
 
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""
@@ -201,7 +226,6 @@ To add a new plugin or marketplace:
         """Generate complete README content."""
         sections = [
             self.generate_title(),
-            self.generate_table_of_contents(),
             self.generate_plugins_by_category(),
             self.generate_contributing(),
         ]

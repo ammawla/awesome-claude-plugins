@@ -72,7 +72,8 @@ generation:
 
             # Verify content structure
             self.assertIn("# Awesome Claude Plugins", content)
-            self.assertIn("## Contents", content)
+            self.assertIn("## Installation", content)  # Installation section added
+            self.assertNotIn("## Contents", content)  # Table of contents removed
             self.assertNotIn("## Marketplaces", content) # Marketplaces section removed
             self.assertIn("| Marketplace |", content) # Marketplace column added
             self.assertIn("Test Marketplace", content) # Marketplace name should still be there (in the column)
