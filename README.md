@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 40 | Total Plugins: 1420
 
-Last updated: 2025-12-30 19:20 UTC
+Last updated: 2025-12-30 20:29 UTC
 
 ## Installation
 
@@ -579,10 +579,10 @@ Last updated: 2025-12-30 19:20 UTC
 | [mobile-app-builder](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/mobile-app-builder) | cc-marketplace | Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent... | Michael Galpert | 1.0.0 |
 | [mobile-ux-optimizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/mobile-ux-optimizer) | cc-marketplace | Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mob... | abhishek shah | 1.0.0 |
 | [mobile-ux-optimizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/mobile-ux-optimizer) | cc-marketplace | Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mob... | abhishek shah | 1.0.0 |
-| [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
-| [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
-| [monitoring-observability-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to implement comprehensive monitoring, observability, and alerting systems for enterprise B2B applications. This agent... | Alysson Franklin | 1.0.0 |
-| [monitoring-observability-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to implement comprehensive monitoring, observability, and alerting systems for enterprise B2B applications. This agent... | Alysson Franklin | 1.0.0 |
+| [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/model-context-protocol-mcp-expert) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
+| [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/model-context-protocol-mcp-expert) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
+| [monitoring-observability-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/monitoring-observability-specialist) | cc-marketplace | Use this agent when you need to implement comprehensive monitoring, observability, and alerting systems for enterprise B2B applications. This agent... | Alysson Franklin | 1.0.0 |
+| [monitoring-observability-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/monitoring-observability-specialist) | cc-marketplace | Use this agent when you need to implement comprehensive monitoring, observability, and alerting systems for enterprise B2B applications. This agent... | Alysson Franklin | 1.0.0 |
 | [n8n-workflow-builder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to design, build, or validate n8n automation workflows. This agent specializes in creating efficient n8n workflows usi... | Jure Šunić | 1.0.0 |
 | [n8n-workflow-builder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to design, build, or validate n8n automation workflows. This agent specializes in creating efficient n8n workflows usi... | Jure Šunić | 1.0.0 |
 | [onomastophes](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use proactively for generating creative non-olympian Greek god names with rich backstories, mythological authenticity, and modern accessibility for... | normalnormie | 1.0.0 |
