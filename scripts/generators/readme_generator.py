@@ -74,7 +74,6 @@ Last updated: {current_time}
    ```
    cam plugin install superpowers
    ```
-   That's all
 
 """
 
