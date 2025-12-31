@@ -96,7 +96,22 @@ def cmd_generate_readme(args, config, logger):
             all_plugins.extend(plugins)
 
     logger.info("Total marketplaces collected: %d", len(all_marketplaces))
-    logger.info("Total plugins collected: %d", len(all_plugins))
+    logger.info("Total plugins collected (before deduplication): %d", len(all_plugins))
+
+    # Deduplicate plugins based on their unique ID (repo_owner/repo_name:name)
+    # Keep the first occurrence (which comes from higher priority source)
+    seen_plugin_ids = {}
+    deduplicated_plugins = []
+    for plugin in all_plugins:
+        plugin_id = plugin.get("id")
+        if plugin_id and plugin_id not in seen_plugin_ids:
+            seen_plugin_ids[plugin_id] = True
+            deduplicated_plugins.append(plugin)
+        elif plugin_id:
+            logger.debug("Skipping duplicate plugin: %s (marketplace: %s)", plugin.get("name"), plugin.get("marketplace_id"))
+
+    all_plugins = deduplicated_plugins
+    logger.info("Total plugins collected (after deduplication): %d", len(all_plugins))
 
     if args.dry_run:
         print(f"Dry run: Would generate README with {len(all_marketplaces)} marketplaces and {len(all_plugins)} plugins")
