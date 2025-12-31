@@ -82,17 +82,13 @@ Last updated: {current_time}
         if not self.plugins:
             return ""
 
-        # Get categories and sort them
-        categories = self._get_categories()
-        category_names = sorted(categories.keys())
-
+        category_names = self._get_sorted_category_names()
         if not category_names:
             return ""
 
         lines = ["## Table of Contents\n"]
         for category in category_names:
-            # Create anchor link (lowercase, replace spaces/special chars)
-            anchor = category.lower().replace(" ", "-").replace("&", "").replace(",", "").replace("(", "").replace(")", "")
+            anchor = self._category_anchor(category)
             lines.append(f"- [{category}](#{anchor})")
 
         lines.append("- [Contributing](#contributing)")
@@ -101,17 +97,9 @@ Last updated: {current_time}
 
     def generate_table_of_contents(self) -> str:
         """Generate table of contents."""
-        lines = ["## Contents\n"]
-
-        # Group plugins by category
-        categories = self._get_categories()
-        for category in sorted(categories.keys()):
-            anchor = category.lower().replace(" ", "-").replace("&", "")
-            lines.append(f"- [{category}](#{anchor})")
-
-        lines.append("- [Contributing](#contributing)")
-        lines.append("")
-        return "\n".join(lines)
+        return self.generate_concise_table_of_contents().replace(
+            "## Table of Contents\n", "## Contents\n", 1
+        )
 
     def generate_plugins_by_category(self) -> str:
         """Generate plugins organized by category with table format."""
@@ -119,13 +107,10 @@ Last updated: {current_time}
             return ""
 
         # Group plugins by category
-        categories = defaultdict(list)
-        for plugin in self.plugins:
-            category = plugin.get("category", "Uncategorized")
-            categories[category].append(plugin)
+        categories = self._get_categories()
 
         lines = []
-        for category in sorted(categories.keys()):
+        for category in self._get_sorted_category_names(categories):
             lines.append(f"## {category}\n")
 
             # Table header
@@ -281,6 +266,25 @@ To add a new plugin or marketplace:
             if marketplace.get("id") == marketplace_id:
                 return marketplace.get("name", marketplace_id)
         return marketplace_id
+
+    def _get_sorted_category_names(
+        self, categories: Dict[str, List[Dict[str, Any]]] = None
+    ) -> List[str]:
+        """Return sorted category names for current plugins."""
+        if categories is None:
+            categories = self._get_categories()
+        return sorted(categories.keys())
+
+    def _category_anchor(self, category: str) -> str:
+        """Convert category name to a Markdown anchor (GitHub-style-ish)."""
+        return (
+            category.lower()
+            .replace(" ", "-")
+            .replace("&", "")
+            .replace(",", "")
+            .replace("(", "")
+            .replace(")", "")
+        )
 
     def validate_markdown(self, content: str) -> bool:
         """Basic markdown validation for generated content."""
