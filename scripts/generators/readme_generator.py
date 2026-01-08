@@ -47,7 +47,7 @@ class ReadmeGenerator:
         """Generate the README title."""
         # Get current UTC timestamp
         current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-        return f"""# Awesome Claude Plugins
+        return f"""# [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) Awesome Claude Plugins
 
 A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
 
