@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 42 | Total Plugins: 800
 
-Last updated: 2026-01-08 09:34 UTC
+Last updated: 2026-01-08 10:31 UTC
 
 ## Installation
 
@@ -657,7 +657,7 @@ Last updated: 2026-01-08 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [seo](https://github.com/MadAppGang/claude-code/tree/main/plugins/seo) | mag-claude-plugins | Highly autonomous SEO toolkit (~80% autonomy) with AUTO GATEs, self-correction loops, and multi-model validation. v1.5.0: quality-gate skill for au... | Jack Rudenko | 1.5.0 |
+| [seo](https://github.com/MadAppGang/claude-code/tree/main/plugins/seo) | mag-claude-plugins | Highly autonomous SEO toolkit (~80% autonomy) with AUTO GATEs, self-correction loops, and multi-model validation. v1.5.1: Fixed hooks configuration... | Jack Rudenko | 1.5.1 |
 
 ## creative-media
 
@@ -816,7 +816,7 @@ Last updated: 2026-01-08 09:34 UTC
 | [clangd](https://github.com/Piebald-AI/claude-code-lsps/tree/main/clangd) | Piebald-AI/claude-code-lsps | LLVM-based language server for C and C++ | Piebald LLC | 0.1.0 |
 | [clangd-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/clangd-lsp) | anthropics/claude-plugins-official | C/C++ language server (clangd) for code intelligence | Anthropic | 1.0.0 |
 | [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/tree/main/plugins/claude-opus-4-5-migration) | anthropics/claude-code | Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5. | William Hu | 1.0.0 |
-| [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | mag-claude-plugins | Deep code investigation with claudemem v0.9.0. NEW: Explore agent hook - automatically redirects to detective for AST analysis. Anti-pattern warnin... | Jack Rudenko | 2.13.0 |
+| [code-analysis](https://github.com/MadAppGang/claude-code/tree/main/plugins/code-analysis) | mag-claude-plugins | Deep code investigation with claudemem v0.9.0. v2.13.1: Fixed hooks configuration - moved from inline plugin.json to hooks/hooks.json for proper Cl... | Jack Rudenko | 2.13.1 |
 | [context7](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/context7) | anthropics/claude-plugins-official | Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source reposit... | None | 1.0.0 |
 | [csharp-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/csharp-lsp) | anthropics/claude-plugins-official | C# language server for code intelligence | Anthropic | 1.0.0 |
 | [debugging-toolkit](https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit) | claude-code-workflows | Interactive debugging, developer experience optimization, and smart debugging workflows | Seth Hobson | 1.2.0 |
@@ -841,7 +841,7 @@ Last updated: 2026-01-08 09:34 UTC
 | [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) | awesome-claude-skills | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | None | 1.0.0 |
 | [multi-platform-apps](https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps) | claude-code-workflows | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
 | [omnisharp](https://github.com/Piebald-AI/claude-code-lsps/tree/main/omnisharp) | Piebald-AI/claude-code-lsps | Official .NET language server with rich C# support | Piebald LLC | 0.1.0 |
-| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | mag-claude-plugins | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. Skills-only plugin providing proven patterns... | Jack Rudenko | 0.8.1 |
+| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | mag-claude-plugins | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. v0.8.2: Fixed hooks configuration - moved fr... | Jack Rudenko | 0.8.2 |
 | [php-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp) | anthropics/claude-plugins-official | PHP language server (Intelephense) for code intelligence | Anthropic | 1.0.0 |
 | [phpactor](https://github.com/Piebald-AI/claude-code-lsps/tree/main/phpactor) | Piebald-AI/claude-code-lsps | Intelligent PHP completion and refactoring language server | Piebald LLC | 0.1.0 |
 | [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) | anthropics/claude-plugins-official | Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best prac... | Anthropic | 1.0.0 |
