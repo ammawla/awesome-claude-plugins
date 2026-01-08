@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 42 | Total Plugins: 800
 
-Last updated: 2026-01-08 11:26 UTC
+Last updated: 2026-01-08 12:57 UTC
 
 ## Installation
 
@@ -435,8 +435,8 @@ Last updated: 2026-01-08 11:26 UTC
 | [tool-evaluator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/tool-evaluator) | cc-marketplace | Use this agent when evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comp... | Michael Galpert | 1.0.0 |
 | [trend-researcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/trend-researcher) | cc-marketplace | Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behavio... | Michael Galpert | 1.0.0 |
 | [twitter-engager](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/twitter-engager) | cc-marketplace | Twitter Engager subagent | Michael Galpert | 1.0.0 |
-| [ui-designer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes... | Michael Galpert | 1.0.0 |
-| [unit-test-generator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Expert Flutter/Dart unit test specialist that systematically improves test coverage using automated workflows with strict validation, git managemen... | Community | 1.0.0 |
+| [ui-designer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ui-designer) | cc-marketplace | Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes... | Michael Galpert | 1.0.0 |
+| [unit-test-generator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/unit-test-generator) | cc-marketplace | Expert Flutter/Dart unit test specialist that systematically improves test coverage using automated workflows with strict validation, git managemen... | Community | 1.0.0 |
 | [ux-researcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ux-researcher) | cc-marketplace | Use this agent when conducting user research, analyzing user behavior, creating journey maps, or validating design decisions through testing. This ... | Michael Galpert | 1.0.0 |
 | [vision-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/vision-specialist) | cc-marketplace | Expert in vision models, OCR systems, barcode detection, and visual AI. Stays current with latest models (GPT-4V, Claude Vision, Mistral-OCR, etc.)... | alanKerrigan | 1.0.0 |
 | [visual-storyteller](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/visual-storyteller) | cc-marketplace | Use this agent when creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery. Thi... | Michael Galpert | 1.0.0 |
@@ -841,7 +841,7 @@ Last updated: 2026-01-08 11:26 UTC
 | [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) | awesome-claude-skills | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | None | 1.0.0 |
 | [multi-platform-apps](https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps) | claude-code-workflows | Cross-platform application development coordinating web, iOS, Android, and desktop implementations | Seth Hobson | 1.2.1 |
 | [omnisharp](https://github.com/Piebald-AI/claude-code-lsps/tree/main/omnisharp) | Piebald-AI/claude-code-lsps | Official .NET language server with rich C# support | Piebald LLC | 0.1.0 |
-| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | mag-claude-plugins | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. v0.8.2: Fixed hooks configuration - moved fr... | Jack Rudenko | 0.8.2 |
+| [orchestration](https://github.com/MadAppGang/claude-code/tree/main/plugins/orchestration) | mag-claude-plugins | Shared multi-agent coordination and workflow orchestration patterns for complex Claude Code workflows. v0.9.0: Task+PROXY_MODE quick-reference skil... | Jack Rudenko | 0.9.0 |
 | [php-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp) | anthropics/claude-plugins-official | PHP language server (Intelephense) for code intelligence | Anthropic | 1.0.0 |
 | [phpactor](https://github.com/Piebald-AI/claude-code-lsps/tree/main/phpactor) | Piebald-AI/claude-code-lsps | Intelligent PHP completion and refactoring language server | Piebald LLC | 0.1.0 |
 | [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) | anthropics/claude-plugins-official | Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best prac... | Anthropic | 1.0.0 |
