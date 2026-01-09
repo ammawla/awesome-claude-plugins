@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 43 | Total Plugins: 816
 
-Last updated: 2026-01-09 21:26 UTC
+Last updated: 2026-01-09 22:26 UTC
 
 ## Installation
 
@@ -402,13 +402,13 @@ Last updated: 2026-01-09 21:26 UTC
 | [feedback-synthesizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/feedback-synthesizer) | cc-marketplace | Use this agent when you need to analyze user feedback from multiple sources, identify patterns in user complaints or requests, synthesize insights ... | Michael Galpert | 1.0.0 |
 | [finance-tracker](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/finance-tracker) | cc-marketplace | Use this agent when managing budgets, optimizing costs, forecasting revenue, or analyzing financial performance. This agent excels at transforming ... | Michael Galpert | 1.0.0 |
 | [flutter-mobile-app-dev](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/flutter-mobile-app-dev) | cc-marketplace | Use this agent when you need expert assistance with Flutter mobile development tasks, including code analysis, widget creation, debugging, performa... | safayavatsal | 1.0.0 |
-| [frontend-developer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when building user interfaces, implementing React/Vue/Angular components, handling state management, or optimizing frontend performa... | Michael Galpert | 1.0.0 |
-| [growth-hacker](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Growth Hacker subagent | Michael Galpert | 1.0.0 |
-| [infrastructure-maintainer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability. This agent excels a... | Michael Galpert | 1.0.0 |
-| [instagram-curator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Instagram Curator subagent | Michael Galpert | 1.0.0 |
-| [joker](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. This agent specializes in dad jokes, program... | Michael Galpert | 1.0.0 |
-| [legal-advisor](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need legal advisory, compliance documentation, RFP response creation, and enterprise contract support for B2B applications.... | Alysson Franklin | 1.0.0 |
-| [legal-compliance-checker](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when reviewing terms of service, privacy policies, ensuring regulatory compliance, or handling legal requirements. This agent excels... | Michael Galpert | 1.0.0 |
+| [frontend-developer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/frontend-developer) | cc-marketplace | Use this agent when building user interfaces, implementing React/Vue/Angular components, handling state management, or optimizing frontend performa... | Michael Galpert | 1.0.0 |
+| [growth-hacker](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/growth-hacker) | cc-marketplace | Growth Hacker subagent | Michael Galpert | 1.0.0 |
+| [infrastructure-maintainer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/infrastructure-maintainer) | cc-marketplace | Use this agent when monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability. This agent excels a... | Michael Galpert | 1.0.0 |
+| [instagram-curator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/instagram-curator) | cc-marketplace | Instagram Curator subagent | Michael Galpert | 1.0.0 |
+| [joker](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/joker) | cc-marketplace | Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. This agent specializes in dad jokes, program... | Michael Galpert | 1.0.0 |
+| [legal-advisor](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/legal-advisor) | cc-marketplace | Use this agent when you need legal advisory, compliance documentation, RFP response creation, and enterprise contract support for B2B applications.... | Alysson Franklin | 1.0.0 |
+| [legal-compliance-checker](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/legal-compliance-checker) | cc-marketplace | Use this agent when reviewing terms of service, privacy policies, ensuring regulatory compliance, or handling legal requirements. This agent excels... | Michael Galpert | 1.0.0 |
 | [mobile-app-builder](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent... | Michael Galpert | 1.0.0 |
 | [mobile-ux-optimizer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mob... | abhishek shah | 1.0.0 |
 | [model-context-protocol-mcp-expert](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
