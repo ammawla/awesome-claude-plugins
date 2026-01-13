@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 43 | Total Plugins: 820
 
-Last updated: 2026-01-13 09:34 UTC
+Last updated: 2026-01-13 10:31 UTC
 
 ## Installation
 
@@ -347,8 +347,8 @@ Last updated: 2026-01-13 09:34 UTC
 | [lyra](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/lyra) | awesome-claude-code-plugins | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
 | [model-context-protocol-mcp-expert](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/model-context-protocol-mcp-expert) | awesome-claude-code-plugins | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
 | [problem-solver-specialist](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/problem-solver-specialist) | awesome-claude-code-plugins | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
-| [studio-coach](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
-| [ultrathink](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
+| [studio-coach](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/studio-coach) | awesome-claude-code-plugins | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
+| [ultrathink](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ultrathink) | awesome-claude-code-plugins | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
 
 ## abap
 
@@ -634,11 +634,11 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [audit](https://claudecodecommands.directory/commands/audit) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
-| [code-review](https://claudecodecommands.directory/commands/code-review) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
-| [code-review-assistant](https://claudecodecommands.directory/commands/code-review-assistant) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
-| [pr-issue-resolve](https://claudecodecommands.directory/commands/pr-issue-resolve) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
-| [update-claudemd](https://claudecodecommands.directory/commands/update-claudemd) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
+| [audit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/audit) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
+| [code-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
+| [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review-assistant) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
+| [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-issue-resolve) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
+| [update-claudemd](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/update-claudemd) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
 
 ## communication
 
@@ -775,10 +775,10 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [bug-detective](https://claudecodecommands.directory/commands/bug-detective) | cc-marketplace | Systematically debug issues with step-by-step troubleshooting approaches. | Anonymous | 1.0.0 |
+| [bug-detective](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/bug-detective) | cc-marketplace | Systematically debug issues with step-by-step troubleshooting approaches. | Anonymous | 1.0.0 |
 | [conversational-api-debugger](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/conversational-api-debugger) | claude-code-plugins-plus | Debug REST API failures using OpenAPI specs and HTTP logs (HAR) - root cause analysis with cURL generation | Jeremy Longshore | 1.0.0 |
-| [debug-session](https://claudecodecommands.directory/commands/debug-session) | cc-marketplace | Ask Claude Code to help you debug an issue |  Anand Tyagi | 1.0.0 |
-| [github-issue-fix](https://claudecodecommands.directory/commands/github-issue-fix) | cc-marketplace | This is a detailed way you can analyze the GitHub issues and let Claude handle them in best possible way. | safayavatsal | 1.0.0 |
+| [debug-session](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/debug-session) | cc-marketplace | Ask Claude Code to help you debug an issue |  Anand Tyagi | 1.0.0 |
+| [github-issue-fix](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/github-issue-fix) | cc-marketplace | This is a detailed way you can analyze the GitHub issues and let Claude handle them in best possible way. | safayavatsal | 1.0.0 |
 
 ## deployment
 
@@ -933,10 +933,10 @@ Last updated: 2026-01-13 09:34 UTC
 | [c4-architecture](https://github.com/wshobson/agents/tree/main/plugins/c4-architecture) | claude-code-workflows | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram gene... | Seth Hobson | 1.0.0 |
 | [code-documentation](https://github.com/wshobson/agents/tree/main/plugins/code-documentation) | claude-code-workflows | Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation | Seth Hobson | 1.2.0 |
 | [documentation-generation](https://github.com/wshobson/agents/tree/main/plugins/documentation-generation) | claude-code-workflows | OpenAPI specification generation, Mermaid diagram creation, tutorial writing, API reference documentation | Seth Hobson | 1.2.1 |
-| [documentation-generator](https://claudecodecommands.directory/commands/documentation-generator) | cc-marketplace | Create comprehensive documentation for code, APIs, and projects. | Anonymous | 1.0.0 |
-| [generate-api-docs](https://claudecodecommands.directory/commands/generate-api-docs) | cc-marketplace | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
+| [documentation-generator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/documentation-generator) | cc-marketplace | Create comprehensive documentation for code, APIs, and projects. | Anonymous | 1.0.0 |
+| [generate-api-docs](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/generate-api-docs) | cc-marketplace | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
 | [mermaid-tools](https://github.com/daymade/claude-code-skills/tree/main/) | daymade/claude-code-skills | Generate Mermaid diagrams from markdown with automatic PNG/SVG rendering and extraction from documents | None | 1.0.0 |
-| [openapi-expert](https://claudecodecommands.directory/commands/openapi-expert) | cc-marketplace | Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This include... | Meiring de Wet | 1.0.0 |
+| [openapi-expert](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/openapi-expert) | cc-marketplace | Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This include... | Meiring de Wet | 1.0.0 |
 
 ## example
 
@@ -950,8 +950,8 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [analyze-codebase](https://claudecodecommands.directory/commands/analyze-codebase) | cc-marketplace | Generate comprehensive analysis and documentation of entire codebase |  Anand Tyagi | 1.0.0 |
-| [explore](https://claudecodecommands.directory/commands/explore) | cc-marketplace | Helps Claude read a planning document and explore related files to get familiar with a topic. Asking Claude to prepare to discuss seems to work bet... | Galen Ward | 1.0.0 |
+| [analyze-codebase](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/analyze-codebase) | cc-marketplace | Generate comprehensive analysis and documentation of entire codebase |  Anand Tyagi | 1.0.0 |
+| [explore](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/explore) | cc-marketplace | Helps Claude read a planning document and explore related files to get familiar with a topic. Asking Claude to prepare to discuss seems to work bet... | Galen Ward | 1.0.0 |
 
 ## finance
 
@@ -977,19 +977,19 @@ Last updated: 2026-01-13 09:34 UTC
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
 | [2-commit-fast](https://github.com/ccplugins/awesome-claude-code-plugins) | awesome-claude-code-plugins | Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manu... | steadycursor | 1.0.0 |
-| [2-commit-fast](https://claudecodecommands.directory/commands/2-commit-fast) | cc-marketplace | Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manu... | steadycursor | 1.0.0 |
-| [analyze-issue](https://claudecodecommands.directory/commands/analyze-issue) | cc-marketplace | Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with cl... | jerseycheese | 1.0.0 |
-| [bug-fix](https://claudecodecommands.directory/commands/bug-fix) | cc-marketplace | Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging. | danielscholl | 1.0.0 |
-| [commit](https://claudecodecommands.directory/commands/commit) | cc-marketplace | Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that ex... | evmts | 1.0.0 |
-| [create-pr](https://claudecodecommands.directory/commands/create-pr) | cc-marketplace | Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome,... | toyamarinyon | 1.0.0 |
-| [create-pull-request](https://claudecodecommands.directory/commands/create-pull-request) | cc-marketplace | Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete comma... | liam-hq | 1.0.0 |
-| [create-worktrees](https://claudecodecommands.directory/commands/create-worktrees) | cc-marketplace | Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom bra... | evmts | 1.0.0 |
-| [fix-github-issue](https://claudecodecommands.directory/commands/fix-github-issue) | cc-marketplace | Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests,... | jeremymailen | 1.0.0 |
-| [fix-issue](https://claudecodecommands.directory/commands/fix-issue) | cc-marketplace | Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper in... | metabase | 1.0.0 |
-| [fix-pr](https://claudecodecommands.directory/commands/fix-pr) | cc-marketplace | Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and... | metabase | 1.0.0 |
-| [husky](https://claudecodecommands.directory/commands/husky) | cc-marketplace | Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ens... | evmts | 1.0.0 |
-| [pr-review](https://claudecodecommands.directory/commands/pr-review) | cc-marketplace | Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase. | arkavo-org | 1.0.0 |
-| [update-branch-name](https://claudecodecommands.directory/commands/update-branch-name) | cc-marketplace | Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates. | giselles-ai | 1.0.0 |
+| [2-commit-fast](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/2-commit-fast) | cc-marketplace | Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manu... | steadycursor | 1.0.0 |
+| [analyze-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/analyze-issue) | cc-marketplace | Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with cl... | jerseycheese | 1.0.0 |
+| [bug-fix](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/bug-fix) | cc-marketplace | Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging. | danielscholl | 1.0.0 |
+| [commit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/commit) | cc-marketplace | Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that ex... | evmts | 1.0.0 |
+| [create-pr](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-pr) | cc-marketplace | Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome,... | toyamarinyon | 1.0.0 |
+| [create-pull-request](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-pull-request) | cc-marketplace | Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete comma... | liam-hq | 1.0.0 |
+| [create-worktrees](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-worktrees) | cc-marketplace | Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom bra... | evmts | 1.0.0 |
+| [fix-github-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-github-issue) | cc-marketplace | Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests,... | jeremymailen | 1.0.0 |
+| [fix-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-issue) | cc-marketplace | Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper in... | metabase | 1.0.0 |
+| [fix-pr](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/fix-pr) | cc-marketplace | Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and... | metabase | 1.0.0 |
+| [husky](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/husky) | cc-marketplace | Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ens... | evmts | 1.0.0 |
+| [pr-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-review) | cc-marketplace | Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase. | arkavo-org | 1.0.0 |
+| [update-branch-name](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/update-branch-name) | cc-marketplace | Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates. | giselles-ai | 1.0.0 |
 
 ## hana
 
@@ -1105,7 +1105,7 @@ Last updated: 2026-01-13 09:34 UTC
 | [memory-leak-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/memory-leak-detector) | claude-code-plugins-plus | Detect memory leaks and analyze memory usage patterns | Jeremy Longshore | 1.0.0 |
 | [metrics-aggregator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/metrics-aggregator) | claude-code-plugins-plus | Aggregate and centralize performance metrics | Jeremy Longshore | 1.0.0 |
 | [network-latency-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/network-latency-analyzer) | claude-code-plugins-plus | Analyze network latency and optimize request patterns | Jeremy Longshore | 1.0.0 |
-| [optimize](https://claudecodecommands.directory/commands/optimize) | cc-marketplace | Analyze and optimize code performance |  Anand Tyagi | 1.0.0 |
+| [optimize](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/optimize) | cc-marketplace | Analyze and optimize code performance |  Anand Tyagi | 1.0.0 |
 | [performance-budget-validator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-budget-validator) | claude-code-plugins-plus | Validate application against performance budgets | Jeremy Longshore | 1.0.0 |
 | [performance-optimization-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-optimization-advisor) | claude-code-plugins-plus | Get comprehensive performance optimization recommendations | Jeremy Longshore | 1.0.0 |
 | [performance-regression-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/performance-regression-detector) | claude-code-plugins-plus | Detect performance regressions in CI/CD pipeline | Jeremy Longshore | 1.0.0 |
@@ -1120,10 +1120,10 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [discuss](https://claudecodecommands.directory/commands/discuss) | cc-marketplace | Collaborative technical discussion with proactive requirements gathering | Bohdan Triapitsyn | 1.0.0 |
-| [double-check](https://claudecodecommands.directory/commands/double-check) | cc-marketplace | An easy way to force agent to think again if it's statement that the "Job is done and production ready" is actually done - usually it's not. Thanks... | Robert S | 1.0.0 |
-| [plan](https://claudecodecommands.directory/commands/plan) | cc-marketplace | For easy problems, start here. For harder problems, do this after Explore. | Galen Ward | 1.0.0 |
-| [ultrathink](https://claudecodecommands.directory/commands/ultrathink) | cc-marketplace | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
+| [discuss](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/discuss) | cc-marketplace | Collaborative technical discussion with proactive requirements gathering | Bohdan Triapitsyn | 1.0.0 |
+| [double-check](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/double-check) | cc-marketplace | An easy way to force agent to think again if it's statement that the "Job is done and production ready" is actually done - usually it's not. Thanks... | Robert S | 1.0.0 |
+| [plan](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/plan) | cc-marketplace | For easy problems, start here. For harder problems, do this after Explore. | Galen Ward | 1.0.0 |
+| [ultrathink](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/ultrathink) | cc-marketplace | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
 
 ## productivity
 
@@ -1197,7 +1197,7 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [refractor](https://claudecodecommands.directory/commands/refractor) | cc-marketplace | Refactor code following best practices and design patterns |  Anand Tyagi | 1.0.0 |
+| [refractor](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/refractor) | cc-marketplace | Refactor code following best practices and design patterns |  Anand Tyagi | 1.0.0 |
 
 ## security
 
@@ -1278,7 +1278,7 @@ Last updated: 2026-01-13 09:34 UTC
 | [test-data-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-data-generator) | claude-code-plugins-plus | Generate realistic test data including users, products, orders, and custom schemas for comprehensive testing | Jeremy Longshore | 1.0.0 |
 | [test-doubles-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-doubles-generator) | claude-code-plugins-plus | Generate mocks, stubs, spies, and fakes for unit testing with Jest, Sinon, and test frameworks | Claude Code Plugin Hub | 1.0.0 |
 | [test-environment-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-environment-manager) | claude-code-plugins-plus | Manage test environments with Docker Compose, Testcontainers, and environment isolation | Claude Code Plugin Hub | 1.0.0 |
-| [test-file](https://claudecodecommands.directory/commands/test-file) | cc-marketplace | Generate comprehensive tests for a specific file |  Anand Tyagi | 1.0.0 |
+| [test-file](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/test-file) | cc-marketplace | Generate comprehensive tests for a specific file |  Anand Tyagi | 1.0.0 |
 | [test-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-orchestrator) | claude-code-plugins-plus | Orchestrate complex test workflows with dependencies, parallel execution, and smart test selection | Claude Code Plugin Hub | 1.0.0 |
 | [test-report-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/test-report-generator) | claude-code-plugins-plus | Generate comprehensive test reports with coverage, trends, and stakeholder-friendly formats | Claude Code Plugin Hub | 1.0.0 |
 | [unit-test-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/unit-test-generator) | claude-code-plugins-plus | Automatically generate comprehensive unit tests from source code with multiple testing framework support | Jeremy Longshore | 1.0.0 |
@@ -1318,9 +1318,9 @@ Last updated: 2026-01-13 09:34 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [claude-desktop-extension](https://claudecodecommands.directory/commands/claude-desktop-extension) | cc-marketplace | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
+| [claude-desktop-extension](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/claude-desktop-extension) | cc-marketplace | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
 | [conductor](https://github.com/MadAppGang/claude-code/tree/main/plugins/conductor) | mag-claude-plugins | Context-Driven Development workflow inspired by Gemini Conductor. Full-featured implementation with TDD workflow (Red/Green/Refactor), Phase Comple... | Jack Rudenko | 2.0.1 |
-| [lyra](https://claudecodecommands.directory/commands/lyra) | cc-marketplace | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
+| [lyra](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/lyra) | cc-marketplace | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
 | [sugar](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/sugar) | cc-marketplace | Transform Claude Code into an autonomous AI development powerhouse with rich task context, specialized agents, and intelligent workflow automation | Steven Leggett | 2.0.0 |
 
 ## workflows
