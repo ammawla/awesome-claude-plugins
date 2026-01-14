@@ -2,9 +2,9 @@
 
 A curated list of awesome Claude marketplaces and plugins to enhance your Claude Code experience.
 
-Total Marketplaces: 43 | Total Plugins: 820
+Total Marketplaces: 43 | Total Plugins: 821
 
-Last updated: 2026-01-13 23:24 UTC
+Last updated: 2026-01-14 02:12 UTC
 
 ## Installation
 
@@ -202,7 +202,7 @@ Last updated: 2026-01-13 23:24 UTC
 | [codebase-documenter](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/codebase-documenter) | awesome-claude-code-plugins | Use this agent when you need to analyze a service or codebase component and create comprehensive documentation in CLAUDE.md files. This agent shoul... | Anand Tyagi | 1.0.0 |
 | [context7-docs-fetcher](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/context7-docs-fetcher) | awesome-claude-code-plugins | Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: Use... | normalnormie | 1.0.0 |
 | [documentation-generator](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/documentation-generator) | awesome-claude-code-plugins | Create comprehensive documentation for code, APIs, and projects. | Anonymous | 1.0.0 |
-| [generate-api-docs](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/generate-api-docs) | awesome-claude-code-plugins | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
+| [generate-api-docs](https://github.com/ccplugins/awesome-claude-code-plugins/blob/main/plugins/generate-api-docs) | awesome-claude-code-plugins | Generate API documentation for endpoints |  Anand Tyagi | 1.0.0 |
 | [openapi-expert](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/openapi-expert) | awesome-claude-code-plugins | Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This include... | Meiring de Wet | 1.0.0 |
 | [update-claudemd](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/update-claudemd) | awesome-claude-code-plugins | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
 
@@ -230,7 +230,7 @@ Last updated: 2026-01-13 23:24 UTC
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
 | [app-store-optimizer](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/app-store-optimizer) | awesome-claude-code-plugins | Use this agent when preparing app store listings, researching keywords, optimizing app metadata, improving conversion rates, or analyzing app store... | Michael Galpert | 1.0.0 |
-| [content-creator](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/content-creator) | awesome-claude-code-plugins | Content Creator subagent | Michael Galpert | 1.0.0 |
+| [content-creator](https://github.com/ccplugins/awesome-claude-code-plugins/blob/main/plugins/content-creator) | awesome-claude-code-plugins | Content Creator subagent | Michael Galpert | 1.0.0 |
 | [growth-hacker](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/growth-hacker) | awesome-claude-code-plugins | Growth Hacker subagent | Michael Galpert | 1.0.0 |
 | [instagram-curator](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/instagram-curator) | awesome-claude-code-plugins | Instagram Curator subagent | Michael Galpert | 1.0.0 |
 | [reddit-community-builder](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/reddit-community-builder) | awesome-claude-code-plugins | Reddit Community Builder subagent | Michael Galpert | 1.0.0 |
@@ -299,7 +299,7 @@ Last updated: 2026-01-13 23:24 UTC
 | [docx-format-replicator](https://github.com/iamzhihuix/happy-claude-skills/tree/main/) | iamzhihuix/happy-claude-skills | Extract formatting from Word documents and generate new documents with the same format | None | 1.0.0 |
 | [double-shot-latte](https://github.com/obra/double-shot-latte.git) | superpowers-marketplace | Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision ma... | None | 1.1.5 |
 | [elements-of-style](https://github.com/obra/the-elements-of-style.git) | superpowers-marketplace | Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing | None | 1.0.0 |
-| [elixir](https://github.com/bradleygolden/claude-marketplace-elixir/tree/main/plugins/elixir) | bradleygolden/claude-marketplace-elixir | Comprehensive Elixir development support - formatting, compilation, testing, and static analysis in one plugin (recommended) | None | 1.0.0 |
+| [elixir](https://github.com/bradleygolden/claude-marketplace-elixir/blob/main/plugins/elixir) | bradleygolden/claude-marketplace-elixir | Comprehensive Elixir development support - formatting, compilation, testing, and static analysis in one plugin (recommended) | None | 1.0.0 |
 | [episodic-memory](https://github.com/obra/episodic-memory.git) | superpowers-marketplace | Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists b... | None | 1.0.15 |
 | [ex_doc](https://github.com/bradleygolden/claude-marketplace-elixir/tree/main/plugins/ex_doc) | bradleygolden/claude-marketplace-elixir | ExDoc documentation validation plugin that checks for documentation issues before commits | None | 1.0.0 |
 | [ex_unit](https://github.com/bradleygolden/claude-marketplace-elixir/tree/main/plugins/ex_unit) | bradleygolden/claude-marketplace-elixir | ExUnit testing automation with pre-commit test validation | None | 1.0.0 |
@@ -345,7 +345,7 @@ Last updated: 2026-01-13 23:24 UTC
 | [ceo-quality-controller-agent](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ceo-quality-controller-agent) | awesome-claude-code-plugins | Universal quality control orchestrator and final authority for any software development project. Dynamically discovers and coordinates with availab... | Beau Lewis | 1.0.0 |
 | [claude-desktop-extension](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/claude-desktop-extension) | awesome-claude-code-plugins | This command provides the context necessary for Claude Code to create the Desktop Extension or .dxt file of an MCP. |  Anand Tyagi | 1.0.0 |
 | [lyra](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/lyra) | awesome-claude-code-plugins | Lyra - a master-level AI prompt optimization specialist. |  Anand Tyagi | 1.0.0 |
-| [model-context-protocol-mcp-expert](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/model-context-protocol-mcp-expert) | awesome-claude-code-plugins | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
+| [model-context-protocol-mcp-expert](https://github.com/ccplugins/awesome-claude-code-plugins/blob/main/plugins/model-context-protocol-mcp-expert) | awesome-claude-code-plugins | Model Context Protocol Mcp Expert subagent | Community | 1.0.0 |
 | [problem-solver-specialist](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/problem-solver-specialist) | awesome-claude-code-plugins | Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered techni... | Beau Lewis | 1.0.0 |
 | [studio-coach](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/studio-coach) | awesome-claude-code-plugins | PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coord... | Michael Galpert | 1.0.0 |
 | [ultrathink](https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ultrathink) | awesome-claude-code-plugins | Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to ... | Jeronim Morina | 1.0.0 |
@@ -598,6 +598,7 @@ Last updated: 2026-01-13 23:24 UTC
 | [business-analytics](https://github.com/wshobson/agents/tree/main/plugins/business-analytics) | claude-code-workflows | Business metrics analysis, KPI tracking, financial reporting, and data-driven decision making | Seth Hobson | 1.2.1 |
 | [customer-sales-automation](https://github.com/wshobson/agents/tree/main/plugins/customer-sales-automation) | claude-code-workflows | Customer support workflow automation, sales pipeline management, email campaigns, and CRM integration | Seth Hobson | 1.2.0 |
 | [hr-legal-compliance](https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance) | claude-code-workflows | HR policy documentation, legal compliance templates (GDPR/SOC2/HIPAA), employment contracts, and regulatory documentation | Seth Hobson | 1.2.1 |
+| [startup-business-analyst](https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst) | claude-code-workflows | Comprehensive startup business analysis with market sizing (TAM/SAM/SOM), financial modeling, team planning, and strategic research for early-stage... | Seth Hobson | 1.0.0 |
 
 ## business-marketing
 
@@ -980,7 +981,7 @@ Last updated: 2026-01-13 23:24 UTC
 | [2-commit-fast](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/2-commit-fast) | cc-marketplace | Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manu... | steadycursor | 1.0.0 |
 | [analyze-issue](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/analyze-issue) | cc-marketplace | Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with cl... | jerseycheese | 1.0.0 |
 | [bug-fix](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/bug-fix) | cc-marketplace | Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging. | danielscholl | 1.0.0 |
-| [commit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/commit) | cc-marketplace | Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that ex... | evmts | 1.0.0 |
+| [commit](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that ex... | evmts | 1.0.0 |
 | [create-pr](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-pr) | cc-marketplace | Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome,... | toyamarinyon | 1.0.0 |
 | [create-pull-request](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-pull-request) | cc-marketplace | Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete comma... | liam-hq | 1.0.0 |
 | [create-worktrees](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/create-worktrees) | cc-marketplace | Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom bra... | evmts | 1.0.0 |
