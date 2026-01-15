@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 43 | Total Plugins: 826
 
-Last updated: 2026-01-15 21:27 UTC
+Last updated: 2026-01-15 22:27 UTC
 
 ## Installation
 
@@ -384,14 +384,14 @@ Last updated: 2026-01-15 21:27 UTC
 | [code-architect](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-architect) | cc-marketplace | Use this agent when you need to design scalable architecture and folder structures for new features or projects. Examples include: when starting a ... | abhishek shah | 1.0.0 |
 | [code-reviewer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-reviewer) | cc-marketplace | Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. | Anand Tyagi | 1.0.0 |
 | [codebase-documenter](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/codebase-documenter) | cc-marketplace | Use this agent when you need to analyze a service or codebase component and create comprehensive documentation in CLAUDE.md files. This agent shoul... | Anand Tyagi | 1.0.0 |
-| [compliance-automation-specialist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/compliance-automation-specialist) | cc-marketplace | Use this agent when you need to automate compliance processes for SOC 2, ISO 27001, GDPR, HIPAA, and other enterprise regulatory requirements. This... | Alysson Franklin | 1.0.0 |
-| [content-creator](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/content-creator) | cc-marketplace | Content Creator subagent | Michael Galpert | 1.0.0 |
-| [context7-docs-fetcher](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/context7-docs-fetcher) | cc-marketplace | Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: Use... | normalnormie | 1.0.0 |
-| [customer-success-manager](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/customer-success-manager) | cc-marketplace | Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitori... | Alysson Franklin | 1.0.0 |
-| [data-privacy-engineer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/data-privacy-engineer) | cc-marketplace | Use this agent when you need to implement data privacy engineering, GDPR compliance, data protection frameworks, and privacy-by-design principles f... | Alysson Franklin | 1.0.0 |
-| [data-scientist](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/data-scientist) | cc-marketplace | Data analysis expert for SQL queries, BigQuery operations, and data insights. Use proactively for data analysis tasks and queries. | Anand Tyagi | 1.0.0 |
-| [database-performance-optimizer](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/database-performance-optimizer) | cc-marketplace | Use this agent when you need to optimize database performance for B2B applications at enterprise scale. This agent specializes in multi-tenant data... | Alysson Franklin | 1.0.0 |
-| [debugger](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/debugger) | cc-marketplace | Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues. | Anand Tyagi | 1.0.0 |
+| [compliance-automation-specialist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to automate compliance processes for SOC 2, ISO 27001, GDPR, HIPAA, and other enterprise regulatory requirements. This... | Alysson Franklin | 1.0.0 |
+| [content-creator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Content Creator subagent | Michael Galpert | 1.0.0 |
+| [context7-docs-fetcher](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: Use... | normalnormie | 1.0.0 |
+| [customer-success-manager](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitori... | Alysson Franklin | 1.0.0 |
+| [data-privacy-engineer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to implement data privacy engineering, GDPR compliance, data protection frameworks, and privacy-by-design principles f... | Alysson Franklin | 1.0.0 |
+| [data-scientist](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Data analysis expert for SQL queries, BigQuery operations, and data insights. Use proactively for data analysis tasks and queries. | Anand Tyagi | 1.0.0 |
+| [database-performance-optimizer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when you need to optimize database performance for B2B applications at enterprise scale. This agent specializes in multi-tenant data... | Alysson Franklin | 1.0.0 |
+| [debugger](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues. | Anand Tyagi | 1.0.0 |
 | [deployment-engineer](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when setting up CI/CD pipelines, configuring Docker containers, deploying applications to cloud platforms, setting up Kubernetes clu... | Jure Šunić | 1.0.0 |
 | [desktop-app-dev](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Desktop App Dev subagent | safayavatsal | 1.0.0 |
 | [devops-automator](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment process... | Michael Galpert | 1.0.0 |
