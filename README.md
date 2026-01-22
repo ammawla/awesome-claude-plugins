@@ -4,7 +4,7 @@ A curated list of awesome Claude marketplaces and plugins to enhance your Claude
 
 Total Marketplaces: 43 | Total Plugins: 834
 
-Last updated: 2026-01-22 06:43 UTC
+Last updated: 2026-01-22 07:33 UTC
 
 ## Installation
 
@@ -637,11 +637,11 @@ Last updated: 2026-01-22 06:43 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [audit](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/audit) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
-| [code-review](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
-| [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/code-review-assistant) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
-| [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/pr-issue-resolve) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
-| [update-claudemd](https://github.com/ananddtyagi/claude-code-marketplace/tree/main/plugins/update-claudemd) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
+| [audit](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Perform security audit on codebase |  Anand Tyagi | 1.0.0 |
+| [code-review](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Perform a comprehensive code review of recent changes |  Anand Tyagi | 1.0.0 |
+| [code-review-assistant](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues. | Anonymous | 1.0.0 |
+| [pr-issue-resolve](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | this is to analyze the PRs and solve the requested changes in them | safayavatsal | 1.0.0 |
+| [update-claudemd](https://github.com/ananddtyagi/claude-code-marketplace) | cc-marketplace | Automatically update CLAUDE.md file based on recent code changes |  Anand Tyagi | 1.0.0 |
 
 ## communication
 
@@ -724,8 +724,8 @@ Last updated: 2026-01-22 06:43 UTC
 
 | Plugin | Marketplace | Description | Author | Version |
 |--------|-------------|-------------|--------|---------|
-| [data-engineering](https://github.com/wshobson/agents/tree/main/plugins/data-engineering) | claude-code-workflows | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.2 |
-| [data-validation-suite](https://github.com/wshobson/agents/tree/main/plugins/data-validation-suite) | claude-code-workflows | Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs | Seth Hobson | 1.2.0 |
+| [data-engineering](https://github.com/wshobson/agents) | claude-code-workflows | ETL pipeline construction, data warehouse design, batch processing workflows, and data-driven feature development | Seth Hobson | 1.2.2 |
+| [data-validation-suite](https://github.com/wshobson/agents) | claude-code-workflows | Schema validation, data quality monitoring, streaming validation pipelines, and input validation for backend APIs | Seth Hobson | 1.2.0 |
 
 ## data-analytics
 
@@ -749,13 +749,13 @@ Last updated: 2026-01-22 06:43 UTC
 | [database-cache-layer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-cache-layer) | claude-code-plugins-plus | Database plugin for database-cache-layer | Jeremy Longshore | 1.0.0 |
 | [database-connection-pooler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-connection-pooler) | claude-code-plugins-plus | Implement and optimize database connection pooling for improved performance and resource management | Jeremy Longshore | 1.0.0 |
 | [database-deadlock-detector](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-deadlock-detector) | claude-code-plugins-plus | Database plugin for database-deadlock-detector | Jeremy Longshore | 1.0.0 |
-| [database-design](https://github.com/wshobson/agents/tree/main/plugins/database-design) | claude-code-workflows | Database architecture, schema design, and SQL optimization for production systems | Seth Hobson | 1.2.0 |
+| [database-design](https://github.com/wshobson/agents) | claude-code-workflows | Database architecture, schema design, and SQL optimization for production systems | Seth Hobson | 1.2.0 |
 | [database-diff-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-diff-tool) | claude-code-plugins-plus | Database plugin for database-diff-tool | Jeremy Longshore | 1.0.0 |
 | [database-documentation-gen](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-documentation-gen) | claude-code-plugins-plus | Database plugin for database-documentation-gen | Jeremy Longshore | 1.0.0 |
 | [database-health-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-health-monitor) | claude-code-plugins-plus | Database plugin for database-health-monitor | Jeremy Longshore | 1.0.0 |
 | [database-index-advisor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-index-advisor) | claude-code-plugins-plus | Analyze query patterns and recommend optimal database indexes with impact analysis | Jeremy Longshore | 1.0.0 |
 | [database-migration-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-migration-manager) | claude-code-plugins-plus | Manage database migrations with version control, rollback capabilities, and automated schema evolution tracking | Jeremy Longshore | 1.0.0 |
-| [database-migrations](https://github.com/wshobson/agents/tree/main/plugins/database-migrations) | claude-code-workflows | Database migration automation, observability, and cross-database migration strategies | Seth Hobson | 1.2.0 |
+| [database-migrations](https://github.com/wshobson/agents) | claude-code-workflows | Database migration automation, observability, and cross-database migration strategies | Seth Hobson | 1.2.0 |
 | [database-partition-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-partition-manager) | claude-code-plugins-plus | Database plugin for database-partition-manager | Jeremy Longshore | 1.0.0 |
 | [database-recovery-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-recovery-manager) | claude-code-plugins-plus | Database plugin for database-recovery-manager | Jeremy Longshore | 1.0.0 |
 | [database-replication-manager](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/database/database-replication-manager) | claude-code-plugins-plus | Manage database replication, failover, and high availability configurations | Jeremy Longshore | 1.0.0 |
