@@ -48,6 +48,7 @@ Last updated: 2026-01-22 08:40 UTC
 - [api-development](#api-development)
 - [assets](#assets)
 - [automation](#automation)
+- [bioinformatics](#bioinformatics)
 - [blockchain](#blockchain)
 - [btp](#btp)
 - [business](#business)
@@ -566,6 +567,12 @@ Last updated: 2026-01-22 08:40 UTC
 | [mattyp-changelog](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/automation/mattyp-changelog) | claude-code-plugins-plus | Automates changelog generation from git history with config validation and quality scoring. Use when publishing weekly updates, release notes, or P... | Mattyp | 0.1.0 |
 | [n8n-mcp-skills](https://github.com/czlonkowski/n8n-skills/tree/main/) | czlonkowski/n8n-skills | Complete bundle: 7 expert skills for building flawless n8n workflows using n8n-mcp MCP server. Includes skills for expression syntax, MCP tools usa... | Romuald Członkowski | 1.0.0 |
 | [workflow-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/workflow-orchestrator) | claude-code-plugins-plus | DAG-based workflow automation with parallel task execution and dependency management | Jeremy Longshore | 1.0.0 |
+
+## bioinformatics
+
+| Plugin | Marketplace | Description | Author | Version |
+|--------|-------------|-------------|--------|---------|
+| [encode-toolkit](https://github.com/ammawla/encode-toolkit) | ammawla/encode-toolkit | MCP server + Claude Code plugin for ENCODE Project genomics data. 20 tools, 47 skills, 14 database integrations, 7 analysis pipelines. Search expe... | Dr. Alex M. Mawla | 0.3.0-beta.3 |
 
 ## blockchain
 
